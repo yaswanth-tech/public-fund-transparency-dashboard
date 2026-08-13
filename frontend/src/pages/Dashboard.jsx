@@ -7,7 +7,8 @@ import {
   FolderGit2,
   AlertOctagon,
   ArrowUpRight,
-  ShieldAlert
+  ShieldAlert,
+  BarChart3
 } from 'lucide-react';
 import {
   BarChart,
@@ -22,7 +23,8 @@ import {
   Pie,
   Cell,
   AreaChart,
-  Area
+  Area,
+  LabelList
 } from 'recharts';
 import apiService from '../services/api';
 import KPICard from '../components/KPICard';
@@ -37,26 +39,33 @@ const WardCustomTooltip = ({ active, payload }) => {
   if (active && payload && payload.length) {
     const data = payload[0].payload;
     const getBadgeColor = (val) => {
-      if (val < 50) return 'bg-red-500 text-white';
-      if (val < 70) return 'bg-amber-500 text-white';
-      if (val < 85) return 'bg-emerald-600 text-white';
+      if (val < 50) return 'bg-red-600 text-white';
+      if (val < 70) return 'bg-amber-600 text-white';
+      if (val < 85) return 'bg-teal-600 text-white';
       return 'bg-blue-600 text-white';
     };
 
+    const getStatusLabel = (val) => {
+      if (val < 50) return 'Critical';
+      if (val < 70) return 'Low';
+      if (val < 85) return 'Healthy';
+      return 'Optimal';
+    };
+
     return (
-      <div className="bg-slate-900 border border-slate-700 text-white p-3.5 rounded-xl shadow-xl text-xs space-y-1.5 min-w-[200px]">
+      <div className="bg-slate-900 border border-slate-700 text-white p-3.5 rounded-xl shadow-xl text-xs space-y-1.5 min-w-[210px]">
         <div className="flex items-center justify-between pb-1 border-b border-slate-800">
-          <span className="font-extrabold text-sm text-slate-100">{data.ward}</span>
+          <span className="font-extrabold text-sm text-slate-100">{data.ward || data.department}</span>
           <span className={`px-2 py-0.5 rounded text-[10px] font-bold ${getBadgeColor(data.utilization)}`}>
-            {data.utilization}%
+            {getStatusLabel(data.utilization)} ({data.utilization}%)
           </span>
         </div>
         <div className="flex justify-between text-slate-300">
-          <span>Allocated Budget:</span>
+          <span>Allocated Fund:</span>
           <span className="font-semibold text-slate-100">{formatCurrency(data.allocated)}</span>
         </div>
         <div className="flex justify-between text-slate-300">
-          <span>Actual Spent:</span>
+          <span>Spent Amount:</span>
           <span className="font-semibold text-slate-100">{formatCurrency(data.spent)}</span>
         </div>
       </div>
@@ -168,6 +177,32 @@ export const Dashboard = () => {
     return Object.values(map);
   }, [filteredProjects]);
 
+  // Department Utilization Data - Sorted Lowest to Highest
+  const deptUtilizationChartData = useMemo(() => {
+    const map = {};
+    filteredProjects.forEach((p) => {
+      const dept = p.department || 'Unassigned';
+      if (!map[dept]) {
+        map[dept] = { department: dept, allocated: 0, spent: 0 };
+      }
+      map[dept].allocated += p.allocated_amount || 0;
+      map[dept].spent += p.spent_amount || 0;
+    });
+
+    return Object.values(map)
+      .map((d) => {
+        const util = d.allocated > 0 ? (d.spent / d.allocated) * 100 : 0;
+        return {
+          department: d.department,
+          utilization: Number(util.toFixed(1)),
+          allocated: d.allocated,
+          spent: d.spent
+        };
+      })
+      .sort((a, b) => a.utilization - b.utilization); // Lowest to highest
+  }, [filteredProjects]);
+
+  // Ward Utilization Data - Sorted Lowest to Highest
   const wardUtilizationChartData = useMemo(() => {
     const map = {};
     filteredProjects.forEach((p) => {
@@ -189,7 +224,7 @@ export const Dashboard = () => {
           spent: w.spent
         };
       })
-      .sort((a, b) => a.ward.localeCompare(b.ward, undefined, { numeric: true }));
+      .sort((a, b) => a.utilization - b.utilization); // Lowest to highest utilization
   }, [filteredProjects]);
 
   const deptDistributionData = useMemo(() => {
@@ -230,7 +265,15 @@ export const Dashboard = () => {
     setSearchQuery('');
   };
 
-  const wardChartHeight = Math.max(360, wardUtilizationChartData.length * 36);
+  const getUtilizationColor = (val) => {
+    if (val < 50) return '#DC2626'; // Red <50%
+    if (val < 70) return '#D97706'; // Amber 50-70%
+    if (val < 85) return '#0D9488'; // Teal 70-85%
+    return '#2563EB'; // Blue >85%
+  };
+
+  const wardChartHeight = Math.max(380, wardUtilizationChartData.length * 34);
+  const deptUtilChartHeight = Math.max(200, deptUtilizationChartData.length * 36);
 
   if (error) {
     return <ErrorState message={error} onRetry={fetchData} />;
@@ -332,68 +375,142 @@ export const Dashboard = () => {
         </div>
       ) : (
         <div className="charts-grid">
+          {/* LEFT COLUMN: Department Allocation vs Expenditure & Department Utilization % */}
           <ChartCard
             title="Allocation vs Expenditure by Department"
-            subtitle="Comparison of allocated budget versus actual spending (in ₹)"
+            subtitle="Comparison of allocated budget versus actual spending (in ₹) & Department Utilization %"
           >
-            <div className="chart-container-inner">
-              <ResponsiveContainer width="100%" height={320}>
-                <BarChart data={deptChartData} margin={{ top: 10, right: 10, left: 10, bottom: 25 }}>
-                  <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#E2E8F0" />
-                  <XAxis dataKey="department" tick={{ fontSize: 12, fill: '#475569' }} interval={0} angle={-15} textAnchor="end" />
-                  <YAxis tickFormatter={(v) => formatCurrency(v)} tick={{ fontSize: 11, fill: '#475569' }} />
-                  <Tooltip
-                    formatter={(value) => [formatCurrency(value), '']}
-                    contentStyle={{ backgroundColor: '#0F172A', color: '#FFF', borderRadius: '8px', border: 'none' }}
-                  />
-                  <Legend verticalAlign="top" height={36} />
-                  <Bar dataKey="Allocated" fill="#2563EB" radius={[4, 4, 0, 0]} name="Allocated Fund" />
-                  <Bar dataKey="Spent" fill="#0D9488" radius={[4, 4, 0, 0]} name="Spent Amount" />
-                </BarChart>
-              </ResponsiveContainer>
+            <div className="space-y-6">
+              {/* Chart 1: Grouped Bar Chart */}
+              <div>
+                <ResponsiveContainer width="100%" height={260}>
+                  <BarChart data={deptChartData} margin={{ top: 10, right: 10, left: 10, bottom: 20 }}>
+                    <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#E2E8F0" />
+                    <XAxis dataKey="department" tick={{ fontSize: 11, fill: '#475569' }} interval={0} angle={-15} textAnchor="end" />
+                    <YAxis tickFormatter={(v) => formatCurrency(v)} tick={{ fontSize: 11, fill: '#475569' }} />
+                    <Tooltip
+                      formatter={(value) => [formatCurrency(value), '']}
+                      contentStyle={{ backgroundColor: '#0F172A', color: '#FFF', borderRadius: '8px', border: 'none' }}
+                    />
+                    <Legend verticalAlign="top" height={36} />
+                    <Bar dataKey="Allocated" fill="#2563EB" radius={[4, 4, 0, 0]} name="Allocated Fund" />
+                    <Bar dataKey="Spent" fill="#0D9488" radius={[4, 4, 0, 0]} name="Spent Amount" />
+                  </BarChart>
+                </ResponsiveContainer>
+              </div>
+
+              {/* Chart 2: Compact Department Budget Utilization % Horizontal Bar Chart */}
+              <div className="pt-4 border-t border-slate-100">
+                <div className="flex items-center justify-between mb-2">
+                  <div className="flex items-center space-x-2">
+                    <BarChart3 className="w-4 h-4 text-blue-600" />
+                    <h4 className="text-sm font-bold text-slate-800">Department Budget Utilization %</h4>
+                  </div>
+                  <span className="text-[11px] text-slate-400 font-medium">Sorted: Lowest → Highest</span>
+                </div>
+
+                <div className="chart-container-inner overflow-y-auto max-h-[260px] pr-2">
+                  <ResponsiveContainer width="100%" height={deptUtilChartHeight}>
+                    <BarChart
+                      layout="vertical"
+                      data={deptUtilizationChartData}
+                      margin={{ top: 10, right: 45, left: 10, bottom: 10 }}
+                    >
+                      <CartesianGrid strokeDasharray="3 3" horizontal={false} stroke="#E2E8F0" />
+                      <XAxis type="number" domain={[0, 100]} tickFormatter={(v) => `${v}%`} tick={{ fontSize: 10, fill: '#475569' }} />
+                      <YAxis
+                        dataKey="department"
+                        type="category"
+                        width={95}
+                        tick={{ fontSize: 11, fill: '#1E293B', fontWeight: 600 }}
+                      />
+                      <Tooltip content={<WardCustomTooltip />} />
+                      <Bar dataKey="utilization" radius={[0, 6, 6, 0]}>
+                        {deptUtilizationChartData.map((entry, index) => (
+                          <Cell key={`dept-cell-${index}`} fill={getUtilizationColor(entry.utilization)} />
+                        ))}
+                        <LabelList
+                          dataKey="utilization"
+                          position="right"
+                          formatter={(v) => `${v}%`}
+                          style={{ fontSize: 11, fontWeight: 700, fill: '#334155' }}
+                        />
+                      </Bar>
+                    </BarChart>
+                  </ResponsiveContainer>
+                </div>
+              </div>
             </div>
           </ChartCard>
 
+          {/* RIGHT COLUMN: Ward Utilization Percentage */}
           <ChartCard
             title="Ward Utilization Percentage"
-            subtitle="Sorted by administrative ward (Color coded: Red <50%, Gold 50-70%, Teal 70-85%, Blue >85%)"
+            subtitle="Sorted from lowest to highest utilization rate across administrative wards"
           >
-            <div className="chart-container-inner overflow-y-auto max-h-[420px] pr-2">
-              <ResponsiveContainer width="100%" height={wardChartHeight}>
-                <BarChart
-                  layout="vertical"
-                  data={wardUtilizationChartData}
-                  margin={{ top: 10, right: 30, left: 10, bottom: 10 }}
-                >
-                  <CartesianGrid strokeDasharray="3 3" horizontal={false} stroke="#E2E8F0" />
-                  <XAxis type="number" domain={[0, 100]} tickFormatter={(v) => `${v}%`} tick={{ fontSize: 11, fill: '#475569' }} />
-                  <YAxis
-                    dataKey="ward"
-                    type="category"
-                    width={85}
-                    tick={{ fontSize: 12, fill: '#1E293B', fontWeight: 600 }}
-                  />
-                  <Tooltip content={<WardCustomTooltip />} />
-                  <Bar dataKey="utilization" radius={[0, 6, 6, 0]}>
-                    {wardUtilizationChartData.map((entry, index) => {
-                      let color = '#2563EB'; // > 85% Optimal Blue
-                      if (entry.utilization < 50) color = '#DC2626'; // < 50% Critical Red
-                      else if (entry.utilization < 70) color = '#D97706'; // 50-70% Low Amber/Gold
-                      else if (entry.utilization < 85) color = '#059669'; // 70-85% Healthy Teal
-                      return <Cell key={`cell-${index}`} fill={color} />;
-                    })}
-                  </Bar>
-                </BarChart>
-              </ResponsiveContainer>
+            <div className="space-y-3">
+              {/* 4-Category Threshold Legend */}
+              <div className="flex flex-wrap items-center justify-between gap-2 text-xs font-semibold text-slate-700 bg-slate-50/80 p-2.5 rounded-xl border border-slate-200">
+                <span className="text-slate-500 font-bold uppercase tracking-wider text-[10px]">Utilization Thresholds:</span>
+                <div className="flex items-center space-x-1.5">
+                  <span className="w-3 h-3 rounded-full bg-red-600 inline-block shadow-sm" />
+                  <span className="text-slate-700 font-medium">Red (&lt;50%)</span>
+                </div>
+                <div className="flex items-center space-x-1.5">
+                  <span className="w-3 h-3 rounded-full bg-amber-600 inline-block shadow-sm" />
+                  <span className="text-slate-700 font-medium">Amber (50%–70%)</span>
+                </div>
+                <div className="flex items-center space-x-1.5">
+                  <span className="w-3 h-3 rounded-full bg-teal-600 inline-block shadow-sm" />
+                  <span className="text-slate-700 font-medium">Teal (70%–85%)</span>
+                </div>
+                <div className="flex items-center space-x-1.5">
+                  <span className="w-3 h-3 rounded-full bg-blue-600 inline-block shadow-sm" />
+                  <span className="text-slate-700 font-medium">Blue (&gt;85%)</span>
+                </div>
+              </div>
+
+              {/* Sorted Horizontal Bar Chart */}
+              <div className="chart-container-inner overflow-y-auto max-h-[500px] pr-2">
+                <ResponsiveContainer width="100%" height={wardChartHeight}>
+                  <BarChart
+                    layout="vertical"
+                    data={wardUtilizationChartData}
+                    margin={{ top: 10, right: 45, left: 10, bottom: 10 }}
+                  >
+                    <CartesianGrid strokeDasharray="3 3" horizontal={false} stroke="#E2E8F0" />
+                    <XAxis type="number" domain={[0, 100]} tickFormatter={(v) => `${v}%`} tick={{ fontSize: 11, fill: '#475569' }} />
+                    <YAxis
+                      dataKey="ward"
+                      type="category"
+                      width={85}
+                      tick={{ fontSize: 12, fill: '#1E293B', fontWeight: 600 }}
+                    />
+                    <Tooltip content={<WardCustomTooltip />} />
+                    <Bar dataKey="utilization" radius={[0, 6, 6, 0]}>
+                      {wardUtilizationChartData.map((entry, index) => (
+                        <Cell key={`ward-cell-${index}`} fill={getUtilizationColor(entry.utilization)} />
+                      ))}
+                      <LabelList
+                        dataKey="utilization"
+                        position="right"
+                        formatter={(v) => `${v}%`}
+                        style={{ fontSize: 11, fontWeight: 700, fill: '#334155' }}
+                      />
+                    </Bar>
+                  </BarChart>
+                </ResponsiveContainer>
+              </div>
             </div>
           </ChartCard>
 
+          {/* BOTTOM ROW: Department Spending Distribution & Fiscal Year Trend */}
           <ChartCard
             title="Spending Distribution by Department"
             subtitle="Share of total verified expenditure"
           >
             <div className="chart-container-inner flex items-center justify-center">
-              <ResponsiveContainer width="100%" height={320}>
+              <ResponsiveContainer width="100%" height={300}>
                 <PieChart>
                   <Pie
                     data={deptDistributionData}
@@ -405,7 +522,7 @@ export const Dashboard = () => {
                     dataKey="value"
                   >
                     {deptDistributionData.map((entry, index) => (
-                      <Cell key={`cell-${index}`} fill={entry.color} />
+                      <Cell key={`pie-cell-${index}`} fill={entry.color} />
                     ))}
                   </Pie>
                   <Tooltip
@@ -423,7 +540,7 @@ export const Dashboard = () => {
             subtitle="Growth in public fund allocation and actual spending"
           >
             <div className="chart-container-inner">
-              <ResponsiveContainer width="100%" height={320}>
+              <ResponsiveContainer width="100%" height={300}>
                 <AreaChart data={fiscalTrendData} margin={{ top: 10, right: 10, left: 10, bottom: 25 }}>
                   <defs>
                     <linearGradient id="colorAllocated" x1="0" y1="0" x2="0" y2="1">
