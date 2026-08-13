@@ -1,0 +1,846 @@
+project_id,ward,region,representative,department,fiscal_year,project,allocated_amount,spent_amount,status,start_date,expected_end_date,description
+1001,Ward 01,North,Ravi Kumar,Roads,2023-24,Road Resurfacing,4900000,3080000,In Progress,2023-04-05,2023-08-25,Road Resurfacing for Ward 01
+1002,Ward 01,North,Ravi Kumar,Roads,2023-24,Road Expansion,5030000,380000,Planned,2023-01-03,2023-07-23,Road Expansion for Ward 01
+1003,Ward 01,North,Ravi Kumar,Roads,2023-24,Footpath Improvement,3430000,2840000,In Progress,2023-12-21,2024-12-24,Footpath Improvement for Ward 01
+1004,Ward 01,North,Ravi Kumar,Sanitation,2023-24,Waste Management Facility,2870000,2230000,In Progress,2023-01-25,2023-07-15,Waste Management Facility for Ward 01
+1005,Ward 01,North,Ravi Kumar,Sanitation,2023-24,Public Toilet Upgrade,3570000,2630000,In Progress,2023-06-04,2023-10-19,Public Toilet Upgrade for Ward 01
+1006,Ward 01,North,Ravi Kumar,Healthcare,2023-24,Medical Equipment Purchase,3170000,2360000,In Progress,2023-05-02,2024-03-22,Medical Equipment Purchase for Ward 01
+1007,Ward 01,North,Ravi Kumar,Healthcare,2023-24,Community Health Facility,3620000,3470000,Completed,2023-09-10,2024-10-25,Community Health Facility for Ward 01
+1008,Ward 01,North,Ravi Kumar,Education,2023-24,Library Development,3620000,3330000,Completed,2023-12-03,2024-03-25,Library Development for Ward 01
+1009,Ward 01,North,Ravi Kumar,Education,2023-24,School Renovation,3730000,3320000,In Progress,2023-04-04,2024-01-13,School Renovation for Ward 01
+1010,Ward 01,North,Ravi Kumar,Education,2023-24,Classroom Construction,2700000,2270000,In Progress,2023-06-12,2023-12-26,Classroom Construction for Ward 01
+1011,Ward 01,North,Ravi Kumar,Water Supply,2023-24,Water Pipeline Expansion,4380000,3790000,In Progress,2023-02-20,2024-04-10,Water Pipeline Expansion for Ward 01
+1012,Ward 01,North,Ravi Kumar,Water Supply,2023-24,Water Tank Construction,2810000,2450000,In Progress,2023-07-09,2024-08-29,Water Tank Construction for Ward 01
+1013,Ward 01,North,Ravi Kumar,Infrastructure,2023-24,Community Hall Construction,3170000,2200000,In Progress,2023-01-08,2023-04-24,Community Hall Construction for Ward 01
+1014,Ward 01,North,Ravi Kumar,Infrastructure,2023-24,Bus Shelter Development,3430000,560000,Planned,2023-10-23,2024-06-30,Bus Shelter Development for Ward 01
+1015,Ward 02,North,Suresh Rao,Roads,2023-24,Road Expansion,3360000,2670000,In Progress,2023-11-15,2024-04-26,Road Expansion for Ward 02
+1016,Ward 02,North,Suresh Rao,Roads,2023-24,Footpath Improvement,3550000,2500000,In Progress,2023-05-24,2024-06-16,Footpath Improvement for Ward 02
+1017,Ward 02,North,Suresh Rao,Sanitation,2023-24,Public Toilet Upgrade,2890000,2380000,In Progress,2023-03-17,2024-02-22,Public Toilet Upgrade for Ward 02
+1018,Ward 02,North,Suresh Rao,Sanitation,2023-24,Sewer Line Expansion,2040000,230000,Planned,2023-11-14,2024-12-13,Sewer Line Expansion for Ward 02
+1019,Ward 02,North,Suresh Rao,Healthcare,2023-24,Community Health Facility,2260000,1700000,In Progress,2023-09-09,2024-09-16,Community Health Facility for Ward 02
+1020,Ward 02,North,Suresh Rao,Healthcare,2023-24,PHC Upgrade,4550000,2830000,In Progress,2023-11-18,2024-07-01,PHC Upgrade for Ward 02
+1021,Ward 02,North,Suresh Rao,Healthcare,2023-24,Health Center Renovation,4290000,3170000,In Progress,2023-03-15,2023-06-14,Health Center Renovation for Ward 02
+1022,Ward 02,North,Suresh Rao,Education,2023-24,School Renovation,4520000,4180000,Completed,2023-09-25,2024-03-24,School Renovation for Ward 02
+1023,Ward 02,North,Suresh Rao,Education,2023-24,Classroom Construction,3320000,2180000,In Progress,2023-11-17,2024-12-22,Classroom Construction for Ward 02
+1024,Ward 02,North,Suresh Rao,Water Supply,2023-24,Water Tank Construction,2900000,2170000,In Progress,2023-09-01,2024-10-01,Water Tank Construction for Ward 02
+1025,Ward 02,North,Suresh Rao,Water Supply,2023-24,Pipeline Repair,3290000,2060000,In Progress,2023-05-08,2023-09-04,Pipeline Repair for Ward 02
+1026,Ward 02,North,Suresh Rao,Infrastructure,2023-24,Bus Shelter Development,2160000,280000,Planned,2023-02-25,2024-02-22,Bus Shelter Development for Ward 02
+1027,Ward 02,North,Suresh Rao,Infrastructure,2023-24,Public Park Improvement,3340000,2220000,In Progress,2023-09-06,2024-04-18,Public Park Improvement for Ward 02
+1028,Ward 02,North,Suresh Rao,Infrastructure,2023-24,Street Lighting,2810000,2330000,In Progress,2023-09-25,2024-04-04,Street Lighting for Ward 02
+1029,Ward 03,North,Priya Devi,Roads,2023-24,Footpath Improvement,5160000,3910000,In Progress,2023-06-15,2024-06-03,Footpath Improvement for Ward 03
+1030,Ward 03,North,Priya Devi,Roads,2023-24,Street Repair,4220000,10000,Planned,2023-09-08,2024-10-03,Street Repair for Ward 03
+1031,Ward 03,North,Priya Devi,Sanitation,2023-24,Sewer Line Expansion,2370000,1520000,In Progress,2023-04-03,2023-07-18,Sewer Line Expansion for Ward 03
+1032,Ward 03,North,Priya Devi,Sanitation,2023-24,Drainage Construction,3980000,2560000,In Progress,2023-11-16,2024-06-02,Drainage Construction for Ward 03
+1033,Ward 03,North,Priya Devi,Sanitation,2023-24,Waste Management Facility,3170000,2760000,In Progress,2023-10-16,2024-05-17,Waste Management Facility for Ward 03
+1034,Ward 03,North,Priya Devi,Healthcare,2023-24,PHC Upgrade,4330000,3900000,Completed,2023-02-22,2023-12-29,PHC Upgrade for Ward 03
+1035,Ward 03,North,Priya Devi,Healthcare,2023-24,Health Center Renovation,3100000,2360000,In Progress,2023-01-22,2024-03-17,Health Center Renovation for Ward 03
+1036,Ward 03,North,Priya Devi,Education,2023-24,Classroom Construction,2210000,1680000,In Progress,2023-02-08,2023-08-15,Classroom Construction for Ward 03
+1037,Ward 03,North,Priya Devi,Education,2023-24,School Laboratory Upgrade,2460000,1910000,In Progress,2023-05-15,2023-12-18,School Laboratory Upgrade for Ward 03
+1038,Ward 03,North,Priya Devi,Water Supply,2023-24,Pipeline Repair,5020000,3240000,In Progress,2023-09-04,2023-12-28,Pipeline Repair for Ward 03
+1039,Ward 03,North,Priya Devi,Water Supply,2023-24,Water Treatment Upgrade,4320000,70000,Planned,2023-04-06,2024-01-29,Water Treatment Upgrade for Ward 03
+1040,Ward 03,North,Priya Devi,Water Supply,2023-24,Water Pipeline Expansion,3800000,2640000,In Progress,2023-01-06,2023-10-17,Water Pipeline Expansion for Ward 03
+1041,Ward 03,North,Priya Devi,Infrastructure,2023-24,Public Park Improvement,1620000,1220000,In Progress,2023-08-10,2024-06-11,Public Park Improvement for Ward 03
+1042,Ward 03,North,Priya Devi,Infrastructure,2023-24,Street Lighting,3190000,2790000,In Progress,2023-11-23,2024-10-27,Street Lighting for Ward 03
+1043,Ward 04,North,Anil Kumar,Roads,2023-24,Street Repair,3150000,2280000,In Progress,2023-10-24,2024-10-25,Street Repair for Ward 04
+1044,Ward 04,North,Anil Kumar,Roads,2023-24,Road Resurfacing,2810000,240000,Planned,2023-09-06,2024-01-03,Road Resurfacing for Ward 04
+1045,Ward 04,North,Anil Kumar,Roads,2023-24,Road Expansion,6050000,3920000,In Progress,2023-10-03,2024-04-30,Road Expansion for Ward 04
+1046,Ward 04,North,Anil Kumar,Sanitation,2023-24,Drainage Construction,2830000,2680000,Completed,2023-10-20,2024-02-07,Drainage Construction for Ward 04
+1047,Ward 04,North,Anil Kumar,Sanitation,2023-24,Waste Management Facility,3380000,2590000,In Progress,2023-09-11,2024-04-21,Waste Management Facility for Ward 04
+1048,Ward 04,North,Anil Kumar,Healthcare,2023-24,Health Center Renovation,2660000,2310000,In Progress,2023-07-05,2024-08-28,Health Center Renovation for Ward 04
+1049,Ward 04,North,Anil Kumar,Healthcare,2023-24,Medical Equipment Purchase,2940000,2140000,In Progress,2023-02-01,2023-12-22,Medical Equipment Purchase for Ward 04
+1050,Ward 04,North,Anil Kumar,Education,2023-24,School Laboratory Upgrade,3620000,350000,Planned,2023-09-09,2024-02-13,School Laboratory Upgrade for Ward 04
+1051,Ward 04,North,Anil Kumar,Education,2023-24,Library Development,4460000,4140000,Completed,2023-06-10,2023-11-27,Library Development for Ward 04
+1052,Ward 04,North,Anil Kumar,Education,2023-24,School Renovation,3130000,2530000,In Progress,2023-11-17,2024-02-19,School Renovation for Ward 04
+1053,Ward 04,North,Anil Kumar,Water Supply,2023-24,Water Treatment Upgrade,4370000,3550000,In Progress,2023-02-05,2023-09-18,Water Treatment Upgrade for Ward 04
+1054,Ward 04,North,Anil Kumar,Water Supply,2023-24,Water Pipeline Expansion,2630000,1720000,In Progress,2023-05-10,2024-06-12,Water Pipeline Expansion for Ward 04
+1055,Ward 04,North,Anil Kumar,Infrastructure,2023-24,Street Lighting,2090000,1540000,In Progress,2023-05-17,2024-04-21,Street Lighting for Ward 04
+1056,Ward 04,North,Anil Kumar,Infrastructure,2023-24,Community Hall Construction,2190000,250000,Planned,2023-05-02,2023-08-01,Community Hall Construction for Ward 04
+1057,Ward 05,East,Lakshmi Devi,Roads,2023-24,Road Resurfacing,3800000,2520000,In Progress,2023-03-24,2024-02-03,Road Resurfacing for Ward 05
+1058,Ward 05,East,Lakshmi Devi,Roads,2023-24,Road Expansion,4580000,60000,Planned,2023-12-05,2024-12-08,Road Expansion for Ward 05
+1059,Ward 05,East,Lakshmi Devi,Sanitation,2023-24,Waste Management Facility,1910000,1430000,In Progress,2023-07-05,2023-10-24,Waste Management Facility for Ward 05
+1060,Ward 05,East,Lakshmi Devi,Sanitation,2023-24,Public Toilet Upgrade,2590000,2420000,Completed,2023-01-12,2023-07-28,Public Toilet Upgrade for Ward 05
+1061,Ward 05,East,Lakshmi Devi,Healthcare,2023-24,Medical Equipment Purchase,4040000,3440000,In Progress,2023-09-14,2024-10-25,Medical Equipment Purchase for Ward 05
+1062,Ward 05,East,Lakshmi Devi,Healthcare,2023-24,Community Health Facility,4230000,3990000,Completed,2023-03-06,2024-01-01,Community Health Facility for Ward 05
+1063,Ward 05,East,Lakshmi Devi,Healthcare,2023-24,PHC Upgrade,2150000,1880000,In Progress,2023-07-22,2024-02-24,PHC Upgrade for Ward 05
+1064,Ward 05,East,Lakshmi Devi,Education,2023-24,Library Development,2670000,410000,Planned,2023-08-08,2024-02-16,Library Development for Ward 05
+1065,Ward 05,East,Lakshmi Devi,Education,2023-24,School Renovation,4150000,3240000,In Progress,2023-04-08,2023-07-19,School Renovation for Ward 05
+1066,Ward 05,East,Lakshmi Devi,Water Supply,2023-24,Water Pipeline Expansion,4350000,3300000,In Progress,2023-02-25,2023-10-15,Water Pipeline Expansion for Ward 05
+1067,Ward 05,East,Lakshmi Devi,Water Supply,2023-24,Water Tank Construction,3380000,2690000,In Progress,2023-09-11,2023-12-24,Water Tank Construction for Ward 05
+1068,Ward 05,East,Lakshmi Devi,Infrastructure,2023-24,Community Hall Construction,1880000,1800000,Completed,2023-05-02,2023-09-24,Community Hall Construction for Ward 05
+1069,Ward 05,East,Lakshmi Devi,Infrastructure,2023-24,Bus Shelter Development,2960000,2190000,In Progress,2023-07-20,2024-07-05,Bus Shelter Development for Ward 05
+1070,Ward 05,East,Lakshmi Devi,Infrastructure,2023-24,Public Park Improvement,1880000,1750000,Completed,2023-01-23,2023-12-02,Public Park Improvement for Ward 05
+1071,Ward 06,East,Mohan Rao,Roads,2023-24,Road Expansion,2600000,2450000,Completed,2023-12-24,2024-07-01,Road Expansion for Ward 06
+1072,Ward 06,East,Mohan Rao,Roads,2023-24,Footpath Improvement,3910000,2510000,In Progress,2023-06-20,2024-02-25,Footpath Improvement for Ward 06
+1073,Ward 06,East,Mohan Rao,Sanitation,2023-24,Public Toilet Upgrade,3490000,2310000,In Progress,2023-09-10,2024-07-05,Public Toilet Upgrade for Ward 06
+1074,Ward 06,East,Mohan Rao,Sanitation,2023-24,Sewer Line Expansion,2640000,2280000,In Progress,2023-04-14,2024-01-23,Sewer Line Expansion for Ward 06
+1075,Ward 06,East,Mohan Rao,Sanitation,2023-24,Drainage Construction,3520000,3290000,Completed,2023-05-13,2024-05-17,Drainage Construction for Ward 06
+1076,Ward 06,East,Mohan Rao,Healthcare,2023-24,Community Health Facility,4480000,3250000,In Progress,2023-10-20,2024-06-30,Community Health Facility for Ward 06
+1077,Ward 06,East,Mohan Rao,Healthcare,2023-24,PHC Upgrade,3410000,2640000,In Progress,2023-08-24,2024-02-16,PHC Upgrade for Ward 06
+1078,Ward 06,East,Mohan Rao,Education,2023-24,School Renovation,3720000,2670000,In Progress,2023-10-11,2024-02-25,School Renovation for Ward 06
+1079,Ward 06,East,Mohan Rao,Education,2023-24,Classroom Construction,4150000,3660000,In Progress,2023-04-07,2023-09-19,Classroom Construction for Ward 06
+1080,Ward 06,East,Mohan Rao,Water Supply,2023-24,Water Tank Construction,2350000,1650000,In Progress,2023-02-15,2023-12-14,Water Tank Construction for Ward 06
+1081,Ward 06,East,Mohan Rao,Water Supply,2023-24,Pipeline Repair,5060000,4150000,In Progress,2023-07-16,2024-05-05,Pipeline Repair for Ward 06
+1082,Ward 06,East,Mohan Rao,Water Supply,2023-24,Water Treatment Upgrade,3040000,410000,Planned,2023-02-25,2023-12-29,Water Treatment Upgrade for Ward 06
+1083,Ward 06,East,Mohan Rao,Infrastructure,2023-24,Bus Shelter Development,2110000,1900000,Completed,2023-08-02,2024-08-11,Bus Shelter Development for Ward 06
+1084,Ward 06,East,Mohan Rao,Infrastructure,2023-24,Public Park Improvement,2180000,1990000,Completed,2023-08-22,2024-08-17,Public Park Improvement for Ward 06
+1085,Ward 07,East,Kiran Kumar,Roads,2023-24,Footpath Improvement,6150000,5090000,In Progress,2023-08-20,2024-08-02,Footpath Improvement for Ward 07
+1086,Ward 07,East,Kiran Kumar,Roads,2023-24,Street Repair,4130000,3870000,Completed,2023-03-24,2024-02-20,Street Repair for Ward 07
+1087,Ward 07,East,Kiran Kumar,Roads,2023-24,Road Resurfacing,4220000,3720000,In Progress,2023-05-25,2024-05-15,Road Resurfacing for Ward 07
+1088,Ward 07,East,Kiran Kumar,Sanitation,2023-24,Sewer Line Expansion,3040000,2130000,In Progress,2023-12-10,2024-07-07,Sewer Line Expansion for Ward 07
+1089,Ward 07,East,Kiran Kumar,Sanitation,2023-24,Drainage Construction,2500000,1820000,In Progress,2023-03-05,2023-09-29,Drainage Construction for Ward 07
+1090,Ward 07,East,Kiran Kumar,Healthcare,2023-24,PHC Upgrade,3180000,2140000,In Progress,2023-07-14,2024-03-29,PHC Upgrade for Ward 07
+1091,Ward 07,East,Kiran Kumar,Healthcare,2023-24,Health Center Renovation,3640000,2780000,In Progress,2023-07-13,2024-08-05,Health Center Renovation for Ward 07
+1092,Ward 07,East,Kiran Kumar,Education,2023-24,Classroom Construction,4500000,2820000,In Progress,2023-10-13,2024-09-11,Classroom Construction for Ward 07
+1093,Ward 07,East,Kiran Kumar,Education,2023-24,School Laboratory Upgrade,1960000,1450000,In Progress,2023-07-18,2024-07-21,School Laboratory Upgrade for Ward 07
+1094,Ward 07,East,Kiran Kumar,Education,2023-24,Library Development,4100000,3830000,Completed,2023-05-14,2024-04-16,Library Development for Ward 07
+1095,Ward 07,East,Kiran Kumar,Water Supply,2023-24,Pipeline Repair,2360000,1740000,In Progress,2023-07-24,2024-01-14,Pipeline Repair for Ward 07
+1096,Ward 07,East,Kiran Kumar,Water Supply,2023-24,Water Treatment Upgrade,4920000,4630000,Completed,2023-09-01,2024-06-18,Water Treatment Upgrade for Ward 07
+1097,Ward 07,East,Kiran Kumar,Infrastructure,2023-24,Public Park Improvement,2950000,220000,Planned,2023-08-06,2023-11-29,Public Park Improvement for Ward 07
+1098,Ward 07,East,Kiran Kumar,Infrastructure,2023-24,Street Lighting,2210000,1620000,In Progress,2023-06-25,2024-04-04,Street Lighting for Ward 07
+1099,Ward 08,East,Sunita Devi,Roads,2023-24,Street Repair,3600000,3430000,Completed,2023-02-16,2023-05-26,Street Repair for Ward 08
+1100,Ward 08,East,Sunita Devi,Roads,2023-24,Road Resurfacing,5290000,3370000,In Progress,2023-04-21,2023-08-24,Road Resurfacing for Ward 08
+1101,Ward 08,East,Sunita Devi,Sanitation,2023-24,Drainage Construction,3780000,3200000,In Progress,2023-04-07,2023-07-16,Drainage Construction for Ward 08
+1102,Ward 08,East,Sunita Devi,Sanitation,2023-24,Waste Management Facility,3380000,2370000,In Progress,2023-02-19,2023-09-08,Waste Management Facility for Ward 08
+1103,Ward 08,East,Sunita Devi,Healthcare,2023-24,Health Center Renovation,3410000,2420000,In Progress,2023-10-20,2024-03-16,Health Center Renovation for Ward 08
+1104,Ward 08,East,Sunita Devi,Healthcare,2023-24,Medical Equipment Purchase,4320000,2920000,In Progress,2023-10-01,2024-06-06,Medical Equipment Purchase for Ward 08
+1105,Ward 08,East,Sunita Devi,Healthcare,2023-24,Community Health Facility,3730000,3490000,Completed,2023-12-07,2024-04-13,Community Health Facility for Ward 08
+1106,Ward 08,East,Sunita Devi,Education,2023-24,School Laboratory Upgrade,3540000,3220000,Completed,2023-12-25,2024-08-25,School Laboratory Upgrade for Ward 08
+1107,Ward 08,East,Sunita Devi,Education,2023-24,Library Development,4240000,3510000,In Progress,2023-10-02,2024-06-25,Library Development for Ward 08
+1108,Ward 08,East,Sunita Devi,Water Supply,2023-24,Water Treatment Upgrade,3950000,460000,Planned,2023-01-14,2023-12-20,Water Treatment Upgrade for Ward 08
+1109,Ward 08,East,Sunita Devi,Water Supply,2023-24,Water Pipeline Expansion,2600000,2480000,Completed,2023-08-23,2024-02-07,Water Pipeline Expansion for Ward 08
+1110,Ward 08,East,Sunita Devi,Infrastructure,2023-24,Street Lighting,2600000,2270000,In Progress,2023-05-20,2024-05-19,Street Lighting for Ward 08
+1111,Ward 08,East,Sunita Devi,Infrastructure,2023-24,Community Hall Construction,3360000,2620000,In Progress,2023-10-09,2024-06-20,Community Hall Construction for Ward 08
+1112,Ward 08,East,Sunita Devi,Infrastructure,2023-24,Bus Shelter Development,3540000,560000,Planned,2023-04-25,2024-03-17,Bus Shelter Development for Ward 08
+1113,Ward 09,Central,Arjun Rao,Roads,2023-24,Road Resurfacing,4650000,3970000,In Progress,2023-08-11,2024-02-10,Road Resurfacing for Ward 09
+1114,Ward 09,Central,Arjun Rao,Roads,2023-24,Road Expansion,4350000,3230000,In Progress,2023-05-20,2024-01-06,Road Expansion for Ward 09
+1115,Ward 09,Central,Arjun Rao,Sanitation,2023-24,Waste Management Facility,3220000,2570000,In Progress,2023-04-24,2024-02-16,Waste Management Facility for Ward 09
+1116,Ward 09,Central,Arjun Rao,Sanitation,2023-24,Public Toilet Upgrade,3050000,2700000,In Progress,2023-11-23,2024-10-29,Public Toilet Upgrade for Ward 09
+1117,Ward 09,Central,Arjun Rao,Sanitation,2023-24,Sewer Line Expansion,2940000,1840000,In Progress,2023-07-23,2024-02-22,Sewer Line Expansion for Ward 09
+1118,Ward 09,Central,Arjun Rao,Healthcare,2023-24,Medical Equipment Purchase,2960000,2430000,In Progress,2023-09-12,2024-07-15,Medical Equipment Purchase for Ward 09
+1119,Ward 09,Central,Arjun Rao,Healthcare,2023-24,Community Health Facility,4950000,4020000,In Progress,2023-08-09,2024-04-11,Community Health Facility for Ward 09
+1120,Ward 09,Central,Arjun Rao,Education,2023-24,Library Development,2620000,1730000,In Progress,2023-02-24,2024-02-23,Library Development for Ward 09
+1121,Ward 09,Central,Arjun Rao,Education,2023-24,School Renovation,4510000,3880000,In Progress,2023-12-16,2024-08-03,School Renovation for Ward 09
+1122,Ward 09,Central,Arjun Rao,Water Supply,2023-24,Water Pipeline Expansion,4550000,4370000,Completed,2023-05-04,2023-11-09,Water Pipeline Expansion for Ward 09
+1123,Ward 09,Central,Arjun Rao,Water Supply,2023-24,Water Tank Construction,3200000,2380000,In Progress,2023-12-18,2024-05-20,Water Tank Construction for Ward 09
+1124,Ward 09,Central,Arjun Rao,Water Supply,2023-24,Pipeline Repair,3130000,3000000,Completed,2023-12-05,2025-01-24,Pipeline Repair for Ward 09
+1125,Ward 09,Central,Arjun Rao,Infrastructure,2023-24,Community Hall Construction,3570000,2820000,In Progress,2023-10-10,2024-09-04,Community Hall Construction for Ward 09
+1126,Ward 09,Central,Arjun Rao,Infrastructure,2023-24,Bus Shelter Development,2700000,1990000,In Progress,2023-05-16,2023-10-11,Bus Shelter Development for Ward 09
+1127,Ward 10,Central,Meena Kumari,Roads,2023-24,Road Expansion,5550000,620000,Planned,2023-01-05,2023-06-20,Road Expansion for Ward 10
+1128,Ward 10,Central,Meena Kumari,Roads,2023-24,Footpath Improvement,5520000,240000,Planned,2023-09-25,2024-07-24,Footpath Improvement for Ward 10
+1129,Ward 10,Central,Meena Kumari,Roads,2023-24,Street Repair,4780000,4280000,In Progress,2023-09-13,2024-07-29,Street Repair for Ward 10
+1130,Ward 10,Central,Meena Kumari,Sanitation,2023-24,Public Toilet Upgrade,4100000,2960000,In Progress,2023-07-10,2024-07-25,Public Toilet Upgrade for Ward 10
+1131,Ward 10,Central,Meena Kumari,Sanitation,2023-24,Sewer Line Expansion,3380000,2810000,In Progress,2023-04-21,2023-11-05,Sewer Line Expansion for Ward 10
+1132,Ward 10,Central,Meena Kumari,Healthcare,2023-24,Community Health Facility,2840000,1840000,In Progress,2023-09-03,2024-02-20,Community Health Facility for Ward 10
+1133,Ward 10,Central,Meena Kumari,Healthcare,2023-24,PHC Upgrade,2080000,1610000,In Progress,2023-05-02,2023-11-26,PHC Upgrade for Ward 10
+1134,Ward 10,Central,Meena Kumari,Education,2023-24,School Renovation,2720000,1950000,In Progress,2023-02-22,2023-09-19,School Renovation for Ward 10
+1135,Ward 10,Central,Meena Kumari,Education,2023-24,Classroom Construction,4440000,3970000,In Progress,2023-11-07,2024-09-09,Classroom Construction for Ward 10
+1136,Ward 10,Central,Meena Kumari,Education,2023-24,School Laboratory Upgrade,2250000,1570000,In Progress,2023-05-05,2023-09-08,School Laboratory Upgrade for Ward 10
+1137,Ward 10,Central,Meena Kumari,Water Supply,2023-24,Water Tank Construction,2460000,2200000,In Progress,2023-10-10,2024-08-19,Water Tank Construction for Ward 10
+1138,Ward 10,Central,Meena Kumari,Water Supply,2023-24,Pipeline Repair,2660000,2290000,In Progress,2023-05-17,2024-05-17,Pipeline Repair for Ward 10
+1139,Ward 10,Central,Meena Kumari,Infrastructure,2023-24,Bus Shelter Development,2730000,210000,Planned,2023-06-20,2024-01-24,Bus Shelter Development for Ward 10
+1140,Ward 10,Central,Meena Kumari,Infrastructure,2023-24,Public Park Improvement,1680000,1170000,In Progress,2023-10-19,2024-01-27,Public Park Improvement for Ward 10
+1141,Ward 11,Central,Ramesh Babu,Roads,2023-24,Footpath Improvement,6190000,5290000,In Progress,2023-01-25,2023-07-23,Footpath Improvement for Ward 11
+1142,Ward 11,Central,Ramesh Babu,Roads,2023-24,Street Repair,4290000,3630000,In Progress,2023-03-19,2024-01-26,Street Repair for Ward 11
+1143,Ward 11,Central,Ramesh Babu,Sanitation,2023-24,Sewer Line Expansion,3410000,210000,Planned,2023-06-11,2023-11-01,Sewer Line Expansion for Ward 11
+1144,Ward 11,Central,Ramesh Babu,Sanitation,2023-24,Drainage Construction,3980000,2920000,In Progress,2023-05-22,2024-03-12,Drainage Construction for Ward 11
+1145,Ward 11,Central,Ramesh Babu,Healthcare,2023-24,PHC Upgrade,4420000,3590000,In Progress,2023-06-09,2024-02-19,PHC Upgrade for Ward 11
+1146,Ward 11,Central,Ramesh Babu,Healthcare,2023-24,Health Center Renovation,2410000,2140000,In Progress,2023-01-22,2024-01-24,Health Center Renovation for Ward 11
+1147,Ward 11,Central,Ramesh Babu,Healthcare,2023-24,Medical Equipment Purchase,3410000,2170000,In Progress,2023-10-25,2024-10-04,Medical Equipment Purchase for Ward 11
+1148,Ward 11,Central,Ramesh Babu,Education,2023-24,Classroom Construction,3630000,3210000,In Progress,2023-09-05,2024-04-29,Classroom Construction for Ward 11
+1149,Ward 11,Central,Ramesh Babu,Education,2023-24,School Laboratory Upgrade,3130000,2700000,In Progress,2023-11-20,2024-06-19,School Laboratory Upgrade for Ward 11
+1150,Ward 11,Central,Ramesh Babu,Water Supply,2023-24,Pipeline Repair,4510000,330000,Planned,2023-04-04,2024-02-24,Pipeline Repair for Ward 11
+1151,Ward 11,Central,Ramesh Babu,Water Supply,2023-24,Water Treatment Upgrade,5250000,4440000,In Progress,2023-12-10,2024-11-24,Water Treatment Upgrade for Ward 11
+1152,Ward 11,Central,Ramesh Babu,Infrastructure,2023-24,Public Park Improvement,3210000,2450000,In Progress,2023-08-08,2024-06-26,Public Park Improvement for Ward 11
+1153,Ward 11,Central,Ramesh Babu,Infrastructure,2023-24,Street Lighting,2860000,2150000,In Progress,2023-09-24,2024-03-01,Street Lighting for Ward 11
+1154,Ward 11,Central,Ramesh Babu,Infrastructure,2023-24,Community Hall Construction,3560000,2550000,In Progress,2023-07-11,2024-06-24,Community Hall Construction for Ward 11
+1155,Ward 12,Central,Kavya Rao,Roads,2023-24,Street Repair,3560000,2210000,In Progress,2023-10-19,2024-09-23,Street Repair for Ward 12
+1156,Ward 12,Central,Kavya Rao,Roads,2023-24,Road Resurfacing,5710000,4430000,In Progress,2023-06-18,2024-06-20,Road Resurfacing for Ward 12
+1157,Ward 12,Central,Kavya Rao,Sanitation,2023-24,Drainage Construction,2770000,2620000,Completed,2023-12-08,2024-12-24,Drainage Construction for Ward 12
+1158,Ward 12,Central,Kavya Rao,Sanitation,2023-24,Waste Management Facility,2780000,2550000,Completed,2023-06-24,2024-05-21,Waste Management Facility for Ward 12
+1159,Ward 12,Central,Kavya Rao,Sanitation,2023-24,Public Toilet Upgrade,3590000,3240000,Completed,2023-11-21,2024-05-06,Public Toilet Upgrade for Ward 12
+1160,Ward 12,Central,Kavya Rao,Healthcare,2023-24,Health Center Renovation,3500000,2210000,In Progress,2023-10-11,2024-02-29,Health Center Renovation for Ward 12
+1161,Ward 12,Central,Kavya Rao,Healthcare,2023-24,Medical Equipment Purchase,4590000,3550000,In Progress,2023-08-01,2024-01-11,Medical Equipment Purchase for Ward 12
+1162,Ward 12,Central,Kavya Rao,Education,2023-24,School Laboratory Upgrade,3050000,2580000,In Progress,2023-08-09,2024-04-28,School Laboratory Upgrade for Ward 12
+1163,Ward 12,Central,Kavya Rao,Education,2023-24,Library Development,3630000,210000,Planned,2023-11-18,2024-08-28,Library Development for Ward 12
+1164,Ward 12,Central,Kavya Rao,Water Supply,2023-24,Water Treatment Upgrade,5280000,4430000,In Progress,2023-08-18,2023-12-04,Water Treatment Upgrade for Ward 12
+1165,Ward 12,Central,Kavya Rao,Water Supply,2023-24,Water Pipeline Expansion,4210000,2950000,In Progress,2023-05-08,2023-09-21,Water Pipeline Expansion for Ward 12
+1166,Ward 12,Central,Kavya Rao,Water Supply,2023-24,Water Tank Construction,3640000,2380000,In Progress,2023-02-15,2023-08-09,Water Tank Construction for Ward 12
+1167,Ward 12,Central,Kavya Rao,Infrastructure,2023-24,Street Lighting,3180000,450000,Planned,2023-05-12,2024-02-17,Street Lighting for Ward 12
+1168,Ward 12,Central,Kavya Rao,Infrastructure,2023-24,Community Hall Construction,2590000,1820000,In Progress,2023-11-06,2024-05-01,Community Hall Construction for Ward 12
+1169,Ward 13,South,Vijay Kumar,Roads,2023-24,Road Resurfacing,3230000,2690000,In Progress,2023-11-08,2024-10-17,Road Resurfacing for Ward 13
+1170,Ward 13,South,Vijay Kumar,Roads,2023-24,Road Expansion,5880000,3940000,In Progress,2023-05-15,2023-12-21,Road Expansion for Ward 13
+1171,Ward 13,South,Vijay Kumar,Roads,2023-24,Footpath Improvement,5000000,4670000,Completed,2023-05-22,2024-05-25,Footpath Improvement for Ward 13
+1172,Ward 13,South,Vijay Kumar,Sanitation,2023-24,Waste Management Facility,2210000,1710000,In Progress,2023-10-10,2024-11-30,Waste Management Facility for Ward 13
+1173,Ward 13,South,Vijay Kumar,Sanitation,2023-24,Public Toilet Upgrade,4240000,3650000,In Progress,2023-05-07,2024-02-17,Public Toilet Upgrade for Ward 13
+1174,Ward 13,South,Vijay Kumar,Healthcare,2023-24,Medical Equipment Purchase,4530000,2970000,In Progress,2023-06-19,2024-02-15,Medical Equipment Purchase for Ward 13
+1175,Ward 13,South,Vijay Kumar,Healthcare,2023-24,Community Health Facility,4930000,3560000,In Progress,2023-11-13,2024-06-30,Community Health Facility for Ward 13
+1176,Ward 13,South,Vijay Kumar,Education,2023-24,Library Development,1970000,1810000,Completed,2023-01-20,2023-12-30,Library Development for Ward 13
+1177,Ward 13,South,Vijay Kumar,Education,2023-24,School Renovation,4190000,3920000,Completed,2023-04-20,2024-01-15,School Renovation for Ward 13
+1178,Ward 13,South,Vijay Kumar,Education,2023-24,Classroom Construction,2540000,1740000,In Progress,2023-12-25,2024-06-02,Classroom Construction for Ward 13
+1179,Ward 13,South,Vijay Kumar,Water Supply,2023-24,Water Pipeline Expansion,4250000,3970000,Completed,2023-05-15,2023-08-30,Water Pipeline Expansion for Ward 13
+1180,Ward 13,South,Vijay Kumar,Water Supply,2023-24,Water Tank Construction,4100000,210000,Planned,2023-12-14,2024-06-10,Water Tank Construction for Ward 13
+1181,Ward 13,South,Vijay Kumar,Infrastructure,2023-24,Community Hall Construction,2070000,1850000,In Progress,2023-06-17,2024-05-28,Community Hall Construction for Ward 13
+1182,Ward 13,South,Vijay Kumar,Infrastructure,2023-24,Bus Shelter Development,3680000,3350000,Completed,2023-08-10,2024-04-29,Bus Shelter Development for Ward 13
+1183,Ward 14,South,Naveen Reddy,Roads,2023-24,Road Expansion,5490000,740000,Planned,2023-04-22,2024-02-09,Road Expansion for Ward 14
+1184,Ward 14,South,Naveen Reddy,Roads,2023-24,Footpath Improvement,6080000,5480000,Completed,2023-07-01,2024-02-11,Footpath Improvement for Ward 14
+1185,Ward 14,South,Naveen Reddy,Sanitation,2023-24,Public Toilet Upgrade,3170000,2460000,In Progress,2023-11-09,2024-12-02,Public Toilet Upgrade for Ward 14
+1186,Ward 14,South,Naveen Reddy,Sanitation,2023-24,Sewer Line Expansion,2780000,2340000,In Progress,2023-11-08,2024-10-04,Sewer Line Expansion for Ward 14
+1187,Ward 14,South,Naveen Reddy,Healthcare,2023-24,Community Health Facility,2150000,1990000,Completed,2023-10-08,2024-02-07,Community Health Facility for Ward 14
+1188,Ward 14,South,Naveen Reddy,Healthcare,2023-24,PHC Upgrade,3900000,3050000,In Progress,2023-11-14,2024-04-11,PHC Upgrade for Ward 14
+1189,Ward 14,South,Naveen Reddy,Healthcare,2023-24,Health Center Renovation,2480000,2350000,Completed,2023-08-04,2023-12-21,Health Center Renovation for Ward 14
+1190,Ward 14,South,Naveen Reddy,Education,2023-24,School Renovation,2580000,2080000,In Progress,2023-06-22,2024-06-22,School Renovation for Ward 14
+1191,Ward 14,South,Naveen Reddy,Education,2023-24,Classroom Construction,3080000,2700000,In Progress,2023-07-21,2023-12-08,Classroom Construction for Ward 14
+1192,Ward 14,South,Naveen Reddy,Water Supply,2023-24,Water Tank Construction,4900000,4090000,In Progress,2023-05-02,2024-02-05,Water Tank Construction for Ward 14
+1193,Ward 14,South,Naveen Reddy,Water Supply,2023-24,Pipeline Repair,2950000,2280000,In Progress,2023-06-04,2024-03-08,Pipeline Repair for Ward 14
+1194,Ward 14,South,Naveen Reddy,Infrastructure,2023-24,Bus Shelter Development,2850000,2740000,Completed,2023-07-09,2024-01-12,Bus Shelter Development for Ward 14
+1195,Ward 14,South,Naveen Reddy,Infrastructure,2023-24,Public Park Improvement,3800000,3610000,Completed,2023-02-22,2023-09-08,Public Park Improvement for Ward 14
+1196,Ward 14,South,Naveen Reddy,Infrastructure,2023-24,Street Lighting,3060000,430000,Planned,2023-04-05,2024-04-18,Street Lighting for Ward 14
+1197,Ward 15,South,Anusha Devi,Roads,2023-24,Footpath Improvement,3330000,3030000,Completed,2023-10-07,2024-05-03,Footpath Improvement for Ward 15
+1198,Ward 15,South,Anusha Devi,Roads,2023-24,Street Repair,3780000,2530000,In Progress,2023-01-09,2023-06-22,Street Repair for Ward 15
+1199,Ward 15,South,Anusha Devi,Sanitation,2023-24,Sewer Line Expansion,4300000,3470000,In Progress,2023-02-22,2023-06-05,Sewer Line Expansion for Ward 15
+1200,Ward 15,South,Anusha Devi,Sanitation,2023-24,Drainage Construction,2150000,1600000,In Progress,2023-10-11,2024-01-17,Drainage Construction for Ward 15
+1201,Ward 15,South,Anusha Devi,Sanitation,2023-24,Waste Management Facility,2250000,1430000,In Progress,2023-09-04,2024-01-04,Waste Management Facility for Ward 15
+1202,Ward 15,South,Anusha Devi,Healthcare,2023-24,PHC Upgrade,3450000,3070000,In Progress,2023-02-15,2024-01-28,PHC Upgrade for Ward 15
+1203,Ward 15,South,Anusha Devi,Healthcare,2023-24,Health Center Renovation,2710000,2260000,In Progress,2023-11-17,2024-07-18,Health Center Renovation for Ward 15
+1204,Ward 15,South,Anusha Devi,Education,2023-24,Classroom Construction,3180000,270000,Planned,2023-07-14,2023-12-06,Classroom Construction for Ward 15
+1205,Ward 15,South,Anusha Devi,Education,2023-24,School Laboratory Upgrade,3270000,40000,Planned,2023-10-05,2024-02-05,School Laboratory Upgrade for Ward 15
+1206,Ward 15,South,Anusha Devi,Water Supply,2023-24,Pipeline Repair,2670000,2230000,In Progress,2023-12-11,2024-09-21,Pipeline Repair for Ward 15
+1207,Ward 15,South,Anusha Devi,Water Supply,2023-24,Water Treatment Upgrade,5400000,4350000,In Progress,2023-10-14,2024-03-02,Water Treatment Upgrade for Ward 15
+1208,Ward 15,South,Anusha Devi,Water Supply,2023-24,Water Pipeline Expansion,4770000,3140000,In Progress,2023-09-24,2024-04-11,Water Pipeline Expansion for Ward 15
+1209,Ward 15,South,Anusha Devi,Infrastructure,2023-24,Public Park Improvement,2590000,2410000,Completed,2023-08-13,2024-06-10,Public Park Improvement for Ward 15
+1210,Ward 15,South,Anusha Devi,Infrastructure,2023-24,Street Lighting,3260000,2370000,In Progress,2023-05-12,2023-10-27,Street Lighting for Ward 15
+1211,Ward 16,South,Prakash Rao,Roads,2023-24,Street Repair,5070000,70000,Planned,2023-07-04,2024-04-09,Street Repair for Ward 16
+1212,Ward 16,South,Prakash Rao,Roads,2023-24,Road Resurfacing,5520000,4490000,In Progress,2023-09-18,2024-06-02,Road Resurfacing for Ward 16
+1213,Ward 16,South,Prakash Rao,Roads,2023-24,Road Expansion,5010000,3820000,In Progress,2023-07-24,2023-11-17,Road Expansion for Ward 16
+1214,Ward 16,South,Prakash Rao,Sanitation,2023-24,Drainage Construction,4260000,3530000,In Progress,2023-10-17,2024-05-02,Drainage Construction for Ward 16
+1215,Ward 16,South,Prakash Rao,Sanitation,2023-24,Waste Management Facility,2200000,1730000,In Progress,2023-06-18,2024-03-22,Waste Management Facility for Ward 16
+1216,Ward 16,South,Prakash Rao,Healthcare,2023-24,Health Center Renovation,2410000,1720000,In Progress,2023-07-18,2024-08-29,Health Center Renovation for Ward 16
+1217,Ward 16,South,Prakash Rao,Healthcare,2023-24,Medical Equipment Purchase,3840000,640000,Planned,2023-12-09,2024-03-22,Medical Equipment Purchase for Ward 16
+1218,Ward 16,South,Prakash Rao,Education,2023-24,School Laboratory Upgrade,2430000,2100000,In Progress,2023-06-12,2023-09-13,School Laboratory Upgrade for Ward 16
+1219,Ward 16,South,Prakash Rao,Education,2023-24,Library Development,2430000,1620000,In Progress,2023-02-05,2024-03-25,Library Development for Ward 16
+1220,Ward 16,South,Prakash Rao,Education,2023-24,School Renovation,4570000,2980000,In Progress,2023-07-14,2024-05-31,School Renovation for Ward 16
+1221,Ward 16,South,Prakash Rao,Water Supply,2023-24,Water Treatment Upgrade,3340000,2500000,In Progress,2023-10-20,2024-03-01,Water Treatment Upgrade for Ward 16
+1222,Ward 16,South,Prakash Rao,Water Supply,2023-24,Water Pipeline Expansion,5050000,3400000,In Progress,2023-01-22,2023-06-02,Water Pipeline Expansion for Ward 16
+1223,Ward 16,South,Prakash Rao,Infrastructure,2023-24,Street Lighting,2230000,1890000,In Progress,2023-08-14,2024-03-30,Street Lighting for Ward 16
+1224,Ward 16,South,Prakash Rao,Infrastructure,2023-24,Community Hall Construction,2110000,1680000,In Progress,2023-02-10,2024-03-09,Community Hall Construction for Ward 16
+1225,Ward 17,West,Harish Kumar,Roads,2023-24,Road Resurfacing,4350000,300000,Planned,2023-10-02,2024-01-03,Road Resurfacing for Ward 17
+1226,Ward 17,West,Harish Kumar,Roads,2023-24,Road Expansion,3330000,3160000,Completed,2023-05-10,2024-01-22,Road Expansion for Ward 17
+1227,Ward 17,West,Harish Kumar,Sanitation,2023-24,Waste Management Facility,2120000,1680000,In Progress,2023-03-13,2024-03-09,Waste Management Facility for Ward 17
+1228,Ward 17,West,Harish Kumar,Sanitation,2023-24,Public Toilet Upgrade,3590000,2850000,In Progress,2023-06-03,2024-03-22,Public Toilet Upgrade for Ward 17
+1229,Ward 17,West,Harish Kumar,Healthcare,2023-24,Medical Equipment Purchase,4560000,750000,Planned,2023-06-19,2024-04-23,Medical Equipment Purchase for Ward 17
+1230,Ward 17,West,Harish Kumar,Healthcare,2023-24,Community Health Facility,3730000,3230000,In Progress,2023-02-13,2023-05-24,Community Health Facility for Ward 17
+1231,Ward 17,West,Harish Kumar,Healthcare,2023-24,PHC Upgrade,4860000,3300000,In Progress,2023-08-23,2024-05-24,PHC Upgrade for Ward 17
+1232,Ward 17,West,Harish Kumar,Education,2023-24,Library Development,2180000,1990000,Completed,2023-10-13,2024-10-05,Library Development for Ward 17
+1233,Ward 17,West,Harish Kumar,Education,2023-24,School Renovation,2160000,1990000,Completed,2023-04-11,2023-10-04,School Renovation for Ward 17
+1234,Ward 17,West,Harish Kumar,Water Supply,2023-24,Water Pipeline Expansion,2510000,2110000,In Progress,2023-04-25,2024-01-18,Water Pipeline Expansion for Ward 17
+1235,Ward 17,West,Harish Kumar,Water Supply,2023-24,Water Tank Construction,3380000,3220000,Completed,2023-03-08,2023-07-28,Water Tank Construction for Ward 17
+1236,Ward 17,West,Harish Kumar,Infrastructure,2023-24,Community Hall Construction,1950000,1340000,In Progress,2023-11-03,2024-05-01,Community Hall Construction for Ward 17
+1237,Ward 17,West,Harish Kumar,Infrastructure,2023-24,Bus Shelter Development,3760000,3150000,In Progress,2023-10-25,2024-11-14,Bus Shelter Development for Ward 17
+1238,Ward 17,West,Harish Kumar,Infrastructure,2023-24,Public Park Improvement,2630000,2480000,Completed,2023-11-20,2024-08-01,Public Park Improvement for Ward 17
+1239,Ward 18,West,Deepa Devi,Roads,2023-24,Road Expansion,5710000,4790000,In Progress,2023-02-16,2023-12-29,Road Expansion for Ward 18
+1240,Ward 18,West,Deepa Devi,Roads,2023-24,Footpath Improvement,4870000,4370000,In Progress,2023-06-17,2023-10-22,Footpath Improvement for Ward 18
+1241,Ward 18,West,Deepa Devi,Sanitation,2023-24,Public Toilet Upgrade,2600000,380000,Planned,2023-02-21,2023-07-07,Public Toilet Upgrade for Ward 18
+1242,Ward 18,West,Deepa Devi,Sanitation,2023-24,Sewer Line Expansion,3360000,2670000,In Progress,2023-09-24,2024-01-13,Sewer Line Expansion for Ward 18
+1243,Ward 18,West,Deepa Devi,Sanitation,2023-24,Drainage Construction,2950000,2660000,Completed,2023-06-20,2024-05-18,Drainage Construction for Ward 18
+1244,Ward 18,West,Deepa Devi,Healthcare,2023-24,Community Health Facility,3520000,3360000,Completed,2023-06-23,2023-11-03,Community Health Facility for Ward 18
+1245,Ward 18,West,Deepa Devi,Healthcare,2023-24,PHC Upgrade,3530000,2400000,In Progress,2023-08-15,2024-08-07,PHC Upgrade for Ward 18
+1246,Ward 18,West,Deepa Devi,Education,2023-24,School Renovation,3360000,2260000,In Progress,2023-05-13,2024-03-07,School Renovation for Ward 18
+1247,Ward 18,West,Deepa Devi,Education,2023-24,Classroom Construction,4040000,450000,Planned,2023-06-03,2024-02-16,Classroom Construction for Ward 18
+1248,Ward 18,West,Deepa Devi,Water Supply,2023-24,Water Tank Construction,2570000,2200000,In Progress,2023-12-22,2025-01-23,Water Tank Construction for Ward 18
+1249,Ward 18,West,Deepa Devi,Water Supply,2023-24,Pipeline Repair,5020000,3690000,In Progress,2023-03-12,2023-11-15,Pipeline Repair for Ward 18
+1250,Ward 18,West,Deepa Devi,Water Supply,2023-24,Water Treatment Upgrade,5320000,4590000,In Progress,2023-10-23,2024-03-04,Water Treatment Upgrade for Ward 18
+1251,Ward 18,West,Deepa Devi,Infrastructure,2023-24,Bus Shelter Development,2320000,1740000,In Progress,2023-03-22,2024-03-15,Bus Shelter Development for Ward 18
+1252,Ward 18,West,Deepa Devi,Infrastructure,2023-24,Public Park Improvement,1830000,1560000,In Progress,2023-01-12,2023-09-17,Public Park Improvement for Ward 18
+1253,Ward 19,West,Rohit Rao,Roads,2023-24,Footpath Improvement,3240000,2250000,In Progress,2023-08-07,2024-02-28,Footpath Improvement for Ward 19
+1254,Ward 19,West,Rohit Rao,Roads,2023-24,Street Repair,6190000,4170000,In Progress,2023-02-17,2024-02-18,Street Repair for Ward 19
+1255,Ward 19,West,Rohit Rao,Roads,2023-24,Road Resurfacing,5600000,330000,Planned,2023-10-05,2024-11-03,Road Resurfacing for Ward 19
+1256,Ward 19,West,Rohit Rao,Sanitation,2023-24,Sewer Line Expansion,2760000,1860000,In Progress,2023-10-06,2024-08-15,Sewer Line Expansion for Ward 19
+1257,Ward 19,West,Rohit Rao,Sanitation,2023-24,Drainage Construction,1930000,1440000,In Progress,2023-08-20,2024-04-11,Drainage Construction for Ward 19
+1258,Ward 19,West,Rohit Rao,Healthcare,2023-24,PHC Upgrade,4240000,3790000,In Progress,2023-04-10,2024-03-05,PHC Upgrade for Ward 19
+1259,Ward 19,West,Rohit Rao,Healthcare,2023-24,Health Center Renovation,4680000,3210000,In Progress,2023-10-15,2024-09-05,Health Center Renovation for Ward 19
+1260,Ward 19,West,Rohit Rao,Education,2023-24,Classroom Construction,4020000,3580000,In Progress,2023-07-06,2024-01-14,Classroom Construction for Ward 19
+1261,Ward 19,West,Rohit Rao,Education,2023-24,School Laboratory Upgrade,4110000,2740000,In Progress,2023-11-16,2024-08-22,School Laboratory Upgrade for Ward 19
+1262,Ward 19,West,Rohit Rao,Education,2023-24,Library Development,3440000,2250000,In Progress,2023-02-10,2023-06-22,Library Development for Ward 19
+1263,Ward 19,West,Rohit Rao,Water Supply,2023-24,Pipeline Repair,4670000,3340000,In Progress,2023-03-14,2023-07-28,Pipeline Repair for Ward 19
+1264,Ward 19,West,Rohit Rao,Water Supply,2023-24,Water Treatment Upgrade,5250000,3660000,In Progress,2023-06-01,2024-03-29,Water Treatment Upgrade for Ward 19
+1265,Ward 19,West,Rohit Rao,Infrastructure,2023-24,Public Park Improvement,1740000,1380000,In Progress,2023-02-12,2023-09-04,Public Park Improvement for Ward 19
+1266,Ward 19,West,Rohit Rao,Infrastructure,2023-24,Street Lighting,1680000,1580000,Completed,2023-11-11,2024-04-23,Street Lighting for Ward 19
+1267,Ward 20,West,Swathi Kumar,Roads,2023-24,Street Repair,3090000,2220000,In Progress,2023-12-05,2024-10-30,Street Repair for Ward 20
+1268,Ward 20,West,Swathi Kumar,Roads,2023-24,Road Resurfacing,4210000,190000,Planned,2023-03-18,2024-04-22,Road Resurfacing for Ward 20
+1269,Ward 20,West,Swathi Kumar,Sanitation,2023-24,Drainage Construction,3140000,2060000,In Progress,2023-05-04,2023-08-26,Drainage Construction for Ward 20
+1270,Ward 20,West,Swathi Kumar,Sanitation,2023-24,Waste Management Facility,2420000,2040000,In Progress,2023-02-04,2024-01-15,Waste Management Facility for Ward 20
+1271,Ward 20,West,Swathi Kumar,Healthcare,2023-24,Health Center Renovation,3790000,2370000,In Progress,2023-04-23,2023-10-03,Health Center Renovation for Ward 20
+1272,Ward 20,West,Swathi Kumar,Healthcare,2023-24,Medical Equipment Purchase,2910000,1800000,In Progress,2023-10-14,2024-04-16,Medical Equipment Purchase for Ward 20
+1273,Ward 20,West,Swathi Kumar,Healthcare,2023-24,Community Health Facility,3990000,2590000,In Progress,2023-02-17,2024-02-20,Community Health Facility for Ward 20
+1274,Ward 20,West,Swathi Kumar,Education,2023-24,School Laboratory Upgrade,3310000,3190000,Completed,2023-07-16,2023-11-05,School Laboratory Upgrade for Ward 20
+1275,Ward 20,West,Swathi Kumar,Education,2023-24,Library Development,3660000,3520000,Completed,2023-01-12,2023-05-16,Library Development for Ward 20
+1276,Ward 20,West,Swathi Kumar,Water Supply,2023-24,Water Treatment Upgrade,3360000,2940000,In Progress,2023-10-24,2024-07-10,Water Treatment Upgrade for Ward 20
+1277,Ward 20,West,Swathi Kumar,Water Supply,2023-24,Water Pipeline Expansion,2690000,1990000,In Progress,2023-11-06,2024-09-28,Water Pipeline Expansion for Ward 20
+1278,Ward 20,West,Swathi Kumar,Infrastructure,2023-24,Street Lighting,3830000,3010000,In Progress,2023-03-03,2024-01-21,Street Lighting for Ward 20
+1279,Ward 20,West,Swathi Kumar,Infrastructure,2023-24,Community Hall Construction,1700000,1170000,In Progress,2023-01-11,2023-09-16,Community Hall Construction for Ward 20
+1280,Ward 20,West,Swathi Kumar,Infrastructure,2023-24,Bus Shelter Development,2780000,2680000,Completed,2023-05-02,2023-11-05,Bus Shelter Development for Ward 20
+1281,Ward 01,North,Ravi Kumar,Roads,2024-25,Road Expansion,3620000,420000,Planned,2024-05-04,2025-02-06,Road Expansion for Ward 01
+1282,Ward 01,North,Ravi Kumar,Roads,2024-25,Footpath Improvement,4170000,3160000,In Progress,2024-07-11,2025-01-12,Footpath Improvement for Ward 01
+1283,Ward 01,North,Ravi Kumar,Sanitation,2024-25,Public Toilet Upgrade,3070000,2430000,In Progress,2024-09-09,2025-01-19,Public Toilet Upgrade for Ward 01
+1284,Ward 01,North,Ravi Kumar,Sanitation,2024-25,Sewer Line Expansion,3650000,2360000,In Progress,2024-03-18,2024-11-13,Sewer Line Expansion for Ward 01
+1285,Ward 01,North,Ravi Kumar,Healthcare,2024-25,Community Health Facility,3000000,1940000,In Progress,2024-05-15,2025-06-17,Community Health Facility for Ward 01
+1286,Ward 01,North,Ravi Kumar,Healthcare,2024-25,PHC Upgrade,4140000,2800000,In Progress,2024-08-02,2025-04-29,PHC Upgrade for Ward 01
+1287,Ward 01,North,Ravi Kumar,Healthcare,2024-25,Health Center Renovation,3850000,2970000,In Progress,2024-01-03,2025-02-22,Health Center Renovation for Ward 01
+1288,Ward 01,North,Ravi Kumar,Education,2024-25,School Renovation,3040000,2430000,In Progress,2024-03-01,2024-08-11,School Renovation for Ward 01
+1289,Ward 01,North,Ravi Kumar,Education,2024-25,Classroom Construction,4240000,3630000,In Progress,2024-03-03,2024-09-29,Classroom Construction for Ward 01
+1290,Ward 01,North,Ravi Kumar,Water Supply,2024-25,Water Tank Construction,4720000,3530000,In Progress,2024-10-02,2025-11-05,Water Tank Construction for Ward 01
+1291,Ward 01,North,Ravi Kumar,Water Supply,2024-25,Pipeline Repair,2750000,2130000,In Progress,2024-08-25,2025-01-01,Pipeline Repair for Ward 01
+1292,Ward 01,North,Ravi Kumar,Infrastructure,2024-25,Bus Shelter Development,2910000,2340000,In Progress,2024-11-09,2025-06-14,Bus Shelter Development for Ward 01
+1293,Ward 01,North,Ravi Kumar,Infrastructure,2024-25,Public Park Improvement,3780000,2370000,In Progress,2024-09-13,2025-09-25,Public Park Improvement for Ward 01
+1294,Ward 01,North,Ravi Kumar,Infrastructure,2024-25,Street Lighting,1880000,1670000,In Progress,2024-04-20,2024-12-12,Street Lighting for Ward 01
+1295,Ward 02,North,Suresh Rao,Roads,2024-25,Footpath Improvement,5090000,4930000,Completed,2024-03-03,2025-01-18,Footpath Improvement for Ward 02
+1296,Ward 02,North,Suresh Rao,Roads,2024-25,Street Repair,3220000,2800000,In Progress,2024-11-11,2025-08-05,Street Repair for Ward 02
+1297,Ward 02,North,Suresh Rao,Sanitation,2024-25,Sewer Line Expansion,3600000,2920000,In Progress,2024-05-06,2025-06-26,Sewer Line Expansion for Ward 02
+1298,Ward 02,North,Suresh Rao,Sanitation,2024-25,Drainage Construction,2250000,1670000,In Progress,2024-04-05,2024-11-02,Drainage Construction for Ward 02
+1299,Ward 02,North,Suresh Rao,Sanitation,2024-25,Waste Management Facility,3810000,2390000,In Progress,2024-06-15,2025-06-22,Waste Management Facility for Ward 02
+1300,Ward 02,North,Suresh Rao,Healthcare,2024-25,PHC Upgrade,2450000,170000,Planned,2024-12-24,2025-11-24,PHC Upgrade for Ward 02
+1301,Ward 02,North,Suresh Rao,Healthcare,2024-25,Health Center Renovation,3590000,3190000,In Progress,2024-02-05,2024-10-14,Health Center Renovation for Ward 02
+1302,Ward 02,North,Suresh Rao,Education,2024-25,Classroom Construction,3680000,2860000,In Progress,2024-06-05,2025-06-12,Classroom Construction for Ward 02
+1303,Ward 02,North,Suresh Rao,Education,2024-25,School Laboratory Upgrade,3670000,2500000,In Progress,2024-07-17,2024-11-12,School Laboratory Upgrade for Ward 02
+1304,Ward 02,North,Suresh Rao,Water Supply,2024-25,Pipeline Repair,4890000,3910000,In Progress,2024-03-11,2024-10-02,Pipeline Repair for Ward 02
+1305,Ward 02,North,Suresh Rao,Water Supply,2024-25,Water Treatment Upgrade,3360000,3180000,Completed,2024-02-09,2024-08-17,Water Treatment Upgrade for Ward 02
+1306,Ward 02,North,Suresh Rao,Water Supply,2024-25,Water Pipeline Expansion,4270000,3470000,In Progress,2024-05-20,2025-05-18,Water Pipeline Expansion for Ward 02
+1307,Ward 02,North,Suresh Rao,Infrastructure,2024-25,Public Park Improvement,1830000,1540000,In Progress,2024-10-05,2025-03-31,Public Park Improvement for Ward 02
+1308,Ward 02,North,Suresh Rao,Infrastructure,2024-25,Street Lighting,3100000,2700000,In Progress,2024-10-02,2025-01-14,Street Lighting for Ward 02
+1309,Ward 03,North,Priya Devi,Roads,2024-25,Street Repair,2890000,2750000,Completed,2024-05-21,2024-12-04,Street Repair for Ward 03
+1310,Ward 03,North,Priya Devi,Roads,2024-25,Road Resurfacing,5360000,4100000,In Progress,2024-08-21,2025-08-25,Road Resurfacing for Ward 03
+1311,Ward 03,North,Priya Devi,Roads,2024-25,Road Expansion,3640000,3470000,Completed,2024-11-13,2025-07-13,Road Expansion for Ward 03
+1312,Ward 03,North,Priya Devi,Sanitation,2024-25,Drainage Construction,2960000,2540000,In Progress,2024-07-16,2025-06-08,Drainage Construction for Ward 03
+1313,Ward 03,North,Priya Devi,Sanitation,2024-25,Waste Management Facility,2330000,1930000,In Progress,2024-12-11,2025-09-03,Waste Management Facility for Ward 03
+1314,Ward 03,North,Priya Devi,Healthcare,2024-25,Health Center Renovation,4880000,3240000,In Progress,2024-09-04,2025-05-15,Health Center Renovation for Ward 03
+1315,Ward 03,North,Priya Devi,Healthcare,2024-25,Medical Equipment Purchase,2770000,1830000,In Progress,2024-03-04,2024-06-27,Medical Equipment Purchase for Ward 03
+1316,Ward 03,North,Priya Devi,Education,2024-25,School Laboratory Upgrade,2730000,2050000,In Progress,2024-04-06,2024-12-19,School Laboratory Upgrade for Ward 03
+1317,Ward 03,North,Priya Devi,Education,2024-25,Library Development,4470000,3890000,In Progress,2024-03-16,2025-03-04,Library Development for Ward 03
+1318,Ward 03,North,Priya Devi,Education,2024-25,School Renovation,3210000,2970000,Completed,2024-02-13,2025-01-26,School Renovation for Ward 03
+1319,Ward 03,North,Priya Devi,Water Supply,2024-25,Water Treatment Upgrade,3710000,2610000,In Progress,2024-01-02,2024-08-23,Water Treatment Upgrade for Ward 03
+1320,Ward 03,North,Priya Devi,Water Supply,2024-25,Water Pipeline Expansion,3830000,3550000,Completed,2024-08-10,2025-08-09,Water Pipeline Expansion for Ward 03
+1321,Ward 03,North,Priya Devi,Infrastructure,2024-25,Street Lighting,1640000,1070000,In Progress,2024-05-24,2025-02-25,Street Lighting for Ward 03
+1322,Ward 03,North,Priya Devi,Infrastructure,2024-25,Community Hall Construction,3340000,2490000,In Progress,2024-10-18,2025-04-25,Community Hall Construction for Ward 03
+1323,Ward 04,North,Anil Kumar,Roads,2024-25,Road Resurfacing,3900000,2810000,In Progress,2024-08-25,2025-08-31,Road Resurfacing for Ward 04
+1324,Ward 04,North,Anil Kumar,Roads,2024-25,Road Expansion,3600000,3470000,Completed,2024-02-05,2024-06-23,Road Expansion for Ward 04
+1325,Ward 04,North,Anil Kumar,Sanitation,2024-25,Waste Management Facility,2810000,2520000,In Progress,2024-06-25,2024-12-05,Waste Management Facility for Ward 04
+1326,Ward 04,North,Anil Kumar,Sanitation,2024-25,Public Toilet Upgrade,2320000,1850000,In Progress,2024-01-02,2024-06-10,Public Toilet Upgrade for Ward 04
+1327,Ward 04,North,Anil Kumar,Healthcare,2024-25,Medical Equipment Purchase,4130000,3720000,Completed,2024-03-20,2025-03-08,Medical Equipment Purchase for Ward 04
+1328,Ward 04,North,Anil Kumar,Healthcare,2024-25,Community Health Facility,2480000,2340000,Completed,2024-07-20,2025-03-20,Community Health Facility for Ward 04
+1329,Ward 04,North,Anil Kumar,Healthcare,2024-25,PHC Upgrade,3780000,3010000,In Progress,2024-08-23,2025-09-05,PHC Upgrade for Ward 04
+1330,Ward 04,North,Anil Kumar,Education,2024-25,Library Development,2750000,2490000,Completed,2024-11-04,2025-09-03,Library Development for Ward 04
+1331,Ward 04,North,Anil Kumar,Education,2024-25,School Renovation,3520000,3160000,In Progress,2024-12-21,2025-04-03,School Renovation for Ward 04
+1332,Ward 04,North,Anil Kumar,Water Supply,2024-25,Water Pipeline Expansion,4150000,2950000,In Progress,2024-10-19,2025-05-13,Water Pipeline Expansion for Ward 04
+1333,Ward 04,North,Anil Kumar,Water Supply,2024-25,Water Tank Construction,4540000,3740000,In Progress,2024-11-24,2026-01-05,Water Tank Construction for Ward 04
+1334,Ward 04,North,Anil Kumar,Infrastructure,2024-25,Community Hall Construction,3360000,2530000,In Progress,2024-04-02,2025-04-20,Community Hall Construction for Ward 04
+1335,Ward 04,North,Anil Kumar,Infrastructure,2024-25,Bus Shelter Development,3750000,210000,Planned,2024-03-14,2024-09-24,Bus Shelter Development for Ward 04
+1336,Ward 04,North,Anil Kumar,Infrastructure,2024-25,Public Park Improvement,2540000,2260000,In Progress,2024-12-24,2025-04-24,Public Park Improvement for Ward 04
+1337,Ward 05,East,Lakshmi Devi,Roads,2024-25,Road Expansion,5140000,4110000,In Progress,2024-11-16,2025-11-10,Road Expansion for Ward 05
+1338,Ward 05,East,Lakshmi Devi,Roads,2024-25,Footpath Improvement,3950000,3770000,Completed,2024-09-11,2025-09-15,Footpath Improvement for Ward 05
+1339,Ward 05,East,Lakshmi Devi,Sanitation,2024-25,Public Toilet Upgrade,2710000,2410000,In Progress,2024-11-23,2025-07-06,Public Toilet Upgrade for Ward 05
+1340,Ward 05,East,Lakshmi Devi,Sanitation,2024-25,Sewer Line Expansion,3350000,2300000,In Progress,2024-09-10,2025-04-03,Sewer Line Expansion for Ward 05
+1341,Ward 05,East,Lakshmi Devi,Sanitation,2024-25,Drainage Construction,4190000,4030000,Completed,2024-12-07,2025-11-12,Drainage Construction for Ward 05
+1342,Ward 05,East,Lakshmi Devi,Healthcare,2024-25,Community Health Facility,2990000,2210000,In Progress,2024-12-09,2025-08-03,Community Health Facility for Ward 05
+1343,Ward 05,East,Lakshmi Devi,Healthcare,2024-25,PHC Upgrade,2430000,2080000,In Progress,2024-07-12,2024-12-23,PHC Upgrade for Ward 05
+1344,Ward 05,East,Lakshmi Devi,Education,2024-25,School Renovation,2730000,1960000,In Progress,2024-06-15,2025-01-22,School Renovation for Ward 05
+1345,Ward 05,East,Lakshmi Devi,Education,2024-25,Classroom Construction,3960000,2750000,In Progress,2024-05-18,2025-01-02,Classroom Construction for Ward 05
+1346,Ward 05,East,Lakshmi Devi,Water Supply,2024-25,Water Tank Construction,2700000,2250000,In Progress,2024-04-02,2025-03-29,Water Tank Construction for Ward 05
+1347,Ward 05,East,Lakshmi Devi,Water Supply,2024-25,Pipeline Repair,2980000,170000,Planned,2024-08-04,2025-01-11,Pipeline Repair for Ward 05
+1348,Ward 05,East,Lakshmi Devi,Water Supply,2024-25,Water Treatment Upgrade,2290000,1860000,In Progress,2024-07-21,2025-06-19,Water Treatment Upgrade for Ward 05
+1349,Ward 05,East,Lakshmi Devi,Infrastructure,2024-25,Bus Shelter Development,2690000,1850000,In Progress,2024-06-10,2025-08-04,Bus Shelter Development for Ward 05
+1350,Ward 05,East,Lakshmi Devi,Infrastructure,2024-25,Public Park Improvement,1750000,1550000,In Progress,2024-04-18,2024-08-05,Public Park Improvement for Ward 05
+1351,Ward 06,East,Mohan Rao,Roads,2024-25,Footpath Improvement,5880000,4000000,In Progress,2024-03-02,2024-12-20,Footpath Improvement for Ward 06
+1352,Ward 06,East,Mohan Rao,Roads,2024-25,Street Repair,5430000,3720000,In Progress,2024-05-02,2024-08-04,Street Repair for Ward 06
+1353,Ward 06,East,Mohan Rao,Roads,2024-25,Road Resurfacing,3670000,3040000,In Progress,2024-06-10,2025-04-28,Road Resurfacing for Ward 06
+1354,Ward 06,East,Mohan Rao,Sanitation,2024-25,Sewer Line Expansion,4310000,3490000,In Progress,2024-03-17,2025-02-09,Sewer Line Expansion for Ward 06
+1355,Ward 06,East,Mohan Rao,Sanitation,2024-25,Drainage Construction,2500000,2250000,Completed,2024-12-15,2025-07-24,Drainage Construction for Ward 06
+1356,Ward 06,East,Mohan Rao,Healthcare,2024-25,PHC Upgrade,4140000,2580000,In Progress,2024-05-19,2024-11-23,PHC Upgrade for Ward 06
+1357,Ward 06,East,Mohan Rao,Healthcare,2024-25,Health Center Renovation,2580000,2370000,Completed,2024-07-17,2025-03-31,Health Center Renovation for Ward 06
+1358,Ward 06,East,Mohan Rao,Education,2024-25,Classroom Construction,2180000,1860000,In Progress,2024-03-16,2024-11-26,Classroom Construction for Ward 06
+1359,Ward 06,East,Mohan Rao,Education,2024-25,School Laboratory Upgrade,4470000,2780000,In Progress,2024-08-25,2025-04-08,School Laboratory Upgrade for Ward 06
+1360,Ward 06,East,Mohan Rao,Education,2024-25,Library Development,4520000,3280000,In Progress,2024-01-09,2024-10-09,Library Development for Ward 06
+1361,Ward 06,East,Mohan Rao,Water Supply,2024-25,Pipeline Repair,4450000,240000,Planned,2024-07-22,2025-07-04,Pipeline Repair for Ward 06
+1362,Ward 06,East,Mohan Rao,Water Supply,2024-25,Water Treatment Upgrade,5180000,4820000,Completed,2024-12-04,2026-01-25,Water Treatment Upgrade for Ward 06
+1363,Ward 06,East,Mohan Rao,Infrastructure,2024-25,Public Park Improvement,3680000,2660000,In Progress,2024-04-05,2025-03-05,Public Park Improvement for Ward 06
+1364,Ward 06,East,Mohan Rao,Infrastructure,2024-25,Street Lighting,1960000,1720000,In Progress,2024-07-23,2025-07-29,Street Lighting for Ward 06
+1365,Ward 07,East,Kiran Kumar,Roads,2024-25,Street Repair,5880000,5200000,In Progress,2024-04-25,2024-11-27,Street Repair for Ward 07
+1366,Ward 07,East,Kiran Kumar,Roads,2024-25,Road Resurfacing,5040000,4170000,In Progress,2024-09-15,2025-09-10,Road Resurfacing for Ward 07
+1367,Ward 07,East,Kiran Kumar,Sanitation,2024-25,Drainage Construction,3590000,2320000,In Progress,2024-01-18,2024-12-31,Drainage Construction for Ward 07
+1368,Ward 07,East,Kiran Kumar,Sanitation,2024-25,Waste Management Facility,2320000,1870000,In Progress,2024-09-15,2025-02-11,Waste Management Facility for Ward 07
+1369,Ward 07,East,Kiran Kumar,Healthcare,2024-25,Health Center Renovation,4030000,3500000,In Progress,2024-09-15,2025-01-11,Health Center Renovation for Ward 07
+1370,Ward 07,East,Kiran Kumar,Healthcare,2024-25,Medical Equipment Purchase,3380000,2700000,In Progress,2024-01-18,2024-12-09,Medical Equipment Purchase for Ward 07
+1371,Ward 07,East,Kiran Kumar,Healthcare,2024-25,Community Health Facility,4010000,180000,Planned,2024-01-24,2024-08-12,Community Health Facility for Ward 07
+1372,Ward 07,East,Kiran Kumar,Education,2024-25,School Laboratory Upgrade,3510000,2230000,In Progress,2024-02-18,2024-06-17,School Laboratory Upgrade for Ward 07
+1373,Ward 07,East,Kiran Kumar,Education,2024-25,Library Development,4470000,2870000,In Progress,2024-01-10,2024-11-04,Library Development for Ward 07
+1374,Ward 07,East,Kiran Kumar,Water Supply,2024-25,Water Treatment Upgrade,2840000,1890000,In Progress,2024-12-21,2025-10-22,Water Treatment Upgrade for Ward 07
+1375,Ward 07,East,Kiran Kumar,Water Supply,2024-25,Water Pipeline Expansion,3450000,3210000,Completed,2024-07-13,2024-11-21,Water Pipeline Expansion for Ward 07
+1376,Ward 07,East,Kiran Kumar,Infrastructure,2024-25,Street Lighting,3160000,2690000,In Progress,2024-11-12,2025-04-11,Street Lighting for Ward 07
+1377,Ward 07,East,Kiran Kumar,Infrastructure,2024-25,Community Hall Construction,2020000,1630000,In Progress,2024-12-08,2025-03-09,Community Hall Construction for Ward 07
+1378,Ward 07,East,Kiran Kumar,Infrastructure,2024-25,Bus Shelter Development,3320000,3190000,Completed,2024-12-18,2025-10-21,Bus Shelter Development for Ward 07
+1379,Ward 08,East,Sunita Devi,Roads,2024-25,Road Resurfacing,4510000,4090000,Completed,2024-06-05,2025-01-22,Road Resurfacing for Ward 08
+1380,Ward 08,East,Sunita Devi,Roads,2024-25,Road Expansion,3270000,3020000,Completed,2024-01-22,2024-11-21,Road Expansion for Ward 08
+1381,Ward 08,East,Sunita Devi,Sanitation,2024-25,Waste Management Facility,3360000,3180000,Completed,2024-04-07,2024-08-09,Waste Management Facility for Ward 08
+1382,Ward 08,East,Sunita Devi,Sanitation,2024-25,Public Toilet Upgrade,2070000,1300000,In Progress,2024-12-02,2025-07-05,Public Toilet Upgrade for Ward 08
+1383,Ward 08,East,Sunita Devi,Sanitation,2024-25,Sewer Line Expansion,3680000,2790000,In Progress,2024-04-25,2024-08-21,Sewer Line Expansion for Ward 08
+1384,Ward 08,East,Sunita Devi,Healthcare,2024-25,Medical Equipment Purchase,2480000,2390000,Completed,2024-12-19,2025-08-29,Medical Equipment Purchase for Ward 08
+1385,Ward 08,East,Sunita Devi,Healthcare,2024-25,Community Health Facility,3740000,3330000,In Progress,2024-04-10,2024-09-20,Community Health Facility for Ward 08
+1386,Ward 08,East,Sunita Devi,Education,2024-25,Library Development,4610000,3690000,In Progress,2024-05-02,2025-05-12,Library Development for Ward 08
+1387,Ward 08,East,Sunita Devi,Education,2024-25,School Renovation,4510000,4180000,Completed,2024-11-22,2025-09-26,School Renovation for Ward 08
+1388,Ward 08,East,Sunita Devi,Water Supply,2024-25,Water Pipeline Expansion,4020000,2550000,In Progress,2024-11-22,2025-09-03,Water Pipeline Expansion for Ward 08
+1389,Ward 08,East,Sunita Devi,Water Supply,2024-25,Water Tank Construction,4750000,3470000,In Progress,2024-03-10,2024-12-17,Water Tank Construction for Ward 08
+1390,Ward 08,East,Sunita Devi,Water Supply,2024-25,Pipeline Repair,2850000,2300000,In Progress,2024-04-10,2024-09-20,Pipeline Repair for Ward 08
+1391,Ward 08,East,Sunita Devi,Infrastructure,2024-25,Community Hall Construction,3430000,3220000,Completed,2024-07-18,2025-07-14,Community Hall Construction for Ward 08
+1392,Ward 08,East,Sunita Devi,Infrastructure,2024-25,Bus Shelter Development,1920000,1350000,In Progress,2024-11-03,2025-09-19,Bus Shelter Development for Ward 08
+1393,Ward 09,Central,Arjun Rao,Roads,2024-25,Road Expansion,5640000,3670000,In Progress,2024-04-02,2024-11-15,Road Expansion for Ward 09
+1394,Ward 09,Central,Arjun Rao,Roads,2024-25,Footpath Improvement,3950000,50000,Planned,2024-10-24,2025-11-04,Footpath Improvement for Ward 09
+1395,Ward 09,Central,Arjun Rao,Roads,2024-25,Street Repair,3380000,2340000,In Progress,2024-05-01,2024-11-15,Street Repair for Ward 09
+1396,Ward 09,Central,Arjun Rao,Sanitation,2024-25,Public Toilet Upgrade,4180000,750000,Planned,2024-08-08,2025-09-11,Public Toilet Upgrade for Ward 09
+1397,Ward 09,Central,Arjun Rao,Sanitation,2024-25,Sewer Line Expansion,3590000,2720000,In Progress,2024-06-25,2025-02-14,Sewer Line Expansion for Ward 09
+1398,Ward 09,Central,Arjun Rao,Healthcare,2024-25,Community Health Facility,3170000,2550000,In Progress,2024-05-12,2025-04-29,Community Health Facility for Ward 09
+1399,Ward 09,Central,Arjun Rao,Healthcare,2024-25,PHC Upgrade,4620000,3610000,In Progress,2024-12-16,2025-08-26,PHC Upgrade for Ward 09
+1400,Ward 09,Central,Arjun Rao,Education,2024-25,School Renovation,4410000,3300000,In Progress,2024-10-08,2025-03-21,School Renovation for Ward 09
+1401,Ward 09,Central,Arjun Rao,Education,2024-25,Classroom Construction,1990000,1610000,In Progress,2024-12-14,2025-08-12,Classroom Construction for Ward 09
+1402,Ward 09,Central,Arjun Rao,Education,2024-25,School Laboratory Upgrade,2360000,1730000,In Progress,2024-04-16,2025-04-22,School Laboratory Upgrade for Ward 09
+1403,Ward 09,Central,Arjun Rao,Water Supply,2024-25,Water Tank Construction,4330000,3720000,In Progress,2024-08-24,2025-10-16,Water Tank Construction for Ward 09
+1404,Ward 09,Central,Arjun Rao,Water Supply,2024-25,Pipeline Repair,4600000,3590000,In Progress,2024-06-06,2024-11-14,Pipeline Repair for Ward 09
+1405,Ward 09,Central,Arjun Rao,Infrastructure,2024-25,Bus Shelter Development,3240000,2560000,In Progress,2024-09-21,2025-01-19,Bus Shelter Development for Ward 09
+1406,Ward 09,Central,Arjun Rao,Infrastructure,2024-25,Public Park Improvement,2800000,410000,Planned,2024-01-25,2024-04-27,Public Park Improvement for Ward 09
+1407,Ward 10,Central,Meena Kumari,Roads,2024-25,Footpath Improvement,4080000,3730000,Completed,2024-12-05,2025-03-09,Footpath Improvement for Ward 10
+1408,Ward 10,Central,Meena Kumari,Roads,2024-25,Street Repair,3380000,380000,Planned,2024-10-16,2025-09-20,Street Repair for Ward 10
+1409,Ward 10,Central,Meena Kumari,Sanitation,2024-25,Sewer Line Expansion,1850000,1490000,In Progress,2024-01-17,2024-09-03,Sewer Line Expansion for Ward 10
+1410,Ward 10,Central,Meena Kumari,Sanitation,2024-25,Drainage Construction,3170000,2280000,In Progress,2024-12-22,2025-10-28,Drainage Construction for Ward 10
+1411,Ward 10,Central,Meena Kumari,Healthcare,2024-25,PHC Upgrade,4400000,70000,Planned,2024-03-08,2024-09-12,PHC Upgrade for Ward 10
+1412,Ward 10,Central,Meena Kumari,Healthcare,2024-25,Health Center Renovation,3860000,2730000,In Progress,2024-07-03,2025-04-10,Health Center Renovation for Ward 10
+1413,Ward 10,Central,Meena Kumari,Healthcare,2024-25,Medical Equipment Purchase,4840000,3770000,In Progress,2024-12-08,2025-08-08,Medical Equipment Purchase for Ward 10
+1414,Ward 10,Central,Meena Kumari,Education,2024-25,Classroom Construction,3790000,3470000,Completed,2024-11-25,2025-03-11,Classroom Construction for Ward 10
+1415,Ward 10,Central,Meena Kumari,Education,2024-25,School Laboratory Upgrade,2200000,1650000,In Progress,2024-01-21,2024-04-24,School Laboratory Upgrade for Ward 10
+1416,Ward 10,Central,Meena Kumari,Water Supply,2024-25,Pipeline Repair,4480000,2900000,In Progress,2024-11-11,2025-11-25,Pipeline Repair for Ward 10
+1417,Ward 10,Central,Meena Kumari,Water Supply,2024-25,Water Treatment Upgrade,5350000,5140000,Completed,2024-01-08,2024-07-24,Water Treatment Upgrade for Ward 10
+1418,Ward 10,Central,Meena Kumari,Infrastructure,2024-25,Public Park Improvement,3650000,3140000,In Progress,2024-05-02,2024-09-07,Public Park Improvement for Ward 10
+1419,Ward 10,Central,Meena Kumari,Infrastructure,2024-25,Street Lighting,3160000,2260000,In Progress,2024-11-02,2025-05-02,Street Lighting for Ward 10
+1420,Ward 10,Central,Meena Kumari,Infrastructure,2024-25,Community Hall Construction,3710000,2700000,In Progress,2024-10-05,2025-07-25,Community Hall Construction for Ward 10
+1421,Ward 11,Central,Ramesh Babu,Roads,2024-25,Street Repair,5940000,4300000,In Progress,2024-10-13,2025-10-14,Street Repair for Ward 11
+1422,Ward 11,Central,Ramesh Babu,Roads,2024-25,Road Resurfacing,3790000,3350000,In Progress,2024-12-24,2025-05-03,Road Resurfacing for Ward 11
+1423,Ward 11,Central,Ramesh Babu,Sanitation,2024-25,Drainage Construction,3080000,240000,Planned,2024-02-11,2025-03-16,Drainage Construction for Ward 11
+1424,Ward 11,Central,Ramesh Babu,Sanitation,2024-25,Waste Management Facility,3750000,3570000,Completed,2024-06-01,2025-07-20,Waste Management Facility for Ward 11
+1425,Ward 11,Central,Ramesh Babu,Sanitation,2024-25,Public Toilet Upgrade,2500000,2410000,Completed,2024-06-18,2025-03-27,Public Toilet Upgrade for Ward 11
+1426,Ward 11,Central,Ramesh Babu,Healthcare,2024-25,Health Center Renovation,3320000,2840000,In Progress,2024-02-25,2025-04-06,Health Center Renovation for Ward 11
+1427,Ward 11,Central,Ramesh Babu,Healthcare,2024-25,Medical Equipment Purchase,2930000,140000,Planned,2024-07-23,2025-09-10,Medical Equipment Purchase for Ward 11
+1428,Ward 11,Central,Ramesh Babu,Education,2024-25,School Laboratory Upgrade,2360000,1780000,In Progress,2024-02-01,2024-10-05,School Laboratory Upgrade for Ward 11
+1429,Ward 11,Central,Ramesh Babu,Education,2024-25,Library Development,3150000,40000,Planned,2024-07-15,2025-07-25,Library Development for Ward 11
+1430,Ward 11,Central,Ramesh Babu,Water Supply,2024-25,Water Treatment Upgrade,4020000,250000,Planned,2024-02-20,2025-03-22,Water Treatment Upgrade for Ward 11
+1431,Ward 11,Central,Ramesh Babu,Water Supply,2024-25,Water Pipeline Expansion,4740000,350000,Planned,2024-02-24,2025-03-06,Water Pipeline Expansion for Ward 11
+1432,Ward 11,Central,Ramesh Babu,Water Supply,2024-25,Water Tank Construction,5120000,4920000,Completed,2024-03-22,2024-12-31,Water Tank Construction for Ward 11
+1433,Ward 11,Central,Ramesh Babu,Infrastructure,2024-25,Street Lighting,2000000,1420000,In Progress,2024-03-03,2024-08-25,Street Lighting for Ward 11
+1434,Ward 11,Central,Ramesh Babu,Infrastructure,2024-25,Community Hall Construction,2600000,1990000,In Progress,2024-02-12,2024-09-17,Community Hall Construction for Ward 11
+1435,Ward 12,Central,Kavya Rao,Roads,2024-25,Road Resurfacing,5990000,5220000,In Progress,2024-10-07,2025-08-27,Road Resurfacing for Ward 12
+1436,Ward 12,Central,Kavya Rao,Roads,2024-25,Road Expansion,2980000,2160000,In Progress,2024-06-20,2025-03-31,Road Expansion for Ward 12
+1437,Ward 12,Central,Kavya Rao,Roads,2024-25,Footpath Improvement,5490000,4030000,In Progress,2024-11-20,2025-04-28,Footpath Improvement for Ward 12
+1438,Ward 12,Central,Kavya Rao,Sanitation,2024-25,Waste Management Facility,2570000,2130000,In Progress,2024-08-11,2025-02-07,Waste Management Facility for Ward 12
+1439,Ward 12,Central,Kavya Rao,Sanitation,2024-25,Public Toilet Upgrade,4250000,4070000,Completed,2024-12-21,2025-11-27,Public Toilet Upgrade for Ward 12
+1440,Ward 12,Central,Kavya Rao,Healthcare,2024-25,Medical Equipment Purchase,4860000,4340000,In Progress,2024-05-13,2025-02-13,Medical Equipment Purchase for Ward 12
+1441,Ward 12,Central,Kavya Rao,Healthcare,2024-25,Community Health Facility,2400000,1960000,In Progress,2024-09-06,2025-09-12,Community Health Facility for Ward 12
+1442,Ward 12,Central,Kavya Rao,Education,2024-25,Library Development,2020000,1760000,In Progress,2024-04-15,2024-12-10,Library Development for Ward 12
+1443,Ward 12,Central,Kavya Rao,Education,2024-25,School Renovation,4190000,2690000,In Progress,2024-07-22,2025-07-02,School Renovation for Ward 12
+1444,Ward 12,Central,Kavya Rao,Education,2024-25,Classroom Construction,2320000,1680000,In Progress,2024-03-23,2025-01-23,Classroom Construction for Ward 12
+1445,Ward 12,Central,Kavya Rao,Water Supply,2024-25,Water Pipeline Expansion,4760000,3070000,In Progress,2024-08-19,2025-06-10,Water Pipeline Expansion for Ward 12
+1446,Ward 12,Central,Kavya Rao,Water Supply,2024-25,Water Tank Construction,3950000,3720000,Completed,2024-07-18,2024-11-03,Water Tank Construction for Ward 12
+1447,Ward 12,Central,Kavya Rao,Infrastructure,2024-25,Community Hall Construction,3400000,2530000,In Progress,2024-09-20,2025-11-10,Community Hall Construction for Ward 12
+1448,Ward 12,Central,Kavya Rao,Infrastructure,2024-25,Bus Shelter Development,3680000,2420000,In Progress,2024-11-12,2025-05-06,Bus Shelter Development for Ward 12
+1449,Ward 13,South,Vijay Kumar,Roads,2024-25,Road Expansion,4920000,3120000,In Progress,2024-11-21,2025-09-11,Road Expansion for Ward 13
+1450,Ward 13,South,Vijay Kumar,Roads,2024-25,Footpath Improvement,6080000,4470000,In Progress,2024-02-01,2024-06-20,Footpath Improvement for Ward 13
+1451,Ward 13,South,Vijay Kumar,Sanitation,2024-25,Public Toilet Upgrade,2470000,1970000,In Progress,2024-10-23,2025-11-11,Public Toilet Upgrade for Ward 13
+1452,Ward 13,South,Vijay Kumar,Sanitation,2024-25,Sewer Line Expansion,2370000,1770000,In Progress,2024-11-19,2025-10-31,Sewer Line Expansion for Ward 13
+1453,Ward 13,South,Vijay Kumar,Healthcare,2024-25,Community Health Facility,2510000,2430000,Completed,2024-05-14,2024-09-24,Community Health Facility for Ward 13
+1454,Ward 13,South,Vijay Kumar,Healthcare,2024-25,PHC Upgrade,2410000,2280000,Completed,2024-05-11,2025-03-30,PHC Upgrade for Ward 13
+1455,Ward 13,South,Vijay Kumar,Healthcare,2024-25,Health Center Renovation,4330000,3470000,In Progress,2024-02-15,2025-01-01,Health Center Renovation for Ward 13
+1456,Ward 13,South,Vijay Kumar,Education,2024-25,School Renovation,2810000,2030000,In Progress,2024-02-01,2024-10-23,School Renovation for Ward 13
+1457,Ward 13,South,Vijay Kumar,Education,2024-25,Classroom Construction,3690000,3160000,In Progress,2024-12-08,2025-11-27,Classroom Construction for Ward 13
+1458,Ward 13,South,Vijay Kumar,Water Supply,2024-25,Water Tank Construction,2820000,1900000,In Progress,2024-08-08,2025-06-01,Water Tank Construction for Ward 13
+1459,Ward 13,South,Vijay Kumar,Water Supply,2024-25,Pipeline Repair,4250000,2910000,In Progress,2024-07-01,2025-08-09,Pipeline Repair for Ward 13
+1460,Ward 13,South,Vijay Kumar,Infrastructure,2024-25,Bus Shelter Development,3610000,2800000,In Progress,2024-01-23,2024-08-09,Bus Shelter Development for Ward 13
+1461,Ward 13,South,Vijay Kumar,Infrastructure,2024-25,Public Park Improvement,2080000,1830000,In Progress,2024-02-19,2024-07-10,Public Park Improvement for Ward 13
+1462,Ward 13,South,Vijay Kumar,Infrastructure,2024-25,Street Lighting,3420000,2760000,In Progress,2024-04-15,2024-09-10,Street Lighting for Ward 13
+1463,Ward 14,South,Naveen Reddy,Roads,2024-25,Footpath Improvement,3540000,3260000,Completed,2024-11-11,2025-12-11,Footpath Improvement for Ward 14
+1464,Ward 14,South,Naveen Reddy,Roads,2024-25,Street Repair,3990000,250000,Planned,2024-08-20,2025-02-14,Street Repair for Ward 14
+1465,Ward 14,South,Naveen Reddy,Sanitation,2024-25,Sewer Line Expansion,3870000,3350000,In Progress,2024-10-19,2025-03-01,Sewer Line Expansion for Ward 14
+1466,Ward 14,South,Naveen Reddy,Sanitation,2024-25,Drainage Construction,3510000,2560000,In Progress,2024-02-06,2024-11-13,Drainage Construction for Ward 14
+1467,Ward 14,South,Naveen Reddy,Sanitation,2024-25,Waste Management Facility,3560000,2840000,In Progress,2024-03-19,2024-12-30,Waste Management Facility for Ward 14
+1468,Ward 14,South,Naveen Reddy,Healthcare,2024-25,PHC Upgrade,3290000,2600000,In Progress,2024-11-06,2025-11-15,PHC Upgrade for Ward 14
+1469,Ward 14,South,Naveen Reddy,Healthcare,2024-25,Health Center Renovation,2560000,1840000,In Progress,2024-08-20,2024-12-15,Health Center Renovation for Ward 14
+1470,Ward 14,South,Naveen Reddy,Education,2024-25,Classroom Construction,4280000,4070000,Completed,2024-04-13,2025-04-25,Classroom Construction for Ward 14
+1471,Ward 14,South,Naveen Reddy,Education,2024-25,School Laboratory Upgrade,3310000,2620000,In Progress,2024-07-23,2025-06-05,School Laboratory Upgrade for Ward 14
+1472,Ward 14,South,Naveen Reddy,Water Supply,2024-25,Pipeline Repair,3810000,520000,Planned,2024-05-02,2024-12-18,Pipeline Repair for Ward 14
+1473,Ward 14,South,Naveen Reddy,Water Supply,2024-25,Water Treatment Upgrade,2980000,2140000,In Progress,2024-10-24,2025-10-02,Water Treatment Upgrade for Ward 14
+1474,Ward 14,South,Naveen Reddy,Water Supply,2024-25,Water Pipeline Expansion,4000000,550000,Planned,2024-06-18,2024-10-07,Water Pipeline Expansion for Ward 14
+1475,Ward 14,South,Naveen Reddy,Infrastructure,2024-25,Public Park Improvement,3330000,2570000,In Progress,2024-07-04,2025-02-05,Public Park Improvement for Ward 14
+1476,Ward 14,South,Naveen Reddy,Infrastructure,2024-25,Street Lighting,2290000,2220000,Completed,2024-06-03,2025-04-13,Street Lighting for Ward 14
+1477,Ward 15,South,Anusha Devi,Roads,2024-25,Street Repair,5710000,3770000,In Progress,2024-04-24,2025-05-20,Street Repair for Ward 15
+1478,Ward 15,South,Anusha Devi,Roads,2024-25,Road Resurfacing,5080000,4680000,Completed,2024-07-06,2025-08-15,Road Resurfacing for Ward 15
+1479,Ward 15,South,Anusha Devi,Roads,2024-25,Road Expansion,3100000,2140000,In Progress,2024-01-19,2024-10-14,Road Expansion for Ward 15
+1480,Ward 15,South,Anusha Devi,Sanitation,2024-25,Drainage Construction,3160000,2610000,In Progress,2024-12-10,2025-08-05,Drainage Construction for Ward 15
+1481,Ward 15,South,Anusha Devi,Sanitation,2024-25,Waste Management Facility,3260000,3100000,Completed,2024-11-04,2025-04-12,Waste Management Facility for Ward 15
+1482,Ward 15,South,Anusha Devi,Healthcare,2024-25,Health Center Renovation,4850000,4340000,In Progress,2024-05-21,2024-10-22,Health Center Renovation for Ward 15
+1483,Ward 15,South,Anusha Devi,Healthcare,2024-25,Medical Equipment Purchase,4100000,2730000,In Progress,2024-06-08,2025-03-26,Medical Equipment Purchase for Ward 15
+1484,Ward 15,South,Anusha Devi,Education,2024-25,School Laboratory Upgrade,3270000,2680000,In Progress,2024-07-13,2025-05-30,School Laboratory Upgrade for Ward 15
+1485,Ward 15,South,Anusha Devi,Education,2024-25,Library Development,2150000,1930000,In Progress,2024-07-17,2025-03-06,Library Development for Ward 15
+1486,Ward 15,South,Anusha Devi,Education,2024-25,School Renovation,3820000,3540000,Completed,2024-08-11,2025-09-02,School Renovation for Ward 15
+1487,Ward 15,South,Anusha Devi,Water Supply,2024-25,Water Treatment Upgrade,2280000,2030000,In Progress,2024-12-15,2026-02-03,Water Treatment Upgrade for Ward 15
+1488,Ward 15,South,Anusha Devi,Water Supply,2024-25,Water Pipeline Expansion,4360000,410000,Planned,2024-04-14,2024-10-29,Water Pipeline Expansion for Ward 15
+1489,Ward 15,South,Anusha Devi,Infrastructure,2024-25,Street Lighting,2730000,2000000,In Progress,2024-09-19,2025-02-22,Street Lighting for Ward 15
+1490,Ward 15,South,Anusha Devi,Infrastructure,2024-25,Community Hall Construction,2890000,2280000,In Progress,2024-11-25,2025-03-19,Community Hall Construction for Ward 15
+1491,Ward 16,South,Prakash Rao,Roads,2024-25,Road Resurfacing,2760000,2310000,In Progress,2024-01-04,2024-06-22,Road Resurfacing for Ward 16
+1492,Ward 16,South,Prakash Rao,Roads,2024-25,Road Expansion,4180000,2590000,In Progress,2024-04-23,2024-09-27,Road Expansion for Ward 16
+1493,Ward 16,South,Prakash Rao,Sanitation,2024-25,Waste Management Facility,4040000,2930000,In Progress,2024-05-03,2025-02-01,Waste Management Facility for Ward 16
+1494,Ward 16,South,Prakash Rao,Sanitation,2024-25,Public Toilet Upgrade,2450000,1830000,In Progress,2024-03-02,2024-12-19,Public Toilet Upgrade for Ward 16
+1495,Ward 16,South,Prakash Rao,Healthcare,2024-25,Medical Equipment Purchase,3880000,3390000,In Progress,2024-07-21,2024-12-04,Medical Equipment Purchase for Ward 16
+1496,Ward 16,South,Prakash Rao,Healthcare,2024-25,Community Health Facility,4100000,2540000,In Progress,2024-03-19,2024-10-10,Community Health Facility for Ward 16
+1497,Ward 16,South,Prakash Rao,Healthcare,2024-25,PHC Upgrade,3570000,220000,Planned,2024-02-14,2024-07-20,PHC Upgrade for Ward 16
+1498,Ward 16,South,Prakash Rao,Education,2024-25,Library Development,3230000,460000,Planned,2024-02-11,2024-11-15,Library Development for Ward 16
+1499,Ward 16,South,Prakash Rao,Education,2024-25,School Renovation,4320000,2880000,In Progress,2024-03-21,2024-08-31,School Renovation for Ward 16
+1500,Ward 16,South,Prakash Rao,Water Supply,2024-25,Water Pipeline Expansion,2490000,2030000,In Progress,2024-03-15,2024-12-09,Water Pipeline Expansion for Ward 16
+1501,Ward 16,South,Prakash Rao,Water Supply,2024-25,Water Tank Construction,4550000,3820000,In Progress,2024-07-20,2025-06-01,Water Tank Construction for Ward 16
+1502,Ward 16,South,Prakash Rao,Infrastructure,2024-25,Community Hall Construction,3550000,480000,Planned,2024-10-24,2025-08-06,Community Hall Construction for Ward 16
+1503,Ward 16,South,Prakash Rao,Infrastructure,2024-25,Bus Shelter Development,2410000,1850000,In Progress,2024-04-09,2025-06-03,Bus Shelter Development for Ward 16
+1504,Ward 16,South,Prakash Rao,Infrastructure,2024-25,Public Park Improvement,1810000,1470000,In Progress,2024-10-10,2025-01-21,Public Park Improvement for Ward 16
+1505,Ward 17,West,Harish Kumar,Roads,2024-25,Road Expansion,5650000,4800000,In Progress,2024-09-20,2025-09-05,Road Expansion for Ward 17
+1506,Ward 17,West,Harish Kumar,Roads,2024-25,Footpath Improvement,3270000,2470000,In Progress,2024-04-16,2025-01-28,Footpath Improvement for Ward 17
+1507,Ward 17,West,Harish Kumar,Sanitation,2024-25,Public Toilet Upgrade,2100000,1660000,In Progress,2024-09-01,2025-06-02,Public Toilet Upgrade for Ward 17
+1508,Ward 17,West,Harish Kumar,Sanitation,2024-25,Sewer Line Expansion,4170000,2770000,In Progress,2024-10-14,2025-07-18,Sewer Line Expansion for Ward 17
+1509,Ward 17,West,Harish Kumar,Sanitation,2024-25,Drainage Construction,3190000,2170000,In Progress,2024-02-01,2025-02-25,Drainage Construction for Ward 17
+1510,Ward 17,West,Harish Kumar,Healthcare,2024-25,Community Health Facility,2270000,20000,Planned,2024-07-17,2025-03-10,Community Health Facility for Ward 17
+1511,Ward 17,West,Harish Kumar,Healthcare,2024-25,PHC Upgrade,3890000,3090000,In Progress,2024-12-13,2025-04-24,PHC Upgrade for Ward 17
+1512,Ward 17,West,Harish Kumar,Education,2024-25,School Renovation,3670000,2960000,In Progress,2024-02-10,2024-06-19,School Renovation for Ward 17
+1513,Ward 17,West,Harish Kumar,Education,2024-25,Classroom Construction,3330000,2300000,In Progress,2024-09-11,2025-06-28,Classroom Construction for Ward 17
+1514,Ward 17,West,Harish Kumar,Water Supply,2024-25,Water Tank Construction,4120000,3650000,In Progress,2024-11-03,2025-07-09,Water Tank Construction for Ward 17
+1515,Ward 17,West,Harish Kumar,Water Supply,2024-25,Pipeline Repair,4470000,3910000,In Progress,2024-01-08,2024-05-21,Pipeline Repair for Ward 17
+1516,Ward 17,West,Harish Kumar,Water Supply,2024-25,Water Treatment Upgrade,5180000,3420000,In Progress,2024-01-10,2024-07-07,Water Treatment Upgrade for Ward 17
+1517,Ward 17,West,Harish Kumar,Infrastructure,2024-25,Bus Shelter Development,1890000,1640000,In Progress,2024-03-16,2024-12-08,Bus Shelter Development for Ward 17
+1518,Ward 17,West,Harish Kumar,Infrastructure,2024-25,Public Park Improvement,2800000,2500000,In Progress,2024-03-12,2024-08-13,Public Park Improvement for Ward 17
+1519,Ward 18,West,Deepa Devi,Roads,2024-25,Footpath Improvement,5290000,4890000,Completed,2024-02-25,2024-06-09,Footpath Improvement for Ward 18
+1520,Ward 18,West,Deepa Devi,Roads,2024-25,Street Repair,3800000,2920000,In Progress,2024-05-23,2025-06-12,Street Repair for Ward 18
+1521,Ward 18,West,Deepa Devi,Roads,2024-25,Road Resurfacing,4850000,3840000,In Progress,2024-01-16,2025-01-30,Road Resurfacing for Ward 18
+1522,Ward 18,West,Deepa Devi,Sanitation,2024-25,Sewer Line Expansion,2240000,1510000,In Progress,2024-10-22,2025-03-20,Sewer Line Expansion for Ward 18
+1523,Ward 18,West,Deepa Devi,Sanitation,2024-25,Drainage Construction,2390000,370000,Planned,2024-04-02,2025-02-27,Drainage Construction for Ward 18
+1524,Ward 18,West,Deepa Devi,Healthcare,2024-25,PHC Upgrade,3120000,2930000,Completed,2024-01-18,2024-11-17,PHC Upgrade for Ward 18
+1525,Ward 18,West,Deepa Devi,Healthcare,2024-25,Health Center Renovation,2720000,1920000,In Progress,2024-06-09,2024-10-16,Health Center Renovation for Ward 18
+1526,Ward 18,West,Deepa Devi,Education,2024-25,Classroom Construction,3490000,2300000,In Progress,2024-01-06,2024-07-28,Classroom Construction for Ward 18
+1527,Ward 18,West,Deepa Devi,Education,2024-25,School Laboratory Upgrade,4120000,3960000,Completed,2024-02-15,2024-10-06,School Laboratory Upgrade for Ward 18
+1528,Ward 18,West,Deepa Devi,Education,2024-25,Library Development,4030000,330000,Planned,2024-06-07,2025-02-01,Library Development for Ward 18
+1529,Ward 18,West,Deepa Devi,Water Supply,2024-25,Pipeline Repair,4050000,2940000,In Progress,2024-08-12,2025-09-08,Pipeline Repair for Ward 18
+1530,Ward 18,West,Deepa Devi,Water Supply,2024-25,Water Treatment Upgrade,5330000,5160000,Completed,2024-12-18,2025-07-21,Water Treatment Upgrade for Ward 18
+1531,Ward 18,West,Deepa Devi,Infrastructure,2024-25,Public Park Improvement,1960000,190000,Planned,2024-11-23,2025-02-25,Public Park Improvement for Ward 18
+1532,Ward 18,West,Deepa Devi,Infrastructure,2024-25,Street Lighting,3760000,2330000,In Progress,2024-12-24,2025-08-28,Street Lighting for Ward 18
+1533,Ward 19,West,Rohit Rao,Roads,2024-25,Street Repair,2970000,2390000,In Progress,2024-08-02,2025-01-11,Street Repair for Ward 19
+1534,Ward 19,West,Rohit Rao,Roads,2024-25,Road Resurfacing,5160000,3360000,In Progress,2024-09-14,2025-06-21,Road Resurfacing for Ward 19
+1535,Ward 19,West,Rohit Rao,Sanitation,2024-25,Drainage Construction,2970000,2610000,In Progress,2024-09-05,2025-10-26,Drainage Construction for Ward 19
+1536,Ward 19,West,Rohit Rao,Sanitation,2024-25,Waste Management Facility,3880000,2500000,In Progress,2024-07-22,2024-12-25,Waste Management Facility for Ward 19
+1537,Ward 19,West,Rohit Rao,Healthcare,2024-25,Health Center Renovation,2760000,1960000,In Progress,2024-07-23,2025-04-06,Health Center Renovation for Ward 19
+1538,Ward 19,West,Rohit Rao,Healthcare,2024-25,Medical Equipment Purchase,2990000,100000,Planned,2024-10-04,2025-03-22,Medical Equipment Purchase for Ward 19
+1539,Ward 19,West,Rohit Rao,Healthcare,2024-25,Community Health Facility,2380000,1850000,In Progress,2024-02-18,2024-11-17,Community Health Facility for Ward 19
+1540,Ward 19,West,Rohit Rao,Education,2024-25,School Laboratory Upgrade,4550000,3150000,In Progress,2024-05-04,2024-09-17,School Laboratory Upgrade for Ward 19
+1541,Ward 19,West,Rohit Rao,Education,2024-25,Library Development,2370000,2030000,In Progress,2024-12-20,2025-04-09,Library Development for Ward 19
+1542,Ward 19,West,Rohit Rao,Water Supply,2024-25,Water Treatment Upgrade,2950000,2710000,Completed,2024-12-08,2025-09-06,Water Treatment Upgrade for Ward 19
+1543,Ward 19,West,Rohit Rao,Water Supply,2024-25,Water Pipeline Expansion,3520000,2240000,In Progress,2024-03-01,2024-12-23,Water Pipeline Expansion for Ward 19
+1544,Ward 19,West,Rohit Rao,Infrastructure,2024-25,Street Lighting,3540000,2880000,In Progress,2024-02-15,2024-07-06,Street Lighting for Ward 19
+1545,Ward 19,West,Rohit Rao,Infrastructure,2024-25,Community Hall Construction,3430000,510000,Planned,2024-04-05,2024-10-13,Community Hall Construction for Ward 19
+1546,Ward 19,West,Rohit Rao,Infrastructure,2024-25,Bus Shelter Development,3470000,2600000,In Progress,2024-11-03,2025-11-26,Bus Shelter Development for Ward 19
+1547,Ward 20,West,Swathi Kumar,Roads,2024-25,Road Resurfacing,4710000,840000,Planned,2024-04-21,2025-03-04,Road Resurfacing for Ward 20
+1548,Ward 20,West,Swathi Kumar,Roads,2024-25,Road Expansion,5510000,3590000,In Progress,2024-06-04,2024-09-23,Road Expansion for Ward 20
+1549,Ward 20,West,Swathi Kumar,Sanitation,2024-25,Waste Management Facility,4190000,2670000,In Progress,2024-07-24,2025-05-12,Waste Management Facility for Ward 20
+1550,Ward 20,West,Swathi Kumar,Sanitation,2024-25,Public Toilet Upgrade,3070000,2310000,In Progress,2024-06-07,2024-12-09,Public Toilet Upgrade for Ward 20
+1551,Ward 20,West,Swathi Kumar,Sanitation,2024-25,Sewer Line Expansion,2510000,1940000,In Progress,2024-10-20,2025-11-29,Sewer Line Expansion for Ward 20
+1552,Ward 20,West,Swathi Kumar,Healthcare,2024-25,Medical Equipment Purchase,2780000,2010000,In Progress,2024-09-16,2025-01-15,Medical Equipment Purchase for Ward 20
+1553,Ward 20,West,Swathi Kumar,Healthcare,2024-25,Community Health Facility,2330000,1750000,In Progress,2024-11-17,2025-06-22,Community Health Facility for Ward 20
+1554,Ward 20,West,Swathi Kumar,Education,2024-25,Library Development,3650000,3280000,Completed,2024-07-23,2025-04-22,Library Development for Ward 20
+1555,Ward 20,West,Swathi Kumar,Education,2024-25,School Renovation,3240000,2890000,In Progress,2024-10-17,2025-06-28,School Renovation for Ward 20
+1556,Ward 20,West,Swathi Kumar,Water Supply,2024-25,Water Pipeline Expansion,3490000,2380000,In Progress,2024-04-01,2024-11-20,Water Pipeline Expansion for Ward 20
+1557,Ward 20,West,Swathi Kumar,Water Supply,2024-25,Water Tank Construction,2450000,2360000,Completed,2024-10-08,2025-03-28,Water Tank Construction for Ward 20
+1558,Ward 20,West,Swathi Kumar,Water Supply,2024-25,Pipeline Repair,2590000,2200000,In Progress,2024-12-02,2025-06-22,Pipeline Repair for Ward 20
+1559,Ward 20,West,Swathi Kumar,Infrastructure,2024-25,Community Hall Construction,2920000,2810000,Completed,2024-03-06,2024-10-03,Community Hall Construction for Ward 20
+1560,Ward 20,West,Swathi Kumar,Infrastructure,2024-25,Bus Shelter Development,2950000,2660000,Completed,2024-10-01,2025-06-28,Bus Shelter Development for Ward 20
+1561,Ward 01,North,Ravi Kumar,Roads,2025-26,Footpath Improvement,6010000,4910000,In Progress,2025-04-16,2026-04-18,Footpath Improvement for Ward 01
+1562,Ward 01,North,Ravi Kumar,Roads,2025-26,Street Repair,3710000,150000,Planned,2025-04-01,2026-03-26,Street Repair for Ward 01
+1563,Ward 01,North,Ravi Kumar,Sanitation,2025-26,Sewer Line Expansion,3020000,2220000,In Progress,2025-03-11,2025-09-07,Sewer Line Expansion for Ward 01
+1564,Ward 01,North,Ravi Kumar,Sanitation,2025-26,Drainage Construction,4130000,3780000,Completed,2025-01-05,2026-01-30,Drainage Construction for Ward 01
+1565,Ward 01,North,Ravi Kumar,Sanitation,2025-26,Waste Management Facility,3590000,340000,Planned,2025-06-03,2026-03-11,Waste Management Facility for Ward 01
+1566,Ward 01,North,Ravi Kumar,Healthcare,2025-26,PHC Upgrade,4100000,3490000,In Progress,2025-06-10,2026-02-20,PHC Upgrade for Ward 01
+1567,Ward 01,North,Ravi Kumar,Healthcare,2025-26,Health Center Renovation,2470000,1660000,In Progress,2025-11-16,2026-07-26,Health Center Renovation for Ward 01
+1568,Ward 01,North,Ravi Kumar,Education,2025-26,Classroom Construction,2420000,2320000,Completed,2025-10-12,2026-05-04,Classroom Construction for Ward 01
+1569,Ward 01,North,Ravi Kumar,Education,2025-26,School Laboratory Upgrade,3740000,3380000,Completed,2025-12-23,2026-08-20,School Laboratory Upgrade for Ward 01
+1570,Ward 01,North,Ravi Kumar,Water Supply,2025-26,Pipeline Repair,2670000,2330000,In Progress,2025-10-13,2026-10-28,Pipeline Repair for Ward 01
+1571,Ward 01,North,Ravi Kumar,Water Supply,2025-26,Water Treatment Upgrade,2370000,1960000,In Progress,2025-10-08,2026-11-29,Water Treatment Upgrade for Ward 01
+1572,Ward 01,North,Ravi Kumar,Water Supply,2025-26,Water Pipeline Expansion,4050000,3830000,Completed,2025-12-03,2026-07-02,Water Pipeline Expansion for Ward 01
+1573,Ward 01,North,Ravi Kumar,Infrastructure,2025-26,Public Park Improvement,2400000,1750000,In Progress,2025-02-23,2026-04-16,Public Park Improvement for Ward 01
+1574,Ward 01,North,Ravi Kumar,Infrastructure,2025-26,Street Lighting,3260000,120000,Planned,2025-12-03,2026-08-29,Street Lighting for Ward 01
+1575,Ward 02,North,Suresh Rao,Roads,2025-26,Street Repair,3520000,240000,Planned,2025-12-14,2026-06-07,Street Repair for Ward 02
+1576,Ward 02,North,Suresh Rao,Roads,2025-26,Road Resurfacing,5780000,4580000,In Progress,2025-09-13,2026-02-01,Road Resurfacing for Ward 02
+1577,Ward 02,North,Suresh Rao,Roads,2025-26,Road Expansion,5580000,4990000,In Progress,2025-11-08,2026-04-30,Road Expansion for Ward 02
+1578,Ward 02,North,Suresh Rao,Sanitation,2025-26,Drainage Construction,2950000,10000,Planned,2025-05-04,2025-09-08,Drainage Construction for Ward 02
+1579,Ward 02,North,Suresh Rao,Sanitation,2025-26,Waste Management Facility,2680000,2490000,Completed,2025-02-18,2025-07-05,Waste Management Facility for Ward 02
+1580,Ward 02,North,Suresh Rao,Healthcare,2025-26,Health Center Renovation,3050000,2940000,Completed,2025-12-01,2026-10-07,Health Center Renovation for Ward 02
+1581,Ward 02,North,Suresh Rao,Healthcare,2025-26,Medical Equipment Purchase,4790000,3240000,In Progress,2025-03-02,2025-07-21,Medical Equipment Purchase for Ward 02
+1582,Ward 02,North,Suresh Rao,Education,2025-26,School Laboratory Upgrade,2840000,2720000,Completed,2025-09-24,2026-09-25,School Laboratory Upgrade for Ward 02
+1583,Ward 02,North,Suresh Rao,Education,2025-26,Library Development,2660000,1910000,In Progress,2025-01-13,2026-01-30,Library Development for Ward 02
+1584,Ward 02,North,Suresh Rao,Education,2025-26,School Renovation,3430000,0,Planned,2025-02-10,2026-03-27,School Renovation for Ward 02
+1585,Ward 02,North,Suresh Rao,Water Supply,2025-26,Water Treatment Upgrade,4160000,120000,Planned,2025-05-03,2026-03-31,Water Treatment Upgrade for Ward 02
+1586,Ward 02,North,Suresh Rao,Water Supply,2025-26,Water Pipeline Expansion,4930000,3580000,In Progress,2025-08-22,2026-04-04,Water Pipeline Expansion for Ward 02
+1587,Ward 02,North,Suresh Rao,Infrastructure,2025-26,Street Lighting,1830000,1480000,In Progress,2025-07-12,2026-01-13,Street Lighting for Ward 02
+1588,Ward 02,North,Suresh Rao,Infrastructure,2025-26,Community Hall Construction,2620000,1860000,In Progress,2025-04-09,2026-04-22,Community Hall Construction for Ward 02
+1589,Ward 03,North,Priya Devi,Roads,2025-26,Road Resurfacing,2820000,2490000,In Progress,2025-02-22,2025-11-15,Road Resurfacing for Ward 03
+1590,Ward 03,North,Priya Devi,Roads,2025-26,Road Expansion,5500000,4200000,In Progress,2025-04-18,2025-08-17,Road Expansion for Ward 03
+1591,Ward 03,North,Priya Devi,Sanitation,2025-26,Waste Management Facility,3930000,3560000,Completed,2025-09-22,2026-08-21,Waste Management Facility for Ward 03
+1592,Ward 03,North,Priya Devi,Sanitation,2025-26,Public Toilet Upgrade,3260000,2290000,In Progress,2025-07-23,2025-11-07,Public Toilet Upgrade for Ward 03
+1593,Ward 03,North,Priya Devi,Healthcare,2025-26,Medical Equipment Purchase,3520000,3290000,Completed,2025-11-20,2026-05-04,Medical Equipment Purchase for Ward 03
+1594,Ward 03,North,Priya Devi,Healthcare,2025-26,Community Health Facility,2420000,2140000,In Progress,2025-03-07,2025-09-11,Community Health Facility for Ward 03
+1595,Ward 03,North,Priya Devi,Healthcare,2025-26,PHC Upgrade,2440000,1870000,In Progress,2025-07-07,2026-08-22,PHC Upgrade for Ward 03
+1596,Ward 03,North,Priya Devi,Education,2025-26,Library Development,2340000,1930000,In Progress,2025-12-03,2026-04-16,Library Development for Ward 03
+1597,Ward 03,North,Priya Devi,Education,2025-26,School Renovation,2990000,2260000,In Progress,2025-05-17,2026-04-06,School Renovation for Ward 03
+1598,Ward 03,North,Priya Devi,Water Supply,2025-26,Water Pipeline Expansion,5160000,3220000,In Progress,2025-10-17,2026-08-17,Water Pipeline Expansion for Ward 03
+1599,Ward 03,North,Priya Devi,Water Supply,2025-26,Water Tank Construction,2620000,1760000,In Progress,2025-10-25,2026-03-15,Water Tank Construction for Ward 03
+1600,Ward 03,North,Priya Devi,Infrastructure,2025-26,Community Hall Construction,3700000,190000,Planned,2025-09-12,2026-07-09,Community Hall Construction for Ward 03
+1601,Ward 03,North,Priya Devi,Infrastructure,2025-26,Bus Shelter Development,2210000,1870000,In Progress,2025-08-02,2026-01-27,Bus Shelter Development for Ward 03
+1602,Ward 03,North,Priya Devi,Infrastructure,2025-26,Public Park Improvement,2240000,1500000,In Progress,2025-12-13,2026-04-01,Public Park Improvement for Ward 03
+1603,Ward 04,North,Anil Kumar,Roads,2025-26,Road Expansion,4020000,3720000,Completed,2025-01-24,2025-12-23,Road Expansion for Ward 04
+1604,Ward 04,North,Anil Kumar,Roads,2025-26,Footpath Improvement,5910000,860000,Planned,2025-05-10,2025-12-29,Footpath Improvement for Ward 04
+1605,Ward 04,North,Anil Kumar,Sanitation,2025-26,Public Toilet Upgrade,3940000,3620000,Completed,2025-04-05,2025-12-04,Public Toilet Upgrade for Ward 04
+1606,Ward 04,North,Anil Kumar,Sanitation,2025-26,Sewer Line Expansion,4270000,3300000,In Progress,2025-05-24,2026-03-23,Sewer Line Expansion for Ward 04
+1607,Ward 04,North,Anil Kumar,Sanitation,2025-26,Drainage Construction,3340000,2170000,In Progress,2025-07-24,2026-06-27,Drainage Construction for Ward 04
+1608,Ward 04,North,Anil Kumar,Healthcare,2025-26,Community Health Facility,4260000,3930000,Completed,2025-09-06,2026-01-07,Community Health Facility for Ward 04
+1609,Ward 04,North,Anil Kumar,Healthcare,2025-26,PHC Upgrade,2970000,2360000,In Progress,2025-09-19,2026-01-01,PHC Upgrade for Ward 04
+1610,Ward 04,North,Anil Kumar,Education,2025-26,School Renovation,2410000,2230000,Completed,2025-01-08,2025-04-24,School Renovation for Ward 04
+1611,Ward 04,North,Anil Kumar,Education,2025-26,Classroom Construction,3180000,2990000,Completed,2025-05-12,2026-04-04,Classroom Construction for Ward 04
+1612,Ward 04,North,Anil Kumar,Water Supply,2025-26,Water Tank Construction,3860000,3250000,In Progress,2025-01-08,2025-10-15,Water Tank Construction for Ward 04
+1613,Ward 04,North,Anil Kumar,Water Supply,2025-26,Pipeline Repair,3810000,2950000,In Progress,2025-08-19,2026-08-26,Pipeline Repair for Ward 04
+1614,Ward 04,North,Anil Kumar,Water Supply,2025-26,Water Treatment Upgrade,3370000,2280000,In Progress,2025-12-23,2026-05-08,Water Treatment Upgrade for Ward 04
+1615,Ward 04,North,Anil Kumar,Infrastructure,2025-26,Bus Shelter Development,2260000,1700000,In Progress,2025-10-25,2026-05-12,Bus Shelter Development for Ward 04
+1616,Ward 04,North,Anil Kumar,Infrastructure,2025-26,Public Park Improvement,3550000,3000000,In Progress,2025-05-21,2026-03-16,Public Park Improvement for Ward 04
+1617,Ward 05,East,Lakshmi Devi,Roads,2025-26,Footpath Improvement,4440000,4090000,Completed,2025-11-01,2026-09-29,Footpath Improvement for Ward 05
+1618,Ward 05,East,Lakshmi Devi,Roads,2025-26,Street Repair,5880000,4970000,In Progress,2025-01-08,2025-08-15,Street Repair for Ward 05
+1619,Ward 05,East,Lakshmi Devi,Roads,2025-26,Road Resurfacing,4790000,4550000,Completed,2025-12-21,2026-08-08,Road Resurfacing for Ward 05
+1620,Ward 05,East,Lakshmi Devi,Sanitation,2025-26,Sewer Line Expansion,2880000,2160000,In Progress,2025-05-07,2026-03-31,Sewer Line Expansion for Ward 05
+1621,Ward 05,East,Lakshmi Devi,Sanitation,2025-26,Drainage Construction,2580000,2060000,In Progress,2025-10-04,2026-01-05,Drainage Construction for Ward 05
+1622,Ward 05,East,Lakshmi Devi,Healthcare,2025-26,PHC Upgrade,3550000,3020000,In Progress,2025-06-18,2026-07-17,PHC Upgrade for Ward 05
+1623,Ward 05,East,Lakshmi Devi,Healthcare,2025-26,Health Center Renovation,3830000,40000,Planned,2025-05-21,2026-02-01,Health Center Renovation for Ward 05
+1624,Ward 05,East,Lakshmi Devi,Education,2025-26,Classroom Construction,4270000,3030000,In Progress,2025-11-10,2026-05-15,Classroom Construction for Ward 05
+1625,Ward 05,East,Lakshmi Devi,Education,2025-26,School Laboratory Upgrade,2350000,2080000,In Progress,2025-10-13,2026-06-23,School Laboratory Upgrade for Ward 05
+1626,Ward 05,East,Lakshmi Devi,Education,2025-26,Library Development,3780000,3290000,In Progress,2025-05-09,2026-03-09,Library Development for Ward 05
+1627,Ward 05,East,Lakshmi Devi,Water Supply,2025-26,Pipeline Repair,3540000,3100000,In Progress,2025-10-07,2026-06-29,Pipeline Repair for Ward 05
+1628,Ward 05,East,Lakshmi Devi,Water Supply,2025-26,Water Treatment Upgrade,4560000,3180000,In Progress,2025-08-22,2026-05-22,Water Treatment Upgrade for Ward 05
+1629,Ward 05,East,Lakshmi Devi,Infrastructure,2025-26,Public Park Improvement,2760000,2520000,Completed,2025-09-06,2026-05-04,Public Park Improvement for Ward 05
+1630,Ward 05,East,Lakshmi Devi,Infrastructure,2025-26,Street Lighting,1840000,1220000,In Progress,2025-09-25,2026-03-27,Street Lighting for Ward 05
+1631,Ward 06,East,Mohan Rao,Roads,2025-26,Street Repair,6000000,5600000,Completed,2025-04-12,2025-11-02,Street Repair for Ward 06
+1632,Ward 06,East,Mohan Rao,Roads,2025-26,Road Resurfacing,5270000,3830000,In Progress,2025-06-12,2026-01-21,Road Resurfacing for Ward 06
+1633,Ward 06,East,Mohan Rao,Sanitation,2025-26,Drainage Construction,3290000,30000,Planned,2025-11-19,2026-12-11,Drainage Construction for Ward 06
+1634,Ward 06,East,Mohan Rao,Sanitation,2025-26,Waste Management Facility,4190000,2700000,In Progress,2025-09-04,2026-06-16,Waste Management Facility for Ward 06
+1635,Ward 06,East,Mohan Rao,Healthcare,2025-26,Health Center Renovation,3600000,2750000,In Progress,2025-03-05,2025-09-13,Health Center Renovation for Ward 06
+1636,Ward 06,East,Mohan Rao,Healthcare,2025-26,Medical Equipment Purchase,3060000,2950000,Completed,2025-08-05,2026-04-13,Medical Equipment Purchase for Ward 06
+1637,Ward 06,East,Mohan Rao,Healthcare,2025-26,Community Health Facility,4560000,270000,Planned,2025-03-11,2026-04-29,Community Health Facility for Ward 06
+1638,Ward 06,East,Mohan Rao,Education,2025-26,School Laboratory Upgrade,2100000,1630000,In Progress,2025-03-19,2025-09-06,School Laboratory Upgrade for Ward 06
+1639,Ward 06,East,Mohan Rao,Education,2025-26,Library Development,3270000,360000,Planned,2025-11-14,2026-09-06,Library Development for Ward 06
+1640,Ward 06,East,Mohan Rao,Water Supply,2025-26,Water Treatment Upgrade,3620000,340000,Planned,2025-12-12,2026-03-19,Water Treatment Upgrade for Ward 06
+1641,Ward 06,East,Mohan Rao,Water Supply,2025-26,Water Pipeline Expansion,5080000,4490000,In Progress,2025-01-22,2025-04-24,Water Pipeline Expansion for Ward 06
+1642,Ward 06,East,Mohan Rao,Infrastructure,2025-26,Street Lighting,3030000,2140000,In Progress,2025-06-10,2025-11-13,Street Lighting for Ward 06
+1643,Ward 06,East,Mohan Rao,Infrastructure,2025-26,Community Hall Construction,1850000,1470000,In Progress,2025-02-02,2025-10-02,Community Hall Construction for Ward 06
+1644,Ward 06,East,Mohan Rao,Infrastructure,2025-26,Bus Shelter Development,3750000,2920000,In Progress,2025-09-11,2026-07-20,Bus Shelter Development for Ward 06
+1645,Ward 07,East,Kiran Kumar,Roads,2025-26,Road Resurfacing,5790000,5600000,Completed,2025-08-12,2026-02-14,Road Resurfacing for Ward 07
+1646,Ward 07,East,Kiran Kumar,Roads,2025-26,Road Expansion,3190000,2990000,Completed,2025-01-08,2025-07-31,Road Expansion for Ward 07
+1647,Ward 07,East,Kiran Kumar,Sanitation,2025-26,Waste Management Facility,3650000,2430000,In Progress,2025-10-17,2026-04-11,Waste Management Facility for Ward 07
+1648,Ward 07,East,Kiran Kumar,Sanitation,2025-26,Public Toilet Upgrade,2130000,1850000,In Progress,2025-07-21,2026-02-26,Public Toilet Upgrade for Ward 07
+1649,Ward 07,East,Kiran Kumar,Sanitation,2025-26,Sewer Line Expansion,3760000,3150000,In Progress,2025-01-22,2025-06-16,Sewer Line Expansion for Ward 07
+1650,Ward 07,East,Kiran Kumar,Healthcare,2025-26,Medical Equipment Purchase,3960000,2480000,In Progress,2025-07-15,2026-04-25,Medical Equipment Purchase for Ward 07
+1651,Ward 07,East,Kiran Kumar,Healthcare,2025-26,Community Health Facility,2430000,1720000,In Progress,2025-04-23,2026-06-09,Community Health Facility for Ward 07
+1652,Ward 07,East,Kiran Kumar,Education,2025-26,Library Development,1970000,180000,Planned,2025-10-20,2026-03-29,Library Development for Ward 07
+1653,Ward 07,East,Kiran Kumar,Education,2025-26,School Renovation,3080000,2870000,Completed,2025-10-04,2026-05-26,School Renovation for Ward 07
+1654,Ward 07,East,Kiran Kumar,Water Supply,2025-26,Water Pipeline Expansion,2630000,1720000,In Progress,2025-04-25,2025-12-05,Water Pipeline Expansion for Ward 07
+1655,Ward 07,East,Kiran Kumar,Water Supply,2025-26,Water Tank Construction,4890000,4690000,Completed,2025-07-10,2025-12-29,Water Tank Construction for Ward 07
+1656,Ward 07,East,Kiran Kumar,Water Supply,2025-26,Pipeline Repair,2390000,1890000,In Progress,2025-08-11,2026-03-09,Pipeline Repair for Ward 07
+1657,Ward 07,East,Kiran Kumar,Infrastructure,2025-26,Community Hall Construction,1630000,1390000,In Progress,2025-10-22,2026-09-29,Community Hall Construction for Ward 07
+1658,Ward 07,East,Kiran Kumar,Infrastructure,2025-26,Bus Shelter Development,1960000,1270000,In Progress,2025-12-24,2026-05-14,Bus Shelter Development for Ward 07
+1659,Ward 08,East,Sunita Devi,Roads,2025-26,Road Expansion,5850000,2810000,Delayed,2025-05-09,2026-04-01,Road Expansion for Ward 08
+1660,Ward 08,East,Sunita Devi,Roads,2025-26,Footpath Improvement,2780000,1460000,In Progress,2025-05-12,2026-01-17,Footpath Improvement for Ward 08
+1661,Ward 08,East,Sunita Devi,Roads,2025-26,Street Repair,4130000,1370000,Delayed,2025-01-01,2025-06-10,Street Repair for Ward 08
+1662,Ward 08,East,Sunita Devi,Sanitation,2025-26,Public Toilet Upgrade,3490000,1210000,Delayed,2025-08-20,2026-04-04,Public Toilet Upgrade for Ward 08
+1663,Ward 08,East,Sunita Devi,Sanitation,2025-26,Sewer Line Expansion,4030000,1310000,Delayed,2025-03-04,2025-12-24,Sewer Line Expansion for Ward 08
+1664,Ward 08,East,Sunita Devi,Healthcare,2025-26,Community Health Facility,3230000,1380000,Delayed,2025-12-16,2026-10-17,Community Health Facility for Ward 08
+1665,Ward 08,East,Sunita Devi,Healthcare,2025-26,PHC Upgrade,3940000,490000,Planned,2025-01-06,2025-05-29,PHC Upgrade for Ward 08
+1666,Ward 08,East,Sunita Devi,Education,2025-26,School Renovation,3070000,1420000,Delayed,2025-11-15,2026-05-16,School Renovation for Ward 08
+1667,Ward 08,East,Sunita Devi,Education,2025-26,Classroom Construction,3600000,1860000,In Progress,2025-11-24,2026-04-29,Classroom Construction for Ward 08
+1668,Ward 08,East,Sunita Devi,Education,2025-26,School Laboratory Upgrade,3250000,1410000,Delayed,2025-08-02,2025-12-02,School Laboratory Upgrade for Ward 08
+1669,Ward 08,East,Sunita Devi,Water Supply,2025-26,Water Tank Construction,3090000,1190000,Delayed,2025-11-17,2026-12-07,Water Tank Construction for Ward 08
+1670,Ward 08,East,Sunita Devi,Water Supply,2025-26,Pipeline Repair,4550000,1650000,Delayed,2025-06-17,2026-06-09,Pipeline Repair for Ward 08
+1671,Ward 08,East,Sunita Devi,Infrastructure,2025-26,Bus Shelter Development,3170000,1490000,Delayed,2025-12-08,2026-11-09,Bus Shelter Development for Ward 08
+1672,Ward 08,East,Sunita Devi,Infrastructure,2025-26,Public Park Improvement,2400000,1170000,Delayed,2025-09-20,2026-01-15,Public Park Improvement for Ward 08
+1673,Ward 09,Central,Arjun Rao,Roads,2025-26,Footpath Improvement,2640000,2500000,Completed,2025-08-16,2026-02-06,Footpath Improvement for Ward 09
+1674,Ward 09,Central,Arjun Rao,Roads,2025-26,Street Repair,2860000,2260000,In Progress,2025-05-02,2026-04-16,Street Repair for Ward 09
+1675,Ward 09,Central,Arjun Rao,Sanitation,2025-26,Sewer Line Expansion,2380000,2010000,In Progress,2025-04-03,2026-02-22,Sewer Line Expansion for Ward 09
+1676,Ward 09,Central,Arjun Rao,Sanitation,2025-26,Drainage Construction,2930000,260000,Planned,2025-06-04,2026-05-14,Drainage Construction for Ward 09
+1677,Ward 09,Central,Arjun Rao,Healthcare,2025-26,PHC Upgrade,4220000,2640000,In Progress,2025-01-18,2026-01-24,PHC Upgrade for Ward 09
+1678,Ward 09,Central,Arjun Rao,Healthcare,2025-26,Health Center Renovation,2080000,1350000,In Progress,2025-10-21,2026-06-23,Health Center Renovation for Ward 09
+1679,Ward 09,Central,Arjun Rao,Healthcare,2025-26,Medical Equipment Purchase,4640000,3790000,In Progress,2025-08-11,2026-05-14,Medical Equipment Purchase for Ward 09
+1680,Ward 09,Central,Arjun Rao,Education,2025-26,Classroom Construction,4170000,3770000,Completed,2025-06-18,2026-07-30,Classroom Construction for Ward 09
+1681,Ward 09,Central,Arjun Rao,Education,2025-26,School Laboratory Upgrade,3560000,3100000,In Progress,2025-08-04,2025-12-21,School Laboratory Upgrade for Ward 09
+1682,Ward 09,Central,Arjun Rao,Water Supply,2025-26,Pipeline Repair,4660000,3250000,In Progress,2025-11-10,2026-11-15,Pipeline Repair for Ward 09
+1683,Ward 09,Central,Arjun Rao,Water Supply,2025-26,Water Treatment Upgrade,3910000,110000,Planned,2025-03-23,2026-01-16,Water Treatment Upgrade for Ward 09
+1684,Ward 09,Central,Arjun Rao,Infrastructure,2025-26,Public Park Improvement,1860000,1550000,In Progress,2025-07-07,2026-05-27,Public Park Improvement for Ward 09
+1685,Ward 09,Central,Arjun Rao,Infrastructure,2025-26,Street Lighting,3480000,2380000,In Progress,2025-07-02,2026-08-20,Street Lighting for Ward 09
+1686,Ward 09,Central,Arjun Rao,Infrastructure,2025-26,Community Hall Construction,3500000,2890000,In Progress,2025-08-15,2026-09-10,Community Hall Construction for Ward 09
+1687,Ward 10,Central,Meena Kumari,Roads,2025-26,Street Repair,6040000,4020000,In Progress,2025-09-24,2026-01-16,Street Repair for Ward 10
+1688,Ward 10,Central,Meena Kumari,Roads,2025-26,Road Resurfacing,4590000,3540000,In Progress,2025-09-25,2026-03-24,Road Resurfacing for Ward 10
+1689,Ward 10,Central,Meena Kumari,Sanitation,2025-26,Drainage Construction,3560000,2420000,In Progress,2025-02-13,2026-03-17,Drainage Construction for Ward 10
+1690,Ward 10,Central,Meena Kumari,Sanitation,2025-26,Waste Management Facility,3340000,2440000,In Progress,2025-07-20,2026-02-22,Waste Management Facility for Ward 10
+1691,Ward 10,Central,Meena Kumari,Sanitation,2025-26,Public Toilet Upgrade,2500000,2390000,Completed,2025-08-05,2026-01-12,Public Toilet Upgrade for Ward 10
+1692,Ward 10,Central,Meena Kumari,Healthcare,2025-26,Health Center Renovation,3260000,2810000,In Progress,2025-05-23,2026-05-28,Health Center Renovation for Ward 10
+1693,Ward 10,Central,Meena Kumari,Healthcare,2025-26,Medical Equipment Purchase,4550000,3950000,In Progress,2025-11-07,2026-05-18,Medical Equipment Purchase for Ward 10
+1694,Ward 10,Central,Meena Kumari,Education,2025-26,School Laboratory Upgrade,2510000,2180000,In Progress,2025-11-05,2026-05-05,School Laboratory Upgrade for Ward 10
+1695,Ward 10,Central,Meena Kumari,Education,2025-26,Library Development,3310000,2850000,In Progress,2025-02-25,2025-11-22,Library Development for Ward 10
+1696,Ward 10,Central,Meena Kumari,Water Supply,2025-26,Water Treatment Upgrade,4040000,3320000,In Progress,2025-12-14,2026-12-12,Water Treatment Upgrade for Ward 10
+1697,Ward 10,Central,Meena Kumari,Water Supply,2025-26,Water Pipeline Expansion,3170000,2900000,Completed,2025-09-04,2025-12-15,Water Pipeline Expansion for Ward 10
+1698,Ward 10,Central,Meena Kumari,Water Supply,2025-26,Water Tank Construction,3470000,160000,Planned,2025-03-10,2025-10-14,Water Tank Construction for Ward 10
+1699,Ward 10,Central,Meena Kumari,Infrastructure,2025-26,Street Lighting,1950000,1250000,In Progress,2025-04-25,2026-04-27,Street Lighting for Ward 10
+1700,Ward 10,Central,Meena Kumari,Infrastructure,2025-26,Community Hall Construction,1690000,260000,Planned,2025-12-18,2026-07-10,Community Hall Construction for Ward 10
+1701,Ward 11,Central,Ramesh Babu,Roads,2025-26,Road Resurfacing,5270000,4300000,In Progress,2025-12-10,2026-04-03,Road Resurfacing for Ward 11
+1702,Ward 11,Central,Ramesh Babu,Roads,2025-26,Road Expansion,5930000,4480000,In Progress,2025-11-11,2026-11-18,Road Expansion for Ward 11
+1703,Ward 11,Central,Ramesh Babu,Roads,2025-26,Footpath Improvement,2790000,2450000,In Progress,2025-08-08,2026-09-26,Footpath Improvement for Ward 11
+1704,Ward 11,Central,Ramesh Babu,Sanitation,2025-26,Waste Management Facility,3590000,3030000,In Progress,2025-09-24,2026-10-27,Waste Management Facility for Ward 11
+1705,Ward 11,Central,Ramesh Babu,Sanitation,2025-26,Public Toilet Upgrade,2310000,2010000,In Progress,2025-08-06,2025-12-12,Public Toilet Upgrade for Ward 11
+1706,Ward 11,Central,Ramesh Babu,Healthcare,2025-26,Medical Equipment Purchase,2610000,1770000,In Progress,2025-07-02,2026-05-07,Medical Equipment Purchase for Ward 11
+1707,Ward 11,Central,Ramesh Babu,Healthcare,2025-26,Community Health Facility,2880000,2050000,In Progress,2025-05-01,2026-01-15,Community Health Facility for Ward 11
+1708,Ward 11,Central,Ramesh Babu,Education,2025-26,Library Development,3200000,530000,Planned,2025-10-02,2026-11-16,Library Development for Ward 11
+1709,Ward 11,Central,Ramesh Babu,Education,2025-26,School Renovation,3610000,3070000,In Progress,2025-10-18,2026-07-18,School Renovation for Ward 11
+1710,Ward 11,Central,Ramesh Babu,Education,2025-26,Classroom Construction,2140000,1850000,In Progress,2025-03-17,2025-07-19,Classroom Construction for Ward 11
+1711,Ward 11,Central,Ramesh Babu,Water Supply,2025-26,Water Pipeline Expansion,4750000,3200000,In Progress,2025-07-03,2026-03-28,Water Pipeline Expansion for Ward 11
+1712,Ward 11,Central,Ramesh Babu,Water Supply,2025-26,Water Tank Construction,2970000,2060000,In Progress,2025-06-10,2025-12-28,Water Tank Construction for Ward 11
+1713,Ward 11,Central,Ramesh Babu,Infrastructure,2025-26,Community Hall Construction,3760000,3140000,In Progress,2025-09-25,2025-12-28,Community Hall Construction for Ward 11
+1714,Ward 11,Central,Ramesh Babu,Infrastructure,2025-26,Bus Shelter Development,1880000,1390000,In Progress,2025-11-20,2027-01-02,Bus Shelter Development for Ward 11
+1715,Ward 12,Central,Kavya Rao,Roads,2025-26,Road Expansion,3470000,1070000,Delayed,2025-07-04,2026-04-17,Road Expansion for Ward 12
+1716,Ward 12,Central,Kavya Rao,Roads,2025-26,Footpath Improvement,3520000,320000,Planned,2025-06-17,2026-06-02,Footpath Improvement for Ward 12
+1717,Ward 12,Central,Kavya Rao,Sanitation,2025-26,Public Toilet Upgrade,2940000,910000,Delayed,2025-04-11,2026-03-30,Public Toilet Upgrade for Ward 12
+1718,Ward 12,Central,Kavya Rao,Sanitation,2025-26,Sewer Line Expansion,2020000,660000,Delayed,2025-09-18,2025-12-20,Sewer Line Expansion for Ward 12
+1719,Ward 12,Central,Kavya Rao,Healthcare,2025-26,Community Health Facility,3880000,1390000,Delayed,2025-04-22,2026-02-23,Community Health Facility for Ward 12
+1720,Ward 12,Central,Kavya Rao,Healthcare,2025-26,PHC Upgrade,4480000,1600000,Delayed,2025-12-25,2026-11-02,PHC Upgrade for Ward 12
+1721,Ward 12,Central,Kavya Rao,Healthcare,2025-26,Health Center Renovation,3940000,2210000,In Progress,2025-03-01,2026-01-20,Health Center Renovation for Ward 12
+1722,Ward 12,Central,Kavya Rao,Education,2025-26,School Renovation,3880000,120000,Planned,2025-05-18,2025-09-21,School Renovation for Ward 12
+1723,Ward 12,Central,Kavya Rao,Education,2025-26,Classroom Construction,3500000,1270000,Delayed,2025-07-15,2026-08-31,Classroom Construction for Ward 12
+1724,Ward 12,Central,Kavya Rao,Water Supply,2025-26,Water Tank Construction,3540000,1370000,Delayed,2025-02-18,2025-05-22,Water Tank Construction for Ward 12
+1725,Ward 12,Central,Kavya Rao,Water Supply,2025-26,Pipeline Repair,4290000,2020000,Delayed,2025-10-02,2026-02-06,Pipeline Repair for Ward 12
+1726,Ward 12,Central,Kavya Rao,Infrastructure,2025-26,Bus Shelter Development,2420000,1060000,Delayed,2025-11-10,2026-12-15,Bus Shelter Development for Ward 12
+1727,Ward 12,Central,Kavya Rao,Infrastructure,2025-26,Public Park Improvement,1810000,930000,In Progress,2025-07-22,2025-11-04,Public Park Improvement for Ward 12
+1728,Ward 12,Central,Kavya Rao,Infrastructure,2025-26,Street Lighting,2690000,1200000,Delayed,2025-07-18,2026-03-16,Street Lighting for Ward 12
+1729,Ward 13,South,Vijay Kumar,Roads,2025-26,Footpath Improvement,6050000,4050000,In Progress,2025-12-21,2026-09-28,Footpath Improvement for Ward 13
+1730,Ward 13,South,Vijay Kumar,Roads,2025-26,Street Repair,6040000,3760000,In Progress,2025-03-04,2025-06-23,Street Repair for Ward 13
+1731,Ward 13,South,Vijay Kumar,Sanitation,2025-26,Sewer Line Expansion,1830000,1510000,In Progress,2025-02-10,2025-08-26,Sewer Line Expansion for Ward 13
+1732,Ward 13,South,Vijay Kumar,Sanitation,2025-26,Drainage Construction,3700000,3460000,Completed,2025-07-21,2026-07-08,Drainage Construction for Ward 13
+1733,Ward 13,South,Vijay Kumar,Sanitation,2025-26,Waste Management Facility,2170000,1480000,In Progress,2025-05-07,2025-10-02,Waste Management Facility for Ward 13
+1734,Ward 13,South,Vijay Kumar,Healthcare,2025-26,PHC Upgrade,2600000,2330000,In Progress,2025-09-15,2026-11-09,PHC Upgrade for Ward 13
+1735,Ward 13,South,Vijay Kumar,Healthcare,2025-26,Health Center Renovation,3660000,60000,Planned,2025-12-19,2026-11-23,Health Center Renovation for Ward 13
+1736,Ward 13,South,Vijay Kumar,Education,2025-26,Classroom Construction,4510000,3350000,In Progress,2025-04-04,2025-11-25,Classroom Construction for Ward 13
+1737,Ward 13,South,Vijay Kumar,Education,2025-26,School Laboratory Upgrade,3620000,3380000,Completed,2025-08-11,2026-09-20,School Laboratory Upgrade for Ward 13
+1738,Ward 13,South,Vijay Kumar,Water Supply,2025-26,Pipeline Repair,4350000,3750000,In Progress,2025-10-12,2026-06-20,Pipeline Repair for Ward 13
+1739,Ward 13,South,Vijay Kumar,Water Supply,2025-26,Water Treatment Upgrade,5290000,3590000,In Progress,2025-04-23,2026-06-15,Water Treatment Upgrade for Ward 13
+1740,Ward 13,South,Vijay Kumar,Water Supply,2025-26,Water Pipeline Expansion,3640000,3320000,Completed,2025-12-11,2026-11-11,Water Pipeline Expansion for Ward 13
+1741,Ward 13,South,Vijay Kumar,Infrastructure,2025-26,Public Park Improvement,2660000,1980000,In Progress,2025-09-04,2026-03-02,Public Park Improvement for Ward 13
+1742,Ward 13,South,Vijay Kumar,Infrastructure,2025-26,Street Lighting,3070000,1990000,In Progress,2025-03-18,2025-09-24,Street Lighting for Ward 13
+1743,Ward 14,South,Naveen Reddy,Roads,2025-26,Street Repair,3540000,40000,Planned,2025-01-17,2026-03-06,Street Repair for Ward 14
+1744,Ward 14,South,Naveen Reddy,Roads,2025-26,Road Resurfacing,2710000,2230000,In Progress,2025-10-07,2026-01-23,Road Resurfacing for Ward 14
+1745,Ward 14,South,Naveen Reddy,Roads,2025-26,Road Expansion,4580000,3710000,In Progress,2025-08-21,2026-02-03,Road Expansion for Ward 14
+1746,Ward 14,South,Naveen Reddy,Sanitation,2025-26,Drainage Construction,2740000,1910000,In Progress,2025-12-10,2026-05-17,Drainage Construction for Ward 14
+1747,Ward 14,South,Naveen Reddy,Sanitation,2025-26,Waste Management Facility,2990000,2380000,In Progress,2025-09-01,2026-04-01,Waste Management Facility for Ward 14
+1748,Ward 14,South,Naveen Reddy,Healthcare,2025-26,Health Center Renovation,4520000,4070000,Completed,2025-03-25,2026-03-13,Health Center Renovation for Ward 14
+1749,Ward 14,South,Naveen Reddy,Healthcare,2025-26,Medical Equipment Purchase,2480000,1670000,In Progress,2025-10-22,2026-04-04,Medical Equipment Purchase for Ward 14
+1750,Ward 14,South,Naveen Reddy,Education,2025-26,School Laboratory Upgrade,3930000,3100000,In Progress,2025-04-25,2026-03-30,School Laboratory Upgrade for Ward 14
+1751,Ward 14,South,Naveen Reddy,Education,2025-26,Library Development,2570000,1830000,In Progress,2025-11-07,2026-10-28,Library Development for Ward 14
+1752,Ward 14,South,Naveen Reddy,Education,2025-26,School Renovation,4400000,3280000,In Progress,2025-08-02,2025-11-20,School Renovation for Ward 14
+1753,Ward 14,South,Naveen Reddy,Water Supply,2025-26,Water Treatment Upgrade,5360000,3930000,In Progress,2025-09-21,2026-05-09,Water Treatment Upgrade for Ward 14
+1754,Ward 14,South,Naveen Reddy,Water Supply,2025-26,Water Pipeline Expansion,4900000,3480000,In Progress,2025-03-13,2025-12-21,Water Pipeline Expansion for Ward 14
+1755,Ward 14,South,Naveen Reddy,Infrastructure,2025-26,Street Lighting,2440000,2070000,In Progress,2025-09-09,2026-06-18,Street Lighting for Ward 14
+1756,Ward 14,South,Naveen Reddy,Infrastructure,2025-26,Community Hall Construction,3810000,2650000,In Progress,2025-06-16,2026-05-18,Community Hall Construction for Ward 14
+1757,Ward 15,South,Anusha Devi,Roads,2025-26,Road Resurfacing,5790000,3600000,In Progress,2025-08-06,2026-03-01,Road Resurfacing for Ward 15
+1758,Ward 15,South,Anusha Devi,Roads,2025-26,Road Expansion,2870000,2420000,In Progress,2025-03-06,2025-12-06,Road Expansion for Ward 15
+1759,Ward 15,South,Anusha Devi,Sanitation,2025-26,Waste Management Facility,3330000,3010000,Completed,2025-07-11,2025-12-06,Waste Management Facility for Ward 15
+1760,Ward 15,South,Anusha Devi,Sanitation,2025-26,Public Toilet Upgrade,3030000,2380000,In Progress,2025-03-21,2026-01-15,Public Toilet Upgrade for Ward 15
+1761,Ward 15,South,Anusha Devi,Healthcare,2025-26,Medical Equipment Purchase,2140000,1350000,In Progress,2025-03-05,2026-04-21,Medical Equipment Purchase for Ward 15
+1762,Ward 15,South,Anusha Devi,Healthcare,2025-26,Community Health Facility,3550000,3300000,Completed,2025-03-09,2025-09-07,Community Health Facility for Ward 15
+1763,Ward 15,South,Anusha Devi,Healthcare,2025-26,PHC Upgrade,3560000,2710000,In Progress,2025-11-01,2026-06-24,PHC Upgrade for Ward 15
+1764,Ward 15,South,Anusha Devi,Education,2025-26,Library Development,4500000,3130000,In Progress,2025-08-16,2026-02-09,Library Development for Ward 15
+1765,Ward 15,South,Anusha Devi,Education,2025-26,School Renovation,2540000,1930000,In Progress,2025-10-25,2026-04-26,School Renovation for Ward 15
+1766,Ward 15,South,Anusha Devi,Water Supply,2025-26,Water Pipeline Expansion,4230000,3370000,In Progress,2025-11-11,2026-09-29,Water Pipeline Expansion for Ward 15
+1767,Ward 15,South,Anusha Devi,Water Supply,2025-26,Water Tank Construction,4150000,2670000,In Progress,2025-03-04,2025-06-10,Water Tank Construction for Ward 15
+1768,Ward 15,South,Anusha Devi,Infrastructure,2025-26,Community Hall Construction,2080000,1910000,Completed,2025-07-05,2026-08-09,Community Hall Construction for Ward 15
+1769,Ward 15,South,Anusha Devi,Infrastructure,2025-26,Bus Shelter Development,1840000,1440000,In Progress,2025-01-18,2025-12-31,Bus Shelter Development for Ward 15
+1770,Ward 15,South,Anusha Devi,Infrastructure,2025-26,Public Park Improvement,3310000,2160000,In Progress,2025-10-18,2026-01-16,Public Park Improvement for Ward 15
+1771,Ward 16,South,Prakash Rao,Roads,2025-26,Road Expansion,5820000,5180000,In Progress,2025-09-14,2026-06-20,Road Expansion for Ward 16
+1772,Ward 16,South,Prakash Rao,Roads,2025-26,Footpath Improvement,5740000,4960000,In Progress,2025-08-25,2026-06-06,Footpath Improvement for Ward 16
+1773,Ward 16,South,Prakash Rao,Sanitation,2025-26,Public Toilet Upgrade,2700000,2430000,Completed,2025-12-19,2026-05-08,Public Toilet Upgrade for Ward 16
+1774,Ward 16,South,Prakash Rao,Sanitation,2025-26,Sewer Line Expansion,2890000,2040000,In Progress,2025-02-10,2026-03-13,Sewer Line Expansion for Ward 16
+1775,Ward 16,South,Prakash Rao,Sanitation,2025-26,Drainage Construction,4020000,3060000,In Progress,2025-12-24,2026-03-27,Drainage Construction for Ward 16
+1776,Ward 16,South,Prakash Rao,Healthcare,2025-26,Community Health Facility,3740000,440000,Planned,2025-12-11,2026-10-06,Community Health Facility for Ward 16
+1777,Ward 16,South,Prakash Rao,Healthcare,2025-26,PHC Upgrade,3120000,2100000,In Progress,2025-05-09,2026-05-08,PHC Upgrade for Ward 16
+1778,Ward 16,South,Prakash Rao,Education,2025-26,School Renovation,3090000,2310000,In Progress,2025-11-13,2026-05-26,School Renovation for Ward 16
+1779,Ward 16,South,Prakash Rao,Education,2025-26,Classroom Construction,3060000,2730000,In Progress,2025-06-18,2026-06-27,Classroom Construction for Ward 16
+1780,Ward 16,South,Prakash Rao,Water Supply,2025-26,Water Tank Construction,3790000,3660000,Completed,2025-12-13,2026-05-22,Water Tank Construction for Ward 16
+1781,Ward 16,South,Prakash Rao,Water Supply,2025-26,Pipeline Repair,4960000,4210000,In Progress,2025-08-23,2026-02-11,Pipeline Repair for Ward 16
+1782,Ward 16,South,Prakash Rao,Water Supply,2025-26,Water Treatment Upgrade,2590000,2060000,In Progress,2025-09-20,2026-01-14,Water Treatment Upgrade for Ward 16
+1783,Ward 16,South,Prakash Rao,Infrastructure,2025-26,Bus Shelter Development,1980000,30000,Planned,2025-03-16,2026-04-17,Bus Shelter Development for Ward 16
+1784,Ward 16,South,Prakash Rao,Infrastructure,2025-26,Public Park Improvement,2600000,1670000,In Progress,2025-02-20,2025-06-09,Public Park Improvement for Ward 16
+1785,Ward 17,West,Harish Kumar,Roads,2025-26,Footpath Improvement,5200000,2910000,In Progress,2025-11-17,2026-07-11,Footpath Improvement for Ward 17
+1786,Ward 17,West,Harish Kumar,Roads,2025-26,Street Repair,5160000,2410000,Delayed,2025-03-21,2026-02-27,Street Repair for Ward 17
+1787,Ward 17,West,Harish Kumar,Roads,2025-26,Road Resurfacing,4180000,1490000,Delayed,2025-09-10,2026-03-18,Road Resurfacing for Ward 17
+1788,Ward 17,West,Harish Kumar,Sanitation,2025-26,Sewer Line Expansion,1900000,880000,Delayed,2025-04-20,2025-10-13,Sewer Line Expansion for Ward 17
+1789,Ward 17,West,Harish Kumar,Sanitation,2025-26,Drainage Construction,3510000,1400000,Delayed,2025-03-03,2025-10-20,Drainage Construction for Ward 17
+1790,Ward 17,West,Harish Kumar,Healthcare,2025-26,PHC Upgrade,4320000,1720000,Delayed,2025-10-07,2026-09-27,PHC Upgrade for Ward 17
+1791,Ward 17,West,Harish Kumar,Healthcare,2025-26,Health Center Renovation,2120000,1050000,Delayed,2025-09-10,2026-09-21,Health Center Renovation for Ward 17
+1792,Ward 17,West,Harish Kumar,Education,2025-26,Classroom Construction,4420000,1750000,Delayed,2025-05-08,2026-06-12,Classroom Construction for Ward 17
+1793,Ward 17,West,Harish Kumar,Education,2025-26,School Laboratory Upgrade,4550000,1940000,Delayed,2025-01-09,2025-07-07,School Laboratory Upgrade for Ward 17
+1794,Ward 17,West,Harish Kumar,Education,2025-26,Library Development,3040000,160000,Planned,2025-02-17,2025-09-26,Library Development for Ward 17
+1795,Ward 17,West,Harish Kumar,Water Supply,2025-26,Pipeline Repair,5030000,2650000,In Progress,2025-12-15,2026-09-24,Pipeline Repair for Ward 17
+1796,Ward 17,West,Harish Kumar,Water Supply,2025-26,Water Treatment Upgrade,4040000,2080000,In Progress,2025-08-22,2026-07-13,Water Treatment Upgrade for Ward 17
+1797,Ward 17,West,Harish Kumar,Infrastructure,2025-26,Public Park Improvement,3640000,1970000,In Progress,2025-05-03,2026-02-12,Public Park Improvement for Ward 17
+1798,Ward 17,West,Harish Kumar,Infrastructure,2025-26,Street Lighting,3050000,1760000,In Progress,2025-04-11,2026-02-06,Street Lighting for Ward 17
+1799,Ward 18,West,Deepa Devi,Roads,2025-26,Street Repair,6030000,900000,Planned,2025-04-10,2025-08-25,Street Repair for Ward 18
+1800,Ward 18,West,Deepa Devi,Roads,2025-26,Road Resurfacing,4030000,3550000,In Progress,2025-09-06,2026-08-05,Road Resurfacing for Ward 18
+1801,Ward 18,West,Deepa Devi,Sanitation,2025-26,Drainage Construction,2610000,1810000,In Progress,2025-03-24,2025-09-27,Drainage Construction for Ward 18
+1802,Ward 18,West,Deepa Devi,Sanitation,2025-26,Waste Management Facility,3070000,2110000,In Progress,2025-05-07,2025-11-30,Waste Management Facility for Ward 18
+1803,Ward 18,West,Deepa Devi,Healthcare,2025-26,Health Center Renovation,2660000,1880000,In Progress,2025-03-25,2025-08-16,Health Center Renovation for Ward 18
+1804,Ward 18,West,Deepa Devi,Healthcare,2025-26,Medical Equipment Purchase,2420000,1560000,In Progress,2025-08-20,2025-11-21,Medical Equipment Purchase for Ward 18
+1805,Ward 18,West,Deepa Devi,Healthcare,2025-26,Community Health Facility,4280000,370000,Planned,2025-10-11,2026-09-18,Community Health Facility for Ward 18
+1806,Ward 18,West,Deepa Devi,Education,2025-26,School Laboratory Upgrade,4370000,4050000,Completed,2025-05-16,2025-11-15,School Laboratory Upgrade for Ward 18
+1807,Ward 18,West,Deepa Devi,Education,2025-26,Library Development,4600000,4320000,Completed,2025-04-25,2026-05-15,Library Development for Ward 18
+1808,Ward 18,West,Deepa Devi,Water Supply,2025-26,Water Treatment Upgrade,2670000,2140000,In Progress,2025-09-02,2026-08-15,Water Treatment Upgrade for Ward 18
+1809,Ward 18,West,Deepa Devi,Water Supply,2025-26,Water Pipeline Expansion,3360000,3090000,Completed,2025-08-04,2026-07-25,Water Pipeline Expansion for Ward 18
+1810,Ward 18,West,Deepa Devi,Infrastructure,2025-26,Street Lighting,2660000,100000,Planned,2025-10-04,2026-06-17,Street Lighting for Ward 18
+1811,Ward 18,West,Deepa Devi,Infrastructure,2025-26,Community Hall Construction,2430000,2230000,Completed,2025-05-08,2025-12-21,Community Hall Construction for Ward 18
+1812,Ward 18,West,Deepa Devi,Infrastructure,2025-26,Bus Shelter Development,2680000,2230000,In Progress,2025-08-14,2026-02-27,Bus Shelter Development for Ward 18
+1813,Ward 19,West,Rohit Rao,Roads,2025-26,Road Resurfacing,4100000,3620000,In Progress,2025-07-09,2026-05-25,Road Resurfacing for Ward 19
+1814,Ward 19,West,Rohit Rao,Roads,2025-26,Road Expansion,3240000,2150000,In Progress,2025-04-04,2025-11-18,Road Expansion for Ward 19
+1815,Ward 19,West,Rohit Rao,Sanitation,2025-26,Waste Management Facility,3840000,3120000,In Progress,2025-04-05,2025-09-18,Waste Management Facility for Ward 19
+1816,Ward 19,West,Rohit Rao,Sanitation,2025-26,Public Toilet Upgrade,3010000,1870000,In Progress,2025-03-21,2026-03-10,Public Toilet Upgrade for Ward 19
+1817,Ward 19,West,Rohit Rao,Sanitation,2025-26,Sewer Line Expansion,3160000,2300000,In Progress,2025-05-18,2026-06-02,Sewer Line Expansion for Ward 19
+1818,Ward 19,West,Rohit Rao,Healthcare,2025-26,Medical Equipment Purchase,2210000,1440000,In Progress,2025-04-09,2026-03-08,Medical Equipment Purchase for Ward 19
+1819,Ward 19,West,Rohit Rao,Healthcare,2025-26,Community Health Facility,4490000,2930000,In Progress,2025-05-12,2026-02-10,Community Health Facility for Ward 19
+1820,Ward 19,West,Rohit Rao,Education,2025-26,Library Development,3460000,3270000,Completed,2025-01-14,2025-06-15,Library Development for Ward 19
+1821,Ward 19,West,Rohit Rao,Education,2025-26,School Renovation,2890000,2470000,In Progress,2025-10-19,2026-10-19,School Renovation for Ward 19
+1822,Ward 19,West,Rohit Rao,Water Supply,2025-26,Water Pipeline Expansion,2820000,2510000,In Progress,2025-11-17,2026-10-22,Water Pipeline Expansion for Ward 19
+1823,Ward 19,West,Rohit Rao,Water Supply,2025-26,Water Tank Construction,4710000,520000,Planned,2025-08-21,2026-02-01,Water Tank Construction for Ward 19
+1824,Ward 19,West,Rohit Rao,Water Supply,2025-26,Pipeline Repair,5010000,4220000,In Progress,2025-07-21,2026-08-28,Pipeline Repair for Ward 19
+1825,Ward 19,West,Rohit Rao,Infrastructure,2025-26,Community Hall Construction,2910000,80000,Planned,2025-04-11,2025-12-19,Community Hall Construction for Ward 19
+1826,Ward 19,West,Rohit Rao,Infrastructure,2025-26,Bus Shelter Development,3090000,2680000,In Progress,2025-07-09,2026-05-22,Bus Shelter Development for Ward 19
+1827,Ward 20,West,Swathi Kumar,Roads,2025-26,Road Expansion,5410000,5130000,Completed,2025-09-15,2026-07-13,Road Expansion for Ward 20
+1828,Ward 20,West,Swathi Kumar,Roads,2025-26,Footpath Improvement,3200000,2940000,Completed,2025-04-22,2025-11-26,Footpath Improvement for Ward 20
+1829,Ward 20,West,Swathi Kumar,Roads,2025-26,Street Repair,5980000,170000,Planned,2025-02-04,2025-06-06,Street Repair for Ward 20
+1830,Ward 20,West,Swathi Kumar,Sanitation,2025-26,Public Toilet Upgrade,4180000,580000,Planned,2025-09-25,2026-02-04,Public Toilet Upgrade for Ward 20
+1831,Ward 20,West,Swathi Kumar,Sanitation,2025-26,Sewer Line Expansion,2080000,340000,Planned,2025-07-10,2026-02-02,Sewer Line Expansion for Ward 20
+1832,Ward 20,West,Swathi Kumar,Healthcare,2025-26,Community Health Facility,2790000,2000000,In Progress,2025-03-17,2025-09-10,Community Health Facility for Ward 20
+1833,Ward 20,West,Swathi Kumar,Healthcare,2025-26,PHC Upgrade,2160000,1840000,In Progress,2025-06-16,2026-05-11,PHC Upgrade for Ward 20
+1834,Ward 20,West,Swathi Kumar,Education,2025-26,School Renovation,4580000,3700000,In Progress,2025-08-05,2026-08-06,School Renovation for Ward 20
+1835,Ward 20,West,Swathi Kumar,Education,2025-26,Classroom Construction,2420000,2000000,In Progress,2025-11-19,2026-09-27,Classroom Construction for Ward 20
+1836,Ward 20,West,Swathi Kumar,Education,2025-26,School Laboratory Upgrade,3360000,2830000,In Progress,2025-06-16,2026-06-17,School Laboratory Upgrade for Ward 20
+1837,Ward 20,West,Swathi Kumar,Water Supply,2025-26,Water Tank Construction,2990000,1940000,In Progress,2025-07-09,2025-12-25,Water Tank Construction for Ward 20
+1838,Ward 20,West,Swathi Kumar,Water Supply,2025-26,Pipeline Repair,3230000,2000000,In Progress,2025-03-12,2025-11-03,Pipeline Repair for Ward 20
+1839,Ward 20,West,Swathi Kumar,Infrastructure,2025-26,Bus Shelter Development,2680000,1660000,In Progress,2025-08-10,2025-11-12,Bus Shelter Development for Ward 20
+1840,Ward 20,West,Swathi Kumar,Infrastructure,2025-26,Public Park Improvement,3340000,3000000,In Progress,2025-01-18,2025-10-26,Public Park Improvement for Ward 20
+1368,Ward 07,East,Kiran Kumar,Sanitation,2024-25,Waste Management Facility,2320000,1870000,In Progress,2024-09-15,2025-02-11,Waste Management Facility for Ward 07
+1335,Ward 04,North,Anil Kumar,Infrastructure,2024-25,Bus Shelter Development,3750000,210000,Planned,2024-03-14,2024-09-24,Bus Shelter Development for Ward 04
+1582,Ward 02,North,Suresh Rao,Education,2025-26,School Laboratory Upgrade,2840000,2720000,Completed,2025-09-24,2026-09-25,School Laboratory Upgrade for Ward 02
+1674,Ward 09,Central,Arjun Rao,Roads,2025-26,Street Repair,2860000,2260000,In Progress,2025-05-02,2026-04-16,Street Repair for Ward 09
+1064,Ward 05,East,Lakshmi Devi,Education,2023-24,Library Development,2670000,410000,Planned,2023-08-08,2024-02-16,Library Development for Ward 05
