@@ -9,11 +9,13 @@ import {
   Database,
   Layers,
   FileX,
-  CopyX
+  CopyX,
+  Lock,
+  UserCheck
 } from 'lucide-react';
 import apiService from '../services/api';
 
-export const Upload = () => {
+export const Upload = ({ userRole = 'Citizen' }) => {
   const navigate = useNavigate();
   const [file, setFile] = useState(null);
   const [dragging, setDragging] = useState(false);
@@ -83,12 +85,32 @@ export const Upload = () => {
     }
   };
 
+  if (userRole === 'Citizen') {
+    return (
+      <div className="max-w-2xl mx-auto my-12 p-8 bg-white border border-slate-200 rounded-2xl shadow-sm text-center space-y-4">
+        <div className="w-14 h-14 bg-amber-100 text-amber-600 rounded-full flex items-center justify-center mx-auto mb-2">
+          <Lock className="w-7 h-7" />
+        </div>
+        <h2 className="text-xl font-bold text-slate-900">Staff Portal Access Required</h2>
+        <p className="text-sm text-slate-600 max-w-md mx-auto">
+          You are currently viewing in <strong>Public Citizen Mode</strong>. Data uploading is restricted to authorized Department Staff or Oversight Officers.
+        </p>
+        <button
+          onClick={() => navigate('/login')}
+          className="btn btn-primary btn-md mt-2"
+        >
+          <UserCheck className="w-4 h-4 mr-2" /> Switch to Staff / Officer Portal
+        </button>
+      </div>
+    );
+  }
+
   return (
     <div className="upload-page max-w-4xl mx-auto space-y-6">
       <div className="page-header text-center">
         <div className="inline-flex items-center space-x-2 text-blue-600 text-sm font-semibold mb-1 px-3 py-1 bg-blue-50 rounded-full border border-blue-200">
           <UploadCloud className="w-4 h-4" />
-          <span>Data Ingestion Engine</span>
+          <span>Data Ingestion Engine ({userRole})</span>
         </div>
         <h1 className="page-title text-3xl">Upload Civic Spending Data</h1>
         <p className="page-subtitle max-w-xl mx-auto">

@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useMemo } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { ShieldAlert, AlertTriangle, AlertCircle, ArrowRight } from 'lucide-react';
+import { ShieldAlert, AlertTriangle, AlertCircle, ArrowRight, Lock, ShieldCheck } from 'lucide-react';
 import apiService from '../services/api';
 import StatCard from '../components/StatCard';
 import DataTable from '../components/DataTable';
@@ -10,7 +10,7 @@ import LoadingSpinner from '../components/LoadingSpinner';
 import ErrorState from '../components/ErrorState';
 import { formatCurrency, formatPercent } from '../utils/formatters';
 
-export const Oversight = () => {
+export const Oversight = ({ userRole = 'Citizen' }) => {
   const navigate = useNavigate();
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -34,8 +34,10 @@ export const Oversight = () => {
   };
 
   useEffect(() => {
-    fetchFlags();
-  }, []);
+    if (userRole === 'Oversight Officer') {
+      fetchFlags();
+    }
+  }, [userRole]);
 
   const criticalCount = useMemo(() => flags.filter((f) => f.flag === 'Critical').length, [flags]);
   const lowCount = useMemo(() => flags.filter((f) => f.flag === 'Low').length, [flags]);
@@ -116,6 +118,26 @@ export const Oversight = () => {
     }
   ];
 
+  if (userRole !== 'Oversight Officer') {
+    return (
+      <div className="max-w-2xl mx-auto my-12 p-8 bg-white border border-amber-200 rounded-2xl shadow-sm text-center space-y-4">
+        <div className="w-14 h-14 bg-amber-100 text-amber-700 rounded-full flex items-center justify-center mx-auto mb-2">
+          <Lock className="w-7 h-7" />
+        </div>
+        <h2 className="text-xl font-bold text-slate-900">Oversight Administrative Access Restricted</h2>
+        <p className="text-sm text-slate-600 max-w-md mx-auto">
+          The Oversight Center provides administrative flag reviews for low-utilization wards. You are currently logged in as <strong>{userRole}</strong>.
+        </p>
+        <button
+          onClick={() => navigate('/login')}
+          className="btn btn-primary btn-md bg-amber-600 hover:bg-amber-700 border-none mt-2"
+        >
+          <ShieldCheck className="w-4 h-4 mr-2" /> Switch to Oversight Officer Role
+        </button>
+      </div>
+    );
+  }
+
   if (error) {
     return <ErrorState message={error} onRetry={fetchFlags} />;
   }
@@ -125,7 +147,7 @@ export const Oversight = () => {
       <div className="page-header">
         <div className="flex items-center space-x-2 text-amber-600 text-sm font-semibold mb-1">
           <ShieldAlert className="w-4 h-4" />
-          <span>Oversight & Review Center</span>
+          <span>Oversight & Review Center ({userRole})</span>
         </div>
         <h1 className="page-title">Oversight & Attention Center</h1>
         <p className="page-subtitle">
