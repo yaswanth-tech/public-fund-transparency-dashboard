@@ -36,6 +36,8 @@ Base.metadata.create_all(bind=engine)
 
 
 @app.get("/")
+@app.get("/api")
+@app.get("/api/")
 def home():
 
     return {
@@ -45,6 +47,7 @@ def home():
 
 
 @app.get("/health")
+@app.get("/api/health")
 def health():
 
     return {
@@ -53,6 +56,7 @@ def health():
 
 
 @app.post("/upload")
+@app.post("/api/upload")
 async def upload_csv(
     file: UploadFile = File(...),
     db=Depends(get_db)
@@ -121,6 +125,7 @@ async def upload_csv(
             detail=str(e)
         )
 @app.get("/database/count")
+@app.get("/api/database/count")
 def database_count(db=Depends(get_db)):
 
     count = db.query(Project).count()
@@ -130,6 +135,7 @@ def database_count(db=Depends(get_db)):
     }
 
 @app.get("/dashboard")
+@app.get("/api/dashboard")
 def dashboard(db=Depends(get_db)):
 
     projects = db.query(Project).all()
@@ -224,6 +230,7 @@ def dashboard(db=Depends(get_db)):
     }
 
 @app.get("/wards")
+@app.get("/api/wards")
 def get_wards(db: Session = Depends(get_db)):
 
     projects = db.query(Project).all()
@@ -304,6 +311,7 @@ def get_wards(db: Session = Depends(get_db)):
     return result
 
 @app.get("/wards/{ward_name}")
+@app.get("/api/wards/{ward_name}")
 def get_ward_details(
     ward_name: str,
     db: Session = Depends(get_db)
@@ -416,6 +424,7 @@ def get_ward_details(
     }
 
 @app.get("/projects")
+@app.get("/api/projects")
 def get_projects(
     db: Session = Depends(get_db)
 ):
@@ -448,6 +457,7 @@ def get_projects(
     }
 
 @app.get("/flags")
+@app.get("/api/flags")
 def get_flags(
     db: Session = Depends(get_db)
 ):
@@ -521,6 +531,7 @@ def get_flags(
     }
 
 @app.get("/export")
+@app.get("/api/export")
 def export_projects(
     db: Session = Depends(get_db)
 ):
