@@ -33,6 +33,38 @@ import LoadingSpinner, { SkeletonKPI, SkeletonChart } from '../components/Loadin
 import ErrorState from '../components/ErrorState';
 import { formatCurrency, formatPercent } from '../utils/formatters';
 
+const WardCustomTooltip = ({ active, payload }) => {
+  if (active && payload && payload.length) {
+    const data = payload[0].payload;
+    const getBadgeColor = (val) => {
+      if (val < 50) return 'bg-red-500 text-white';
+      if (val < 70) return 'bg-amber-500 text-white';
+      if (val < 85) return 'bg-emerald-600 text-white';
+      return 'bg-blue-600 text-white';
+    };
+
+    return (
+      <div className="bg-slate-900 border border-slate-700 text-white p-3.5 rounded-xl shadow-xl text-xs space-y-1.5 min-w-[200px]">
+        <div className="flex items-center justify-between pb-1 border-b border-slate-800">
+          <span className="font-extrabold text-sm text-slate-100">{data.ward}</span>
+          <span className={`px-2 py-0.5 rounded text-[10px] font-bold ${getBadgeColor(data.utilization)}`}>
+            {data.utilization}%
+          </span>
+        </div>
+        <div className="flex justify-between text-slate-300">
+          <span>Allocated Budget:</span>
+          <span className="font-semibold text-slate-100">{formatCurrency(data.allocated)}</span>
+        </div>
+        <div className="flex justify-between text-slate-300">
+          <span>Actual Spent:</span>
+          <span className="font-semibold text-slate-100">{formatCurrency(data.spent)}</span>
+        </div>
+      </div>
+    );
+  }
+  return null;
+};
+
 export const Dashboard = () => {
   const navigate = useNavigate();
   const [loading, setLoading] = useState(true);
@@ -157,7 +189,7 @@ export const Dashboard = () => {
           spent: w.spent
         };
       })
-      .sort((a, b) => a.utilization - b.utilization);
+      .sort((a, b) => a.ward.localeCompare(b.ward, undefined, { numeric: true }));
   }, [filteredProjects]);
 
   const deptDistributionData = useMemo(() => {
@@ -197,6 +229,8 @@ export const Dashboard = () => {
     setSelectedFilters({ fiscalYear: '', ward: '', department: '', status: '' });
     setSearchQuery('');
   };
+
+  const wardChartHeight = Math.max(360, wardUtilizationChartData.length * 36);
 
   if (error) {
     return <ErrorState message={error} onRetry={fetchData} />;
@@ -303,7 +337,7 @@ export const Dashboard = () => {
             subtitle="Comparison of allocated budget versus actual spending (in ₹)"
           >
             <div className="chart-container-inner">
-              <ResponsiveContainer width="100%" height={300}>
+              <ResponsiveContainer width="100%" height={320}>
                 <BarChart data={deptChartData} margin={{ top: 10, right: 10, left: 10, bottom: 25 }}>
                   <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#E2E8F0" />
                   <XAxis dataKey="department" tick={{ fontSize: 12, fill: '#475569' }} interval={0} angle={-15} textAnchor="end" />
@@ -322,35 +356,32 @@ export const Dashboard = () => {
 
           <ChartCard
             title="Ward Utilization Percentage"
-            subtitle="Utilization ranking across administrative wards"
+            subtitle="Sorted by administrative ward (Color coded: Red <50%, Gold 50-70%, Teal 70-85%, Blue >85%)"
           >
-            <div className="chart-container-inner">
-              <ResponsiveContainer width="100%" height={300}>
+            <div className="chart-container-inner overflow-y-auto max-h-[420px] pr-2">
+              <ResponsiveContainer width="100%" height={wardChartHeight}>
                 <BarChart
                   layout="vertical"
                   data={wardUtilizationChartData}
-                  margin={{ top: 10, right: 20, left: 40, bottom: 10 }}
+                  margin={{ top: 10, right: 30, left: 10, bottom: 10 }}
                 >
                   <CartesianGrid strokeDasharray="3 3" horizontal={false} stroke="#E2E8F0" />
-                  <XAxis type="number" domain={[0, 100]} tickFormatter={(v) => `${v}%`} tick={{ fontSize: 11 }} />
-                  <YAxis dataKey="ward" type="category" tick={{ fontSize: 12, fill: '#334155' }} />
-                  <Tooltip
-                    formatter={(value) => [`${value}%`, 'Utilization']}
-                    contentStyle={{ backgroundColor: '#0F172A', color: '#FFF', borderRadius: '8px', border: 'none' }}
+                  <XAxis type="number" domain={[0, 100]} tickFormatter={(v) => `${v}%`} tick={{ fontSize: 11, fill: '#475569' }} />
+                  <YAxis
+                    dataKey="ward"
+                    type="category"
+                    width={85}
+                    tick={{ fontSize: 12, fill: '#1E293B', fontWeight: 600 }}
                   />
-                  <Bar dataKey="utilization" radius={[0, 4, 4, 0]}>
-                    {wardUtilizationChartData.map((entry, index) => (
-                      <Cell
-                        key={`cell-${index}`}
-                        fill={
-                          entry.utilization < 50
-                            ? '#EF4444'
-                            : entry.utilization < 70
-                            ? '#F59E0B'
-                            : '#10B981'
-                        }
-                      />
-                    ))}
+                  <Tooltip content={<WardCustomTooltip />} />
+                  <Bar dataKey="utilization" radius={[0, 6, 6, 0]}>
+                    {wardUtilizationChartData.map((entry, index) => {
+                      let color = '#2563EB'; // > 85% Optimal Blue
+                      if (entry.utilization < 50) color = '#DC2626'; // < 50% Critical Red
+                      else if (entry.utilization < 70) color = '#D97706'; // 50-70% Low Amber/Gold
+                      else if (entry.utilization < 85) color = '#059669'; // 70-85% Healthy Teal
+                      return <Cell key={`cell-${index}`} fill={color} />;
+                    })}
                   </Bar>
                 </BarChart>
               </ResponsiveContainer>
@@ -362,7 +393,7 @@ export const Dashboard = () => {
             subtitle="Share of total verified expenditure"
           >
             <div className="chart-container-inner flex items-center justify-center">
-              <ResponsiveContainer width="100%" height={300}>
+              <ResponsiveContainer width="100%" height={320}>
                 <PieChart>
                   <Pie
                     data={deptDistributionData}
@@ -388,32 +419,46 @@ export const Dashboard = () => {
           </ChartCard>
 
           <ChartCard
-            title="Fiscal Year Budget & Spend Trend"
-            subtitle="Historical trajectory across fiscal periods"
+            title="Fiscal Year Spending Trend"
+            subtitle="Growth in public fund allocation and actual spending"
           >
             <div className="chart-container-inner">
-              <ResponsiveContainer width="100%" height={300}>
-                <AreaChart data={fiscalTrendData} margin={{ top: 10, right: 10, left: 10, bottom: 10 }}>
+              <ResponsiveContainer width="100%" height={320}>
+                <AreaChart data={fiscalTrendData} margin={{ top: 10, right: 10, left: 10, bottom: 25 }}>
                   <defs>
                     <linearGradient id="colorAllocated" x1="0" y1="0" x2="0" y2="1">
                       <stop offset="5%" stopColor="#2563EB" stopOpacity={0.4} />
-                      <stop offset="95%" stopColor="#2563EB" stopOpacity={0.0} />
+                      <stop offset="95%" stopColor="#2563EB" stopOpacity={0} />
                     </linearGradient>
                     <linearGradient id="colorSpent" x1="0" y1="0" x2="0" y2="1">
                       <stop offset="5%" stopColor="#0D9488" stopOpacity={0.4} />
-                      <stop offset="95%" stopColor="#0D9488" stopOpacity={0.0} />
+                      <stop offset="95%" stopColor="#0D9488" stopOpacity={0} />
                     </linearGradient>
                   </defs>
-                  <CartesianGrid strokeDasharray="3 3" stroke="#E2E8F0" />
-                  <XAxis dataKey="year" tick={{ fontSize: 12 }} />
-                  <YAxis tickFormatter={(v) => formatCurrency(v)} tick={{ fontSize: 11 }} />
+                  <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#E2E8F0" />
+                  <XAxis dataKey="year" tick={{ fontSize: 12, fill: '#475569' }} />
+                  <YAxis tickFormatter={(v) => formatCurrency(v)} tick={{ fontSize: 11, fill: '#475569' }} />
                   <Tooltip
                     formatter={(value) => [formatCurrency(value), '']}
                     contentStyle={{ backgroundColor: '#0F172A', color: '#FFF', borderRadius: '8px', border: 'none' }}
                   />
                   <Legend verticalAlign="top" height={36} />
-                  <Area type="monotone" dataKey="Allocated" stroke="#2563EB" fillOpacity={1} fill="url(#colorAllocated)" name="Total Allocation" />
-                  <Area type="monotone" dataKey="Spent" stroke="#0D9488" fillOpacity={1} fill="url(#colorSpent)" name="Total Expenditure" />
+                  <Area
+                    type="monotone"
+                    dataKey="Allocated"
+                    stroke="#2563EB"
+                    fillOpacity={1}
+                    fill="url(#colorAllocated)"
+                    strokeWidth={2}
+                  />
+                  <Area
+                    type="monotone"
+                    dataKey="Spent"
+                    stroke="#0D9488"
+                    fillOpacity={1}
+                    fill="url(#colorSpent)"
+                    strokeWidth={2}
+                  />
                 </AreaChart>
               </ResponsiveContainer>
             </div>
@@ -421,63 +466,31 @@ export const Dashboard = () => {
         </div>
       )}
 
-      <div className="attention-section card">
-        <div className="card-header flex justify-between items-center pb-4 border-b border-slate-200">
-          <div className="flex items-center space-x-3">
-            <div className="p-2 bg-amber-50 rounded-lg border border-amber-200">
-              <ShieldAlert className="w-5 h-5 text-amber-600" />
+      {!loading && flags.length > 0 && (
+        <div className="card p-6 bg-gradient-to-r from-slate-900 to-slate-800 text-white rounded-2xl shadow-lg border border-slate-700">
+          <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
+            <div className="space-y-1">
+              <div className="flex items-center space-x-2 text-amber-400 font-bold text-sm">
+                <ShieldAlert className="w-5 h-5" />
+                <span>Oversight Attention Required</span>
+              </div>
+              <h3 className="text-lg font-bold">
+                {flags.length} Wards Operating Under Target Utilization Threshold (&lt;70%)
+              </h3>
+              <p className="text-xs text-slate-300 max-w-xl">
+                Immediate review recommended to improve fund execution efficiency.
+              </p>
             </div>
-            <div>
-              <h3 className="text-lg font-bold text-slate-900">Wards Requiring Oversight</h3>
-              <p className="text-xs text-slate-500">Administrative wards flagged for low fund utilization (&lt; 70%)</p>
-            </div>
+
+            <button
+              onClick={() => navigate('/oversight')}
+              className="btn bg-amber-500 hover:bg-amber-600 text-slate-950 font-extrabold border-none btn-md flex-shrink-0"
+            >
+              Open Oversight Center <ArrowUpRight className="w-4 h-4 ml-1" />
+            </button>
           </div>
-          <button
-            onClick={() => navigate('/oversight')}
-            className="btn btn-secondary btn-sm"
-          >
-            View Oversight Center <ArrowUpRight className="w-4 h-4 ml-1" />
-          </button>
         </div>
-
-        <div className="card-body pt-4">
-          {flags.length === 0 ? (
-            <p className="text-sm text-slate-500 py-4 text-center">All wards are operating within normal utilization parameters.</p>
-          ) : (
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-              {flags.map((item) => (
-                <div key={item.ward} className="flag-card border rounded-xl p-4 bg-slate-50 hover:bg-white hover:shadow-md transition-all">
-                  <div className="flex justify-between items-start mb-2">
-                    <div>
-                      <h4 className="font-bold text-slate-900 text-base">{item.ward}</h4>
-                      <p className="text-xs text-slate-500">{item.region} • {item.representative}</p>
-                    </div>
-                    <UtilizationBadge flag={item.flag} value={item.utilization} />
-                  </div>
-
-                  <div className="space-y-1 my-3 text-xs text-slate-600">
-                    <div className="flex justify-between">
-                      <span>Allocated:</span>
-                      <span className="font-medium text-slate-800">{formatCurrency(item.allocated)}</span>
-                    </div>
-                    <div className="flex justify-between">
-                      <span>Spent:</span>
-                      <span className="font-medium text-slate-800">{formatCurrency(item.spent)}</span>
-                    </div>
-                  </div>
-
-                  <button
-                    onClick={() => navigate(`/wards/${encodeURIComponent(item.ward)}`)}
-                    className="btn btn-ghost btn-sm w-full mt-2 justify-center border border-slate-200"
-                  >
-                    View Ward Details
-                  </button>
-                </div>
-              ))}
-            </div>
-          )}
-        </div>
-      </div>
+      )}
     </div>
   );
 };

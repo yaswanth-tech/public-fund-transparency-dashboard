@@ -73,19 +73,67 @@ export const apiService = {
   },
 
   async downloadReport() {
-    const res = await api.get('/export', {
-      responseType: 'blob'
-    });
-    
-    const url = window.URL.createObjectURL(new Blob([res.data], { type: 'text/csv' }));
-    const link = document.createElement('a');
-    link.href = url;
-    link.setAttribute('download', 'civic_fund_report.csv');
-    document.body.appendChild(link);
-    link.click();
-    link.remove();
-    window.URL.revokeObjectURL(url);
-    return true;
+    try {
+      const res = await api.get('/export', {
+        responseType: 'blob'
+      });
+      
+      const blob = new Blob([res.data], { type: 'text/csv;charset=utf-8;' });
+      const url = window.URL.createObjectURL(blob);
+      const link = document.createElement('a');
+      link.href = url;
+      link.setAttribute('download', 'civic_fund_report.csv');
+      document.body.appendChild(link);
+      link.click();
+      link.remove();
+      window.URL.revokeObjectURL(url);
+      return true;
+    } catch (err) {
+      console.warn("Backend /export API call failed, generating client-side CSV export fallback...", err);
+      // Fallback: Fetch projects data and build CSV client-side
+      const projectsRes = await this.getProjects();
+      const projects = projectsRes.projects || [];
+      if (!projects.length) {
+        throw new Error("No data available to export.");
+      }
+
+      const headers = [
+        "project_id", "project", "ward", "region", "representative",
+        "department", "fiscal_year", "allocated_amount", "spent_amount",
+        "status", "start_date", "expected_end_date"
+      ];
+
+      const csvRows = [headers.join(",")];
+      for (const p of projects) {
+        const row = [
+          p.project_id || '',
+          `"${(p.project || '').replace(/"/g, '""')}"`,
+          `"${(p.ward || '').replace(/"/g, '""')}"`,
+          `"${(p.region || '').replace(/"/g, '""')}"`,
+          `"${(p.representative || '').replace(/"/g, '""')}"`,
+          `"${(p.department || '').replace(/"/g, '""')}"`,
+          `"${(p.fiscal_year || '').replace(/"/g, '""')}"`,
+          p.allocated_amount || 0,
+          p.spent_amount || 0,
+          `"${(p.status || '').replace(/"/g, '""')}"`,
+          `"${(p.start_date || '').replace(/"/g, '""')}"`,
+          `"${(p.expected_end_date || '').replace(/"/g, '""')}"`
+        ];
+        csvRows.push(row.join(","));
+      }
+
+      const csvContent = csvRows.join("\n");
+      const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
+      const url = window.URL.createObjectURL(blob);
+      const link = document.createElement('a');
+      link.href = url;
+      link.setAttribute('download', 'civic_fund_report.csv');
+      document.body.appendChild(link);
+      link.click();
+      link.remove();
+      window.URL.revokeObjectURL(url);
+      return true;
+    }
   }
 };
 
