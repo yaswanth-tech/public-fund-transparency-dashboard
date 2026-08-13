@@ -9,5 +9,7 @@ if backend_path not in sys.path:
 from main import app as backend_app
 
 app = FastAPI()
-app.mount("/api", backend_app)
-app.mount("/", backend_app)
+
+# Include all backend routes under both root and /api prefix
+app.include_router(backend_app.router)
+app.include_router(backend_app.router, prefix="/api")
