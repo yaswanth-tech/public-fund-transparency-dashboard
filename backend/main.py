@@ -1,4 +1,5 @@
 from fastapi import FastAPI, UploadFile, File, HTTPException, Depends
+from fastapi.middleware.cors import CORSMiddleware
 from sqlalchemy.orm import Session
 from database import engine, Base, get_db
 import models
@@ -20,9 +21,18 @@ app = FastAPI(
     version="1.0.0"
 )
 
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
 
 # Create database tables
 Base.metadata.create_all(bind=engine)
+
 
 
 @app.get("/")
@@ -404,3 +414,168 @@ def get_ward_details(
         "projects":
             project_list
     }
+
+@app.get("/projects")
+def get_projects(
+    db: Session = Depends(get_db)
+):
+    projects = (
+        db.query(Project)
+        .order_by(Project.project_id)
+        .all()
+    )
+
+    result = []
+
+    for p in projects:
+        result.append({
+            "project_id": p.project_id,
+            "project": p.project,
+            "ward": p.ward,
+            "region": p.region,
+            "department": p.department,
+            "fiscal_year": p.fiscal_year,
+            "allocated_amount": p.allocated_amount,
+            "spent_amount": p.spent_amount,
+            "status": p.status,
+            "start_date": p.start_date,
+            "expected_end_date": p.expected_end_date
+        })
+
+    return {
+        "total_projects": len(result),
+        "projects": result
+    }
+
+@app.get("/flags")
+def get_flags(
+    db: Session = Depends(get_db)
+):
+    projects = db.query(Project).all()
+
+    ward_data = {}
+
+    for project in projects:
+
+        ward = project.ward
+
+        if ward not in ward_data:
+            ward_data[ward] = {
+                "ward": ward,
+                "region": project.region,
+                "representative": project.representative,
+                "allocated": 0,
+                "spent": 0
+            }
+
+        ward_data[ward]["allocated"] += (
+            project.allocated_amount or 0
+        )
+
+        ward_data[ward]["spent"] += (
+            project.spent_amount or 0
+        )
+
+    flags = []
+
+    for ward, data in ward_data.items():
+
+        allocated = data["allocated"]
+        spent = data["spent"]
+
+        if allocated == 0:
+            utilization = 0
+        else:
+            utilization = (
+                spent / allocated
+            ) * 100
+
+        if utilization < 50:
+            flag = "Critical"
+        elif utilization < 70:
+            flag = "Low"
+        else:
+            flag = "Normal"
+
+        # Only return wards requiring oversight
+        if flag != "Normal":
+
+            flags.append({
+                "ward": ward,
+                "region": data["region"],
+                "representative": data["representative"],
+                "allocated": round(allocated, 2),
+                "spent": round(spent, 2),
+                "utilization": round(utilization, 2),
+                "flag": flag
+            })
+
+    # Critical first, then Low
+    flags.sort(
+        key=lambda x: x["utilization"]
+    )
+
+    return {
+        "total_flags": len(flags),
+        "flags": flags
+    }
+
+@app.get("/export")
+def export_projects(
+    db: Session = Depends(get_db)
+):
+
+    projects = (
+        db.query(Project)
+        .order_by(Project.project_id)
+        .all()
+    )
+
+    output = io.StringIO()
+
+    writer = csv.writer(output)
+
+    # CSV header
+    writer.writerow([
+        "project_id",
+        "project",
+        "ward",
+        "region",
+        "representative",
+        "department",
+        "fiscal_year",
+        "allocated_amount",
+        "spent_amount",
+        "status",
+        "start_date",
+        "expected_end_date"
+    ])
+
+    # CSV data
+    for p in projects:
+
+        writer.writerow([
+            p.project_id,
+            p.project,
+            p.ward,
+            p.region,
+            p.representative,
+            p.department,
+            p.fiscal_year,
+            p.allocated_amount,
+            p.spent_amount,
+            p.status,
+            p.start_date,
+            p.expected_end_date
+        ])
+
+    output.seek(0)
+
+    return StreamingResponse(
+        iter([output.getvalue()]),
+        media_type="text/csv",
+        headers={
+            "Content-Disposition":
+                "attachment; filename=civic_fund_report.csv"
+        }
+    )

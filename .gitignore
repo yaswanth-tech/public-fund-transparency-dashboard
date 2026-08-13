@@ -1,23 +1,20 @@
-# Python
+# Node dependencies
+node_modules/
+frontend/node_modules/
+
+# Build outputs
+frontend/dist/
+dist/
+.vercel/
+
+# Python environments & caches
 __pycache__/
+backend/__pycache__/
 *.pyc
 venv/
-
-# Environment
+backend/venv/
 .env
 
-# Database
-*.db
-*.sqlite
-*.sqlite3
-
-# Node
-node_modules/
-dist/
-
-# VS Code
-.vscode/
-
-# OS
+# OS files
 .DS_Store
 Thumbs.db

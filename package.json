@@ -1,0 +1,11 @@
+{
+  "name": "public-fund-transparency-dashboard",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Public Fund Utilization and Civic Spending Transparency Dashboard",
+  "scripts": {
+    "dev": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build",
+    "install:frontend": "npm --prefix frontend install"
+  }
+}
